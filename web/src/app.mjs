@@ -136,11 +136,10 @@ function navHtml(active) {
 }
 
 function gxChipHtml() {
-  if (!state.rewardsEnabled) return "";
   const bal = gxBalance(state.gxLedger);
-  return `<button type="button" class="gx-chip" data-nav="shop" title="Cửa hàng Gấu Xu">
+  return `<button type="button" class="gx-chip" data-nav="shop" title="Mở cửa hàng Gấu Xu" aria-label="Cửa hàng Gấu Xu, số dư ${bal}">
     <img src="./assets/shop/ic_gau_xu.png" alt="" width="28" height="28" />
-    <strong>${bal}</strong><span>GX</span>
+    <strong>${bal}</strong><span>Gấu Xu</span>
   </button>`;
 }
 
@@ -239,11 +238,13 @@ function renderWelcome() {
       </div>
       <h1>Hôm nay chơi gì?</h1>
       <p class="lede">Gợi ý 2–3 hoạt động ngắn (5–15 phút), dùng đồ có sẵn trong nhà — chơi cùng con ngoài đời thật, không phải qua màn hình.</p>
-      <div class="btn-row">
-        <button class="btn btn-primary" type="button" data-action="go-profile">Bắt đầu</button>
+      <div class="btn-row" style="flex-direction:column;align-items:stretch">
+        <button class="btn btn-primary btn-block" type="button" data-action="go-profile">Bắt đầu</button>
+        <button class="btn btn-secondary btn-block" type="button" data-nav="shop">Cửa hàng Gấu Xu</button>
       </div>
-      <p class="muted" style="margin-top:1.25rem">Tham khảo hướng giáo dục mầm non — nội dung nháp. Prototype web để kiểm thử trước khi làm app; chưa chuyên gia duyệt.</p>
-    </section>`;
+      <p class="muted" style="margin-top:1.25rem">Thưởng Gấu Xu khi hoàn thành hoạt động · đổi quà do phụ huynh chuẩn bị. Nội dung nháp, chưa chuyên gia duyệt.</p>
+    </section>
+    ${navHtml("today")}`;
 }
 
 function renderProfile() {
@@ -265,7 +266,8 @@ function renderProfile() {
         </form>
       </div>
       <button class="btn btn-ghost" type="button" data-action="go-welcome">← Quay lại</button>
-    </section>`;
+    </section>
+    ${navHtml("more")}`;
 }
 
 function renderToday() {
@@ -297,12 +299,21 @@ function renderToday() {
       <div>
         <p class="eyebrow">Hôm nay</p>
         <h1 style="font-family:var(--display);font-size:1.6rem;margin:0.2rem 0 0.4rem">Chào bạn — chơi cùng ${escapeHtml(child.nickname)} nhé?</h1>
-        <p class="muted">Đã chơi ${done} hoạt động hôm nay. Mỗi bé một nhịp riêng.</p>
         ${
-          state.rewardsEnabled
-            ? `<p class="gx-today">Số dư <strong>${gxBalance(state.gxLedger)} GX</strong> — hoàn thành hoạt động để nhận Gấu Xu, đổi quà ở Cửa hàng.</p>`
+          state.rewardsEnabled !== false
+            ? `<div class="card gx-promo">
+                <div class="gx-promo-row">
+                  <img src="./assets/shop/ic_gau_xu.png" alt="" width="40" height="40" />
+                  <div>
+                    <strong>Gấu Xu: ${gxBalance(state.gxLedger)}</strong>
+                    <p class="muted" style="margin:0.15rem 0 0">Hoàn thành hoạt động để nhận thưởng · đổi quà ở cửa hàng.</p>
+                  </div>
+                </div>
+                <button class="btn btn-secondary btn-block" type="button" data-nav="shop" style="margin-top:0.75rem">Mở cửa hàng</button>
+              </div>`
             : ""
         }
+        <p class="muted">Đã chơi ${done} hoạt động hôm nay. Mỗi bé một nhịp riêng.</p>
       </div>
       ${
         picks.length
