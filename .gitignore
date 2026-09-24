@@ -47,3 +47,7 @@ qa/experts/_x3*
 *.log
 *.bak
 activities_mvp_draft.backup.json
+
+# CI needs 'workflow' OAuth scope to push; enable later
+.github/workflows/
+
