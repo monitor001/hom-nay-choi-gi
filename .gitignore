@@ -1,0 +1,49 @@
+# Dependencies & build
+node_modules/
+.gradle/
+**/build/
+**/.cxx/
+local.properties
+*.iml
+.idea/
+.vscode/
+*.apk
+*.aab
+*.keystore
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Secrets & env
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+google-services.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temp / agent scratch
+**/_tmp*
+**/_x3_*
+**/_WAKE*
+plans/_WAKE4_CHAIN_PROMPT.txt
+qa/experts/_tmp*
+qa/experts/_x3*
+
+# Cursor / local agent assets (generated outside repo)
+# (PNGs under content/resources/images are committed on purpose)
+
+# Backups (keep seed; ignore large accidental dumps)
+*.zip
+*.log
+*.bak
+activities_mvp_draft.backup.json

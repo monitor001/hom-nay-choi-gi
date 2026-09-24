@@ -1,0 +1,115 @@
+[
+  {
+    "id": "to_me_bong_con",
+    "slug": "me_bong_con",
+    "title": "Tranh: Mẹ bế con",
+    "status": "todo",
+    "image": "images/me_bong_con.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Mẹ bế con (me_bong_con). Scene: Vietnamese mother gently holding toddler, warm home, loving.",
+    "scene": "Vietnamese mother gently holding toddler, warm home, loving",
+    "storyPrompt": "Ai đây? Mẹ đang bế con — rồi mẹ hôn nhẹ lên má con.",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_ba_ke_chuyen",
+    "slug": "ba_ke_chuyen",
+    "title": "Tranh: Bà kể chuyện",
+    "status": "todo",
+    "image": "images/ba_ke_chuyen.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Bà kể chuyện (ba_ke_chuyen). Scene: Vietnamese grandmother telling a story to toddler on a chiếu mat.",
+    "scene": "Vietnamese grandmother telling a story to toddler on a chiếu mat",
+    "storyPrompt": "Bà ngồi trên chiếu kể chuyện. Bé nghe — rồi bé cười theo bà.",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_ong_dan_choi",
+    "slug": "ong_dan_choi",
+    "title": "Tranh: Ông dẫn chơi",
+    "status": "todo",
+    "image": "images/ong_dan_choi.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Ông dẫn chơi (ong_dan_choi). Scene: Vietnamese grandfather walking with toddler in a sunny yard.",
+    "scene": "Vietnamese grandfather walking with toddler in a sunny yard",
+    "storyPrompt": "Ông nắm tay cháu đi quanh sân. Rồi ông chỉ cây xanh cho cháu xem.",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_ca_nha_com",
+    "slug": "ca_nha_com",
+    "title": "Tranh: Cả nhà ăn cơm",
+    "status": "todo",
+    "image": "images/ca_nha_com.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject centered, cozy Northern Vietnamese home or yard, no text no letters no numbers no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Cả nhà ăn cơm. Scene: One toddler and one adult at a low table with one rice bowl close-up, family soft blurred background.",
+    "scene": "One toddler and one adult at a low table with one rice bowl close-up, family soft blurred background",
+    "storyPrompt": "Bé ngồi ăn cơm với mẹ. Bát cơm thơm — rồi cùng cảm ơn nhau.",
+    "c2": "REPROMPT_APPLIED",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_om_ba",
+    "slug": "om_ba",
+    "title": "Tranh: Ôm bà",
+    "status": "todo",
+    "image": "images/om_ba.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Ôm bà (om_ba). Scene: Toddler hugging grandmother, soft smiling faces.",
+    "scene": "Toddler hugging grandmother, soft smiling faces",
+    "storyPrompt": "Bé ôm bà thật chặt. Bà cũng ôm bé — ấm ơi là ấm.",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_chao_bo",
+    "slug": "chao_bo",
+    "title": "Tranh: Chào bố",
+    "status": "todo",
+    "image": "images/chao_bo.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Chào bố (chao_bo). Scene: Toddler waving hello to father at the door.",
+    "scene": "Toddler waving hello to father at the door",
+    "storyPrompt": "Bố về tới cửa. Bé vẫy tay chào — bố cười thật to.",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_anh_em_choi",
+    "slug": "anh_em_choi",
+    "title": "Tranh: Anh em chơi",
+    "status": "todo",
+    "image": "images/anh_em_choi.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Anh em chơi (anh_em_choi). Scene: Two young siblings sharing wooden blocks on the floor.",
+    "scene": "Two young siblings sharing wooden blocks on the floor",
+    "storyPrompt": "Anh chị em chơi khối gỗ. Xây tháp — tháp cao quá!",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_me_hat_ru",
+    "slug": "me_hat_ru",
+    "title": "Tranh: Mẹ hát ru",
+    "status": "todo",
+    "image": "images/me_hat_ru.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject, cozy Northern Vietnamese home or yard, no text, no letters, no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Mẹ hát ru (me_hat_ru). Scene: Mother rocking toddler to sleep in a dim cozy room.",
+    "scene": "Mother rocking toddler to sleep in a dim cozy room",
+    "storyPrompt": "Mẹ ru bé ngủ. Bé lim dim — rồi ngủ ngon.",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_cua_so",
+    "slug": "cua_so",
+    "title": "Tranh: Cửa sổ",
+    "status": "todo",
+    "image": "images/cua_so.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject centered, cozy Northern Vietnamese home or yard, no text no letters no numbers no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Cửa sổ. Scene: Wooden window frame with one green potted plant on the sill, blue sky soft outside.",
+    "scene": "Wooden window frame with one green potted plant on the sill, blue sky soft outside",
+    "storyPrompt": "",
+    "c2": "REPROMPT_APPLIED",
+    "c1": "SHIP"
+  },
+  {
+    "id": "to_san_gach",
+    "slug": "san_gach",
+    "title": "Tranh: Sân gạch",
+    "status": "todo",
+    "image": "images/san_gach.png",
+    "prompt": "Soft children's board-book illustration, Vietnamese culture, toddler 18-36 months, warm gentle pastel colors, clear single subject centered, cozy Northern Vietnamese home or yard, no text no letters no numbers no logos, no scary imagery, no weapons, square 1:1, polished storybook quality. Subject: Sân gạch. Scene: Vietnamese brick courtyard with one large potted plant centered.",
+    "scene": "Vietnamese brick courtyard with one large potted plant centered",
+    "storyPrompt": "",
+    "c2": "REPROMPT_APPLIED",
+    "c1": "SHIP"
+  }
+]

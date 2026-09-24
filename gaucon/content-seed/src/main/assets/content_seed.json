@@ -1,0 +1,3015 @@
+{
+  "version": 1,
+  "content_status": "draft_unreviewed",
+  "activities": [
+    {
+      "id": "phy_01_di_theo_duong_goi",
+      "title": "Đi theo đường gối",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "2–4 cái gối hoặc đệm mỏng xếp thành đường"
+      ],
+      "goal": "Luyện đi vững, đổi hướng nhẹ trên bề mặt nhà.",
+      "steps": [
+        "Xếp gối thành đường thẳng ngắn trên sàn sạch.",
+        "Cầm tay bé bước chậm từng gối; buông dần khi bé vững.",
+        "Vỗ tay khi bé đi hết đường; làm lại 2–3 lượt rồi nghỉ."
+      ],
+      "parentPhrases": [
+        "Con bước từng bước nhé.",
+        "Bố/mẹ ở đây, con cứ đi."
+      ],
+      "easier": "Chỉ 1–2 gối; luôn nắm tay.",
+      "harder": "Đường hơi cong; để bé tự đi, người lớn đi cạnh.",
+      "safety": "Sàn khô, không dây điện lộ; không để bé leo cao gối chồng.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "phy_02_leo_ghe_thap",
+      "title": "Lên xuống ghế thấp",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 26,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "1 ghế thấp/ghế nhựa vững, gần tường"
+      ],
+      "goal": "Mời bé thử lên–xuống ghế thấp cùng người lớn — vui và có người giữ.",
+      "steps": [
+        "Đặt ghế thấp sát tường hoặc chỗ vững.",
+        "Hướng dẫn bé đặt tay–chân lần lượt lên ghế rồi ngồi.",
+        "Tập xuống: chân trước, người lớn giữ hông nếu cần."
+      ],
+      "parentPhrases": [
+        "Tay con đặt đây, chân kia.",
+        "Xuống chậm thôi."
+      ],
+      "easier": "Người lớn nâng nhẹ hông; chỉ lên, chưa xuống.",
+      "harder": "Tự lên xuống 2–3 lần; thêm ngồi vững 5 giây.",
+      "safety": "Không dùng ghế xoay/ghế cao không ổn định; luôn ở trong tầm với.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_03_nguech_sap_lon",
+      "title": "Nguệch ngoạc sáp lớn",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 28,
+      "domains": [
+        "PHYSICAL",
+        "AESTHETIC"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Giấy A4/báo cũ",
+        "1–2 bút sáp/bút lông to"
+      ],
+      "goal": "Cùng nguệch sáp lớn trên giấy — để lại dấu vết, không cần hình đẹp.",
+      "steps": [
+        "Dán hoặc kê giấy trên bàn thấp/sàn.",
+        "Đưa sáp lớn; để bé tự kéo nguệch.",
+        "Nói ngắn về đường bé vẽ; dừng khi bé chán."
+      ],
+      "parentPhrases": [
+        "Con kéo nét này đẹp quá.",
+        "Sáp ở trên giấy nhé."
+      ],
+      "easier": "Người lớn giữ tay bé vẽ 1–2 nét rồi buông.",
+      "harder": "Đổi màu; vẽ đứng tại tường có giấy dán (giám sát).",
+      "safety": "Chọn đồ không độc hại ghi trên bao bì; không để bé bỏ sáp vào miệng; giám sát liên tục.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_05_da_bong_mem",
+      "title": "Đá bóng mềm",
+      "ageMinMonths": 22,
+      "ageMaxMonths": 30,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Bóng vải/bóng cao su mềm size vừa"
+      ],
+      "goal": "Đá bóng mềm về phía người lớn hoặc tường gần — chơi chuyển động cùng nhau.",
+      "steps": [
+        "Đặt bóng trước chân bé trên sàn trống.",
+        "Mẫu đá nhẹ; mời bé đá về phía người lớn.",
+        "Lăn bóng lại; chơi 5–8 lượt."
+      ],
+      "parentPhrases": [
+        "Chân con đá bóng đi!",
+        "Bóng bay về mẹ/bố này."
+      ],
+      "easier": "Người lớn giữ tay bé đứng vững rồi đá.",
+      "harder": "Đá vào hộp/cửa mở làm “khung thành”.",
+      "safety": "Không bóng nhỏ nuốt được; sân trống không góc nhọn; không đá gần cầu thang.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_06_chay_san_ngan",
+      "title": "Chạy đoạn ngắn trong nhà",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 32,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Hành lang/phòng trống ~3–5 bước"
+      ],
+      "goal": "Chạy ngắn trên sân/phòng rồi dừng khi nghe tín hiệu vui.",
+      "steps": [
+        "Chỉ điểm bắt đầu và đích (gối/ghế).",
+        "Đếm “1-2-3” rồi chạy cùng bé.",
+        "Ôm/vỗ tay ở đích; nghỉ giữa các lượt."
+      ],
+      "parentPhrases": [
+        "Sẵn sàng… chạy!",
+        "Dừng ở gối này nhé."
+      ],
+      "easier": "Đi nhanh thay vì chạy.",
+      "harder": "Đổi hướng nhẹ hoặc mang bóng mềm.",
+      "safety": "Thu dọn đồ dưới chân; không chạy bếp/nhà vệ sinh ướt; giám sát té.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_07_bac_thang_tay_vin",
+      "title": "Đi bậc thang có tay vịn",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Cầu thang nhà có tay vịn",
+        "người lớn sát bên"
+      ],
+      "goal": "Đi vài bậc cầu thang có tay vịn — người lớn đi cạnh, không vội.",
+      "steps": [
+        "Bé đứng bậc dưới, một tay vịn.",
+        "Lên 2–4 bậc chậm; người lớn đi lệch một bậc.",
+        "Xuống cùng cách; dừng nếu bé sợ."
+      ],
+      "parentPhrases": [
+        "Tay con nắm chặt.",
+        "Một bậc nữa thôi."
+      ],
+      "easier": "Chỉ lên; người lớn giữ hai tay.",
+      "harder": "Thêm bậc; giảm cầm tay còn đi cạnh.",
+      "safety": "Luôn có người lớn; cửa chặn cầu thang khi không chơi; không chạy trên cầu thang. Không thay module an toàn chuyên sâu.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_08_nhay_hai_chan",
+      "title": "Nhảy hai chân tại chỗ",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Sàn phẳng",
+        "vòng dây/khăn làm “vũng” ảo (tuỳ chọn)"
+      ],
+      "goal": "Nhảy nhẹ tại chỗ hoặc xuống nệm thấp — hai chân cùng lúc nếu bé muốn.",
+      "steps": [
+        "Mẫu nhảy nhẹ tại chỗ.",
+        "Cầm hai tay bé nhảy cùng 3–5 cái.",
+        "Để bé tự nhảy vào “vũng” khăn."
+      ],
+      "parentPhrases": [
+        "Nhún… nhảy!",
+        "Hai chân cùng lúc."
+      ],
+      "easier": "Chỉ nhún gối, chưa rời đất.",
+      "harder": "Nhảy khỏi bậc thấp 1 cấp (giám sát sát).",
+      "safety": "Không nhảy giường/sofa cao; bề mặt không trơn.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_09_van_nap_hop",
+      "title": "Vặn mở nắp hộp",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL",
+        "COGNITIVE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Hộp nhựa/hũ có nắp vặn lớn",
+        "đồ chơi nhỏ bên trong"
+      ],
+      "goal": "Vặn–mở nắp hộp đồ chơi lớn bằng tay — khám phá xoay và siết.",
+      "steps": [
+        "Cho bé thấy đồ trong hộp; đóng nắp lỏng.",
+        "Hướng dẫn xoay tay; để bé thử.",
+        "Khi mở được, chơi ngắn rồi cất."
+      ],
+      "parentPhrases": [
+        "Con xoay này.",
+        "Mở ra có gì thế?"
+      ],
+      "easier": "Nắp chỉ cần ấn/kéo, chưa vặn.",
+      "harder": "Nắp chặt hơn một chút; hộp thứ hai.",
+      "safety": "Không hạt nhỏ/pin; nắp đủ lớn không nuốt được.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_10_lat_sach_tung_trang",
+      "title": "Lật sách từng trang",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Sách tranh bìa cứng trang dày"
+      ],
+      "goal": "Lật từng trang sách ảnh dày — chậm, không xé.",
+      "steps": [
+        "Ngồi cạnh bé, mở sách.",
+        "Để bé lật; nếu lật nhiều trang, nhẹ nhàng tách lại một trang.",
+        "Chỉ 1–2 hình mỗi trang; đọc ngắn."
+      ],
+      "parentPhrases": [
+        "Một trang thôi nhé.",
+        "Con lật trang tiếp theo nào."
+      ],
+      "easier": "Sách vài trang rất dày; người lớn giữ mép trang.",
+      "harder": "Bé tự lật xuyên suốt 1 cuốn ngắn.",
+      "safety": "Không sách giấy mỏng dễ xé nuốt; giám sát.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_11_xau_nui_ong",
+      "title": "Xâu nui/ống lớn",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Ống hút cứng / cọng dây ngắn chắc (không quấn cổ)",
+        "Nui ống hoặc vòng xâu to — lỗ lớn, cạnh ngắn nhất ≥ khoảng miệng hộp đựng thuốc tiêu chuẩn chống hóc (dùng đồ to rõ)"
+      ],
+      "goal": "Xâu vòng/nui ống to vào dây chắc — chơi tinh, luôn có người lớn.",
+      "steps": [
+        "Luồn sẵn 1 hạt mẫu.",
+        "Đưa dây/ống cho bé xâu thêm 3–5 hạt.",
+        "Đếm to từng hạt; dừng khi bé mệt."
+      ],
+      "parentPhrases": [
+        "Lỗ này, luồn vào.",
+        "Thêm một cái nữa."
+      ],
+      "easier": "Vòng lớn xâu vào ống giấy vệ sinh.",
+      "harder": "Xâu thêm vài vòng vào ống giấy vệ sinh / thanh gỗ ngắn — làm “vòng đeo tay giả” ngắn; cấm đeo cổ / quấn cổ.",
+      "safety": "Chỉ hạt/vòng to không nuốt được; giám sát chống hóc 100% thời gian; cất ngay sau chơi; cấm làm vòng đeo cổ thật hoặc dây dài quanh cổ.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_12_mac_quan_rong",
+      "title": "Tập mặc quần rộng",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL",
+        "SELF_CARE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Quần short/jogger rộng",
+        "ghế thấp để ngồi"
+      ],
+      "goal": "Thử luồn chân vào quần rộng — người lớn giúp phần còn lại, không ép.",
+      "steps": [
+        "Bé ngồi; đặt sẵn ống quần.",
+        "Hướng dẫn chân lần lượt; kéo nhẹ phần đai.",
+        "Thử cởi: kéo ống xuống."
+      ],
+      "parentPhrases": [
+        "Chân này vào đây.",
+        "Con kéo lên nào."
+      ],
+      "easier": "Chỉ luồn một chân; người lớn làm phần còn lại.",
+      "harder": "Tự mặc gần xong; thêm áo khoác mở khóa.",
+      "safety": "Không giật mạnh; tránh dây rút dài quanh cổ.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_13_xep_khoi_thap",
+      "title": "Xếp tháp khối/hộp",
+      "ageMinMonths": 20,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL",
+        "COGNITIVE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "4–8 khối gỗ/hộp sữa trống cùng cỡ"
+      ],
+      "goal": "Chồng khối/hộp thành tháp rồi đổ vui vẻ — không cần cao bao nhiêu.",
+      "steps": [
+        "Đặt 1 khối làm đế.",
+        "Mời bé chồng thêm từng cái.",
+        "Đếm; cho phép đổ tháp và xếp lại."
+      ],
+      "parentPhrases": [
+        "Để lên trên nào.",
+        "Cao quá, đổ mất thôi — vui không?"
+      ],
+      "easier": "Chồng 2–3 khối lớn.",
+      "harder": "Thử 6+ khối hoặc hai tháp cạnh nhau.",
+      "safety": "Khối không nhỏ nuốt được; không ném hướng mặt.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "phy_14_chuyen_nuoc_coc",
+      "title": "Chuyển nước muỗng giữa hai cốc",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "2 cốc nhựa",
+        "muỗng",
+        "ít nước sạch",
+        "khay/chậu hứng"
+      ],
+      "goal": "Điều khiển muỗng–cổ tay; đổ có kiểm soát.",
+      "steps": [
+        "Cho ít nước vào cốc A trên khay.",
+        "Bé múc chuyển sang cốc B — ngồi chơi.",
+        "Lau tay; khen cố gắng."
+      ],
+      "parentPhrases": [
+        "Từ từ, múc nhẹ.",
+        "Đổ vào cốc kia."
+      ],
+      "easier": "Dùng tay chuyển bóng cotton / miếng xốp ướt thay muỗng.",
+      "harder": "≥30 tháng: thử gạo/đậu to trên khay (không hạt nhỏ); lượng ít; vẫn ngồi. Hoặc nước nhiều hơn một chút, đích hẹp hơn.",
+      "safety": "Mặc định chỉ nước. Không dùng hạt/gạo dưới 30 tháng. Ngồi; lượng ít; giám sát miệng; trải khăn. Chống hóc.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "phy_15_tung_bong_hai_tay",
+      "title": "Tung–bắt bóng gần bằng hai tay",
+      "ageMinMonths": 26,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Bóng vải nhẹ"
+      ],
+      "goal": "Phối hợp tay–mắt; đứng vững khi với.",
+      "steps": [
+        "Đứng cách bé nửa mét; lăn hoặc tung nhẹ bóng vào tay bé.",
+        "Mời bé đẩy/tung lại.",
+        "3–6 lượt rồi đổi sang ngồi nếu mệt."
+      ],
+      "parentPhrases": [
+        "Hai tay bắt này!",
+        "Tung cho mẹ/bố nào."
+      ],
+      "easier": "Chỉ lăn bóng trên sàn.",
+      "harder": "Đứng xa hơn một bước; bắt không ôm vào người.",
+      "safety": "Bóng nhẹ; không chơi gần góc tủ kính.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "cog_01_bat_chuoc_quet_nha",
+      "title": "Bắt chước quét nhà",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 26,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Chổi nhỏ/khăn lau",
+        "vùng sàn nhỏ"
+      ],
+      "goal": "Bắt chước việc nhà vui (quét, lau) bằng đồ chơi hoặc khăn thật.",
+      "steps": [
+        "Người lớn quét/lau 2–3 nhịp.",
+        "Đưa chổi/khăn cho bé làm theo.",
+        "Khen và cùng “xong việc”."
+      ],
+      "parentPhrases": [
+        "Con quét như mẹ/bố này.",
+        "Sạch chưa ta?"
+      ],
+      "easier": "Chỉ đưa khăn; người lớn cầm tay lau.",
+      "harder": "Quét rồi đổ “rác” giấy vào túi.",
+      "safety": "Không hóa chất tẩy; cán chổi không để bé vung gần mặt kính.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_02_day_xe_do_choi",
+      "title": "Đẩy xe/đồ kéo",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Xe đẩy đồ chơi hoặc hộp có dây kéo chắc"
+      ],
+      "goal": "Đẩy xe/đồ chơi theo cách dùng quen — chạy ngắn trong nhà.",
+      "steps": [
+        "Đặt xe trước bé; mẫu đẩy.",
+        "Để bé đẩy theo đường gối.",
+        "Đổi hướng; dừng khi chán."
+      ],
+      "parentPhrases": [
+        "Xe chạy nào!",
+        "Đẩy tới gối kia."
+      ],
+      "easier": "Người lớn kéo dây, bé đi theo.",
+      "harder": "Chở thêm 1 món đồ trên xe.",
+      "safety": "Dây ngắn không quấn cổ; sàn trống.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_03_mo_nap_hop",
+      "title": "Giữ hộp – mở nắp",
+      "ageMinMonths": 22,
+      "ageMaxMonths": 30,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Hộp nhựa nắp đậy",
+        "đồ thú vị bên trong"
+      ],
+      "goal": "Mở–đậy nắp hộp bằng hai tay — khám phá trong–ngoài.",
+      "steps": [
+        "Cho bé thấy đồ trong hộp.",
+        "Hướng dẫn một tay giữ hộp, tay kia kéo/vặn nắp.",
+        "Chơi với đồ bên trong 1–2 phút."
+      ],
+      "parentPhrases": [
+        "Tay này giữ, tay kia mở.",
+        "Mở ra rồi!"
+      ],
+      "easier": "Nắp lỏng chỉ cần kéo.",
+      "harder": "Thêm lần đóng lại rồi mở.",
+      "safety": "Không đồ nhỏ nuốt được.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_04_nut_do_choi",
+      "title": "Bấm nút đồ chơi có phản hồi",
+      "ageMinMonths": 22,
+      "ageMaxMonths": 30,
+      "domains": [
+        "COGNITIVE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Đồ chơi nút đèn/nhạc nhẹ hoặc điều khiển TV giả (hộp)"
+      ],
+      "goal": "Bấm/xoay nút–núm đồ chơi lớn — xem đèn/nhạc hoặc chuyển động.",
+      "steps": [
+        "Chỉ nút; bấm mẫu một lần.",
+        "Để bé bấm; gọi tên hiệu ứng (“đèn sáng”).",
+        "Tắt/nghỉ sớm tránh quá kích thích."
+      ],
+      "parentPhrases": [
+        "Con bấm nút này xem sao.",
+        "Ồ, có tiếng kìa!"
+      ],
+      "easier": "Chỉ 1 nút.",
+      "harder": "Chọn đúng nút trong 2 nút theo lời.",
+      "safety": "Âm lượng thấp; pin chắc không tháo được; giới hạn thời gian.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_05_do_an_len_dia",
+      "title": "Đặt “đồ ăn” lên đĩa",
+      "ageMinMonths": 22,
+      "ageMaxMonths": 32,
+      "domains": [
+        "COGNITIVE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Đĩa nhựa",
+        "2–4 món đồ chơi thức ăn hoặc khối/lá giả"
+      ],
+      "goal": "Xếp đồ chơi thức ăn lên đĩa/khay — chơi nhiều món cùng lúc.",
+      "steps": [
+        "Đặt đĩa giữa hai người.",
+        "Mời bé đặt từng món lên đĩa.",
+        "“Mời ăn” giả vờ ngắn."
+      ],
+      "parentPhrases": [
+        "Để lên đĩa nào.",
+        "Thêm một món nữa."
+      ],
+      "easier": "Chỉ 1 món.",
+      "harder": "Phân “của bé / của mẹ” hai đĩa.",
+      "safety": "Không đồ giống thật gây nhầm nuốt (pin, thuốc).",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_06_nuoi_bup_be",
+      "title": "Nuôi búp bê/gấu bằng khối",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Búp bê/gấu bông",
+        "khối hoặc muỗng+bát"
+      ],
+      "goal": "Giả vờ đút/nuôi búp bê hoặc gấu — chăm sóc vui.",
+      "steps": [
+        "Nói “Bé đói quá”.",
+        "Đưa khối/muỗng; bé “đút”.",
+        "Đặt búp bê “ngủ” sau khi ăn."
+      ],
+      "parentPhrases": [
+        "Đút cho búp bê nào.",
+        "Ngon quá!"
+      ],
+      "easier": "Người lớn đút mẫu 1 lần.",
+      "harder": "Thêm bước lau miệng / đắp chăn.",
+      "safety": "Mắt/phụ kiện gấu chắc; không nút nhỏ long.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_07_hai_buoc_don_do",
+      "title": "Cất đồ theo hai lời mời",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Vài món đồ chơi trên sàn",
+        "giỏ/hộp đựng"
+      ],
+      "goal": "Nghe lời mời nhẹ: nhặt một món rồi bỏ vào giỏ — khen quá trình, không “làm đủ hai việc”.",
+      "steps": [
+        "Nói rõ, giọng vui: “Nhặt áo len và bỏ vào giỏ.” (hoặc món khác đang nằm).",
+        "Chờ bé làm; nếu khó thì làm cùng, không tách thành bài kiểm tra.",
+        "Khen cố gắng: “Con đang giúp dọn đồ!” — dừng khi bé muốn chơi khác."
+      ],
+      "parentPhrases": [
+        "Nhặt cái này và bỏ vào giỏ nhé.",
+        "Con đang giúp mẹ/bố dọn đồ!",
+        "Thêm một món nữa nếu con muốn."
+      ],
+      "easier": "Chỉ một việc: “Bỏ vào giỏ”; người lớn làm bước kia.",
+      "harder": "Đổi món: đưa khăn đặt lên ghế rồi ngồi cạnh.",
+      "safety": "Đồ không nguy hiểm; giỏ không cạnh cầu thang; không biến thành kiểm tra.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_08_chi_mau_do",
+      "title": "Chỉ màu đỏ (hoặc một màu)",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "2–3 bút sáp/khối khác màu, có 1 màu đỏ"
+      ],
+      "goal": "Cùng chỉ và gọi tên một màu trên đồ chơi — chơi, không kiểm tra đúng/sai.",
+      "steps": [
+        "Chỉ và nói “Đây màu đỏ”.",
+        "Hỏi: “Cái nào màu đỏ?”",
+        "Đúng thì chơi ngắn với màu đó."
+      ],
+      "parentPhrases": [
+        "Đỏ đây này.",
+        "Con chỉ quả đỏ nào?"
+      ],
+      "easier": "Chỉ 2 lựa chọn lệch rõ (đỏ vs xanh).",
+      "harder": "3–4 màu; hỏi màu thứ hai.",
+      "safety": "Sáp lớn; không để ngậm.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_09_ghe_thap_voi_do",
+      "title": "Dùng ghế thấp để với đồ",
+      "ageMinMonths": 28,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Ghế thấp vững",
+        "đồ đặt vừa tầm khi đứng trên ghế (không cao)"
+      ],
+      "goal": "Nghĩ cách lấy đồ hơi cao bằng ghế thấp — luôn có người lớn giữ.",
+      "steps": [
+        "Đặt đồ hơi cao vừa phải; ghế ở gần.",
+        "Hỏi: “Làm sao lấy được?”; chờ bé kéo ghế.",
+        "Giữ ghế/hông khi bé lên; lấy đồ; xuống ngay."
+      ],
+      "parentPhrases": [
+        "Con cần gì để với tới?",
+        "Ghế giúp con này."
+      ],
+      "easier": "Người lớn đẩy ghế tới gần rồi để bé leo.",
+      "harder": "Bé tự nghĩ kéo ghế từ xa hơn 1–2 bước.",
+      "safety": "Chỉ ghế thấp; người lớn giữ; **cấm** ghế cao/bàn; không biến thành trò leo tủ — an toàn chuyên sâu xem *Bé Gấu An Toàn*.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_10_ve_vong_tron_mau",
+      "title": "Vẽ vòng theo mẫu",
+      "ageMinMonths": 32,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL",
+        "AESTHETIC"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Giấy",
+        "sáp lớn"
+      ],
+      "goal": "Vẽ vòng theo mẫu người lớn — chấp nhận méo, khoe tranh.",
+      "steps": [
+        "Người lớn vẽ vòng chậm vừa nói “vòng tròn”.",
+        "Mời bé vẽ; chấp nhận méo.",
+        "Khoe tranh; không sửa nét."
+      ],
+      "parentPhrases": [
+        "Làm vòng như này.",
+        "Vòng của con đây!"
+      ],
+      "easier": "Vẽ trên cát/gạo khay bằng ngón tay.",
+      "harder": "Vẽ vài vòng; tô vào trong vòng mẫu.",
+      "safety": "Sáp an toàn trẻ em; giám sát miệng.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_12_to_nho_hai_hop",
+      "title": "To và nhỏ",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "2 hộp/quả bóng khác cỡ rõ"
+      ],
+      "goal": "So sánh đồ to–nhỏ bằng hai hộp — nói to/nhỏ khi chơi.",
+      "steps": [
+        "Đặt hai đồ cạnh nhau; nói “to / nhỏ”.",
+        "Hỏi: “Đâu là cái to?”",
+        "Đảo vị trí; hỏi lại."
+      ],
+      "parentPhrases": [
+        "Cái này to, cái này nhỏ.",
+        "Cho mẹ cái nhỏ nào."
+      ],
+      "easier": "Chênh lệch kích thước rất lớn.",
+      "harder": "Thêm mức “vừa”; xếp theo thứ tự.",
+      "safety": "Đồ không nhỏ nuốt được.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_13_nhom_theo_mau",
+      "title": "Nhóm đồ cùng màu",
+      "ageMinMonths": 26,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "6–8 kẹp áo/khối 2 màu",
+        "2 đĩa/khay"
+      ],
+      "goal": "Gom đồ cùng màu vào khay — chơi phân loại vui, không điểm.",
+      "steps": [
+        "Để mẫu 1 đỏ trên đĩa A, 1 xanh trên đĩa B.",
+        "Mời bé bỏ từng cái đúng đĩa.",
+        "Đếm mỗi nhóm."
+      ],
+      "parentPhrases": [
+        "Đỏ với đỏ.",
+        "Xanh để đây."
+      ],
+      "easier": "Chỉ 4 đồ, 2 màu.",
+      "harder": "3 màu hoặc thêm hình dạng.",
+      "safety": "Kẹp không quá nhỏ; giám sát.",
+      "reviewed_by": [],
+      "isPremium": false,
+      "source_refs": [
+        "internal:milestone_bank_draft"
+      ]
+    },
+    {
+      "id": "cog_14_giau_tim_khan",
+      "title": "Giấu–tìm dưới khăn",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 28,
+      "domains": [
+        "COGNITIVE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Khăn",
+        "1 đồ chơi"
+      ],
+      "goal": "Nhân quả / tìm kiếm vật vừa thấy.",
+      "steps": [
+        "Cho bé thấy đồ; đậy khăn trước mặt bé.",
+        "Hỏi “Đâu rồi?”; để bé kéo khăn.",
+        "Lặp 3–4 lần; đổi chỗ giấu trong tầm nhìn."
+      ],
+      "parentPhrases": [
+        "Đâu mất tiêu rồi?",
+        "À, ở đây!"
+      ],
+      "easier": "Đậy nửa khăn, còn lộ một phần.",
+      "harder": "Giấu dưới 1 trong 2 khăn.",
+      "safety": "Không bịt mặt bé lâu; không túi nilon mỏng.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "cog_15_xep_khoi_theo_mau",
+      "title": "Xếp khối theo mẫu tháp",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "6 khối 2 màu"
+      ],
+      "goal": "Bắt chước mẫu đơn giản + chồng khối.",
+      "steps": [
+        "Người lớn xếp mẫu 3 khối (vd. đỏ-xanh-đỏ).",
+        "Mời bé xếp tháp giống bên cạnh.",
+        "So sánh ngắn; chơi đổ tháp."
+      ],
+      "parentPhrases": [
+        "Làm giống tháp mẹ/bố.",
+        "Màu này tiếp theo nào?"
+      ],
+      "easier": "Chỉ bắt chước chiều cao, không màu.",
+      "harder": "Mẫu 4–5 khối; bé xếp không nhìn mẫu (che lại).",
+      "safety": "Khối lớn; không ném.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-01",
+      "title": "Chỉ tay tìm đồ trong nhà",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "2–4 đồ quen: mũ, dép, bóng, bình nước"
+      ],
+      "goal": "Hiểu và làm theo yêu cầu 1 bước; mở rộng từ chỉ đồ.",
+      "steps": [
+        "Đặt 3 đồ trước mặt bé, cách nhau rõ.",
+        "Nói chậm: 'Đưa mũ cho mẹ.' Đợi 5–10 giây.",
+        "Nếu bé đưa đúng: mỉm cười, nhắc lại từ 'Mũ! Cảm ơn con.'",
+        "Đổi vai: mẹ chỉ / bé nói (hoặc bập bẹ) tên đồ."
+      ],
+      "parentPhrases": [
+        "Mũ đâu rồi nhỉ?",
+        "Con giỏi quá, đưa đúng rồi.",
+        "Mẹ cũng tìm theo con này."
+      ],
+      "easier": "Chỉ 2 đồ; mẹ chỉ tay cùng lúc nói.",
+      "harder": "Thêm 1 bước: 'Lấy dép rồi đưa cho bà.'",
+      "safety": "Tránh đồ nhỏ nuốt được; mặt sàn sạch, không chạy đuổi trong bếp.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-02",
+      "title": "Sách tranh 5 phút",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "1 sách tranh dày trang, ít chữ"
+      ],
+      "goal": "Lắng nghe ngắn; chỉ và gọi tên tranh.",
+      "steps": [
+        "Ngồi cạnh hoặc bế; để bé lật trang nếu muốn.",
+        "Chỉ 1–2 chi tiết/trang: 'Con mèo đây.'",
+        "Hỏi: 'Mèo đâu?' Đợi bé chỉ hoặc nhìn.",
+        "Dừng khi bé quay đi — không ép hết sách."
+      ],
+      "parentPhrases": [
+        "Con muốn mở trang nào?",
+        "À, đây là quả bóng.",
+        "Mai mình xem tiếp nhé."
+      ],
+      "easier": "Chỉ xem 2–3 trang; mẹ lật hộ.",
+      "harder": "Hỏi hành động: 'Bé đang làm gì?' (24m+).",
+      "safety": "Sách không có góc sắc/miếng rời; không để bé xé ăn giấy.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-03",
+      "title": "Đồng dao vỗ tay",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE",
+        "AESTHETIC"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Không bắt buộc; có thể thêm 2 thìa gỗ"
+      ],
+      "goal": "Nghe nhịp – vần; bắt chước tiếng cuối câu.",
+      "steps": [
+        "Chọn 1 đồng dao ngắn trong tab Tài liệu (Nu na / Chi chi / Kéo cưa — bản đã rà) hoặc bản ông bà nhà mình.",
+        "Nói rõ, vỗ tay theo nhịp; nhìn mặt bé.",
+        "Ngừng trước tiếng cuối: để bé nói/bập bẹ tiếp.",
+        "Lặp 2–3 lần rồi chuyển trò khác."
+      ],
+      "parentPhrases": [
+        "Con vỗ cùng mẹ nào.",
+        "… nu nống — con nói tiếp đi!",
+        "Nghe hay quá."
+      ],
+      "easier": "Chỉ vỗ tay + nghe; không ép nói.",
+      "harder": "Đổi tốc độ chậm/nhanh; để bé 'dẫn' vỗ.",
+      "safety": "Âm lượng vừa; không đùa giật mạnh tay bé.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-04",
+      "title": "Tên gọi cơ thể",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Gương nhỏ cố định hoặc ảnh bé"
+      ],
+      "goal": "Hiểu câu hỏi '…đâu?'; gắn từ với bộ phận cơ thể.",
+      "steps": [
+        "Chạm nhẹ mũi mình: 'Mũi mẹ đây. Mũi con đâu?'",
+        "Vuốt nhẹ khi bé chỉ đúng; nhắc từ.",
+        "Lần lượt: mắt, tay, chân, bụng (3–4 từ/buổi).",
+        "Kết thúc ôm hoặc tickle nhẹ nếu bé thích."
+      ],
+      "parentPhrases": [
+        "Tay đâu rồi?",
+        "Đúng rồi, tay con đây.",
+        "Mẹ yêu đôi tay con."
+      ],
+      "easier": "Chỉ 2 bộ phận; mẹ cầm tay bé chỉ.",
+      "harder": "Thêm động từ: 'Vỗ tay', 'Stomp chân'.",
+      "safety": "Không chạm vùng nhạy cảm; tôn trọng nếu bé lắc đầu.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-05",
+      "title": "Nói nhu cầu thật",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "LANGUAGE",
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Ly nước / khăn / đồ chơi bé đang muốn"
+      ],
+      "goal": "Dùng từ/câu ngắn bày tỏ nhu cầu thay vì chỉ kéo tay.",
+      "steps": [
+        "Khi bé kéo tay xin: dừng 2 giây, nhìn mắt: 'Con muốn gì?'",
+        "Gợi ý mẫu: 'Nước' hoặc 'Xin nước'.",
+        "Đưa ngay khi bé thử nói/ra dấu — củng cố nhanh.",
+        "Nhắc lại câu đầy đủ: 'Con xin nước. Đây này.'"
+      ],
+      "parentPhrases": [
+        "Con muốn nước phải không? Nói 'nước' nào.",
+        "Mẹ hiểu rồi, cảm ơn con đã nói.",
+        "Lần sau con nói mẹ nghe rõ hơn."
+      ],
+      "easier": "Chấp nhận cử chỉ + 1 âm; mẹ nói hộ mẫu.",
+      "harder": "Khuyến khích câu 2 từ: 'xin sữa', 'ôm mẹ'.",
+      "safety": "Không bỏ đói/khát để 'ép nói'; nhu cầu sinh lý ưu tiên.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-06",
+      "title": "Tiếng kêu thú gần gũi",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "LANGUAGE",
+        "COGNITIVE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Đồ chơi thú / ảnh / video tắt tiếng nếu có"
+      ],
+      "goal": "Bắt chước âm thanh; gắn tên con vật.",
+      "steps": [
+        "Giơ thú: 'Con gà — ò ó o.'",
+        "Đợi bé bắt chước; khen nỗ lực, không sửa giọng.",
+        "Hỏi: 'Gà đâu?' để bé chỉ.",
+        "Đổi 2–3 con/buổi (mèo, chó, bò…)."
+      ],
+      "parentPhrases": [
+        "Gà gáy thế nào nhỉ?",
+        "Giống quá!",
+        "Con chọn con nào tiếp?"
+      ],
+      "easier": "1 con vật; mẹ làm mẫu nhiều lần.",
+      "harder": "Thêm động từ: 'Chó chạy', 'Mèo ngủ'.",
+      "safety": "Không dùng tiếng động quá to đột ngột.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-07",
+      "title": "Chợ đồ chơi trong nhà",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Giỏ/túi; 4–6 đồ chơi hoặc trái cây giả/thật đã rửa"
+      ],
+      "goal": "Luyện câu hỏi–trả lời 'cái gì / bao nhiêu / xin…'.",
+      "steps": [
+        "Mẹ làm 'người bán'; bé 'mua'.",
+        "Hỏi: 'Con mua cái gì?' Đợi bé chỉ hoặc nói.",
+        "Lặp từ: 'Một quả chuối đây. Cảm ơn.'",
+        "Đổi vai sau vài lượt."
+      ],
+      "parentPhrases": [
+        "Xin gì ạ?",
+        "Con muốn quả nào?",
+        "Cảm ơn khách dễ thương."
+      ],
+      "easier": "Chỉ chỉ đồ + nói 1 từ.",
+      "harder": "Thêm 'xin … ạ' và chọn theo màu (30m+).",
+      "safety": "Không đồ thật sắc/nóng; trái cây cắt hạt nếu có rủi ro.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-08",
+      "title": "Kể lại việc vừa làm",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Ảnh chụp nhanh hoạt động vừa xong (tùy chọn)"
+      ],
+      "goal": "Kể lại 1–2 hành động đơn giản bằng lời.",
+      "steps": [
+        "Sau khi chơi xong, ngồi 1 phút: 'Lúc nãy mình làm gì?'",
+        "Gợi ý tranh/ảnh hoặc đồ vừa dùng.",
+        "Mẹ nói mẫu câu ngắn; để bé lặp hoặc bổ sung từ.",
+        "Viết 1 dòng nhật ký phụ huynh (app) nếu muốn — không bắt bé."
+      ],
+      "parentPhrases": [
+        "Con đã xếp khối phải không?",
+        "Kể mẹ nghe một chút nào.",
+        "Mẹ thích nghe con kể."
+      ],
+      "easier": "Chọn/không bằng gật đầu; mẹ kể, bé chỉ.",
+      "harder": "Hỏi 'rồi sau đó?'; thêm 1 chi tiết.",
+      "safety": "Không quay video dài khiến bé mệt; tôn trọng nếu bé không muốn kể.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-09",
+      "title": "Hộp bí mật cảm giác + từ",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE",
+        "COGNITIVE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Hộp/túi vải; 3 đồ an toàn khác chất liệu (khăn, thìa nhựa, bóng vải)"
+      ],
+      "goal": "Đoán và gọi tên đồ bằng xúc giác + lời.",
+      "steps": [
+        "Bé thọc tay vào (mắt mở cũng được).",
+        "Hỏi: 'Con sờ thấy gì? Mềm hay cứng?'",
+        "Kéo ra, đặt tên cùng nhau.",
+        "Lặp với đồ tiếp theo."
+      ],
+      "parentPhrases": [
+        "Ối, mềm quá!",
+        "Đây là khăn.",
+        "Con muốn đồ nào nữa?"
+      ],
+      "easier": "Nhìn thấy đồ trước khi bỏ vào hộp.",
+      "harder": "Chỉ mô tả, để mẹ đoán theo lời bé (30m+).",
+      "safety": "Không vật nhỏ/sắc; giám sát tay trong hộp.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-10",
+      "title": "Nghe hai bước chơi bóng",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Bóng mềm",
+        "giỏ/hộp"
+      ],
+      "goal": "Nghe hiểu chuỗi hai hành động vui với bóng — khen quá trình.",
+      "steps": [
+        "Nói rõ: “Lấy bóng và bỏ vào giỏ.”",
+        "Đợi; chỉ nhắc lại nếu cần, không làm hộ ngay.",
+        "Khen: “Con nghe và làm lần lượt!” — không nói kiểu kiểm tra điểm.",
+        "Đổi cặp vui khác: lăn bóng–nhặt, đưa bóng–ôm."
+      ],
+      "parentPhrases": [
+        "Nghe mẹ/bố nhé: một… hai…",
+        "Con làm lần lượt, vui quá!",
+        "Mình thử cặp khác nào."
+      ],
+      "easier": "Làm từng bước có nghỉ giữa.",
+      "harder": "Thêm vị trí: '…rồi đưa hộp cho bố'.",
+      "safety": "Không biến thành 'kiểm tra'; giữ vui, dừng khi bé khó chịu.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-11",
+      "title": "Điện thoại giả bộ",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE",
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Điện thoại đồ chơi hoặc khối gỗ làm máy"
+      ],
+      "goal": "Luyện chào hỏi và câu thoại ngắn.",
+      "steps": [
+        "Reo 'ting ting'; đưa máy cho bé.",
+        "Mẫu: 'Alo, con là ai? Con chào bà…'",
+        "Để bé bập bẹ/nói; mẹ đáp lại nghiêm túc vui.",
+        "Kết: 'Tạm biệt, cúp máy.'"
+      ],
+      "parentPhrases": [
+        "Alo, ai gọi đó?",
+        "Con nói lớn một chút mẹ nghe.",
+        "Tạm biệt bà nhé."
+      ],
+      "easier": "Chỉ 'alo' và vẫy tay.",
+      "harder": "Kể 1 việc trong ngày qua điện thoại (30m+).",
+      "safety": "Không dùng máy thật đang gọi; tránh nội dung sợ hãi.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-12",
+      "title": "Thơ ngắn đọc tiếp",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "1 bài thơ/vè 4–6 câu đã thuộc của gia đình"
+      ],
+      "goal": "Đọc tiếp tiếng/cụm cuối câu quen.",
+      "steps": [
+        "Đọc to, chậm, đều.",
+        "Ngừng trước tiếng cuối mỗi câu.",
+        "Mỉm cười khi bé điền âm/từ gần đúng.",
+        "Hát hoặc vỗ nhịp nếu bé thích."
+      ],
+      "parentPhrases": [
+        "… con thỏ…?",
+        "Đúng rồi!",
+        "Mai mình đọc lại bài này."
+      ],
+      "easier": "Chỉ 1 câu lặp đi lặp lại.",
+      "harder": "Để bé 'dẫn' 1 câu (30m+).",
+      "safety": "Chọn thơ vui, không nội dung trừng phạt/hù dọa.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-13",
+      "title": "Chỉ đường trong phòng",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Không"
+      ],
+      "goal": "Hiểu từ vị trí: trên/dưới/trong/ngoài (mức làm quen).",
+      "steps": [
+        "Giấu bóng dưới khăn trước mắt bé.",
+        "Hỏi: 'Bóng đâu? Dưới khăn.'",
+        "Lặp với 'trong hộp', 'trên ghế' (ghế thấp).",
+        "Để bé giấu, mẹ tìm và nói to vị trí."
+      ],
+      "parentPhrases": [
+        "Trên ghế này!",
+        "Con giấu khéo quá.",
+        "Mẹ tìm thấy rồi."
+      ],
+      "easier": "Chỉ 1 cặp: trong/ngoài.",
+      "harder": "Bé nói vị trí trước khi mẹ tìm.",
+      "safety": "Không giấu gần ổ điện/bếp; giám sát leo ghế.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-14",
+      "title": "Nhật ký từ mới trong ngày",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Giấy hoặc ghi chú app phụ huynh"
+      ],
+      "goal": "Người lớn nhận ra và lặp lại từ bé đang tập — củng cố vốn từ.",
+      "steps": [
+        "Cuối ngày, nhớ 1–3 từ/cử chỉ mới của bé.",
+        "Ngồi với bé, dùng lại từ đó trong câu vui.",
+        "Không sửa phát âm cứng nhắc; mô hình đúng 1 lần nhẹ nhàng.",
+        "Ghi nhật ký ngắn cho mình (không chấm điểm bé)."
+      ],
+      "parentPhrases": [
+        "Hôm nay con nói 'bóng' hay quá.",
+        "Mai mình chơi bóng tiếp.",
+        "Con đang lớn lên mỗi ngày."
+      ],
+      "easier": "Chỉ 1 từ/ngày.",
+      "harder": "Ghép từ mới vào câu 3–4 tiếng (30m+).",
+      "safety": "Không so sánh với trẻ khác trong lời nói với bé.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-15",
+      "title": "Hỏi–đáp tranh lớn",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "1 tranh khổ A4/A3 hoặc lịch ảnh gia đình"
+      ],
+      "goal": "Trả lời 'ai / cái gì / làm gì'; mở hội thoại 2 lượt.",
+      "steps": [
+        "Cùng nhìn 1 tranh 20 giây.",
+        "Hỏi lần lượt: 'Ai đây?', 'Đang làm gì?', 'Ở đâu?'",
+        "Đáp lại ý bé bằng cách mở rộng: 'Ừ, mẹ đang nấu.'",
+        "Đổi: bé hỏi mẹ 1 câu (kể cả bập bẹ)."
+      ],
+      "parentPhrases": [
+        "Con thấy gì nào?",
+        "Mẹ cũng thấy xe đó.",
+        "Con hỏi mẹ đi."
+      ],
+      "easier": "Chỉ hỏi 'cái gì đây?'.",
+      "harder": "Thêm 'vì sao' rất đơn giản nếu bé sẵn sàng.",
+      "safety": "Tranh không hình ảnh đáng sợ; tránh ép trả lời đúng.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-01",
+      "title": "Gương mặt cảm xúc",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Gương hoặc mặt mẹ"
+      ],
+      "goal": "Nhận biết vui/buồn qua nét mặt; gọi tên cảm xúc.",
+      "steps": [
+        "Làm mặt cười: 'Mẹ vui.'",
+        "Làm mặt buồn nhẹ: 'Mẹ buồn.'",
+        "Hỏi: 'Con vui hay buồn?' Chấp nhận mọi câu trả lời.",
+        "Ôm nếu bé muốn kết thúc ấm."
+      ],
+      "parentPhrases": [
+        "Mặt cười là vui.",
+        "Buồn cũng được, mẹ ở đây.",
+        "Con chỉ mặt vui nào."
+      ],
+      "easier": "Chỉ mặt vui.",
+      "harder": "Thêm 'giận' với mặt nghiêm nhưng giọng êm (24m+).",
+      "safety": "Không làm mặt đáng sợ/hù; không quay phim nếu bé không thích.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-02",
+      "title": "Ôm–thở cùng nhau",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Chỗ ngồi êm"
+      ],
+      "goal": "Gắn kết; làm dịu khi quá tải cảm xúc.",
+      "steps": [
+        "Ngồi cùng, ôm hoặc nắm tay (nếu bé đồng ý).",
+        "Hít vào đếm 1–2, thở ra chậm (mẹ làm mẫu).",
+        "Nói: 'Mẹ ở đây với con.'",
+        "Khi dịu hơn, hỏi muốn chơi gì nhẹ."
+      ],
+      "parentPhrases": [
+        "Mẹ hiểu con đang khó.",
+        "Mình thở chậm nào.",
+        "Con an toàn rồi."
+      ],
+      "easier": "Chỉ ôm, không đếm.",
+      "harder": "Bé thổi 'gió' làm bay khăn (thở ra).",
+      "safety": "Không ép ôm; không nhốt/cách ly để phạt.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-03",
+      "title": "Đến lượt lăn bóng",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "1 bóng mềm"
+      ],
+      "goal": "Thực hành luân phiên đưa–nhận rất ngắn.",
+      "steps": [
+        "Ngồi đối diện, lăn bóng cho bé: 'Lượt con.'",
+        "Khi bóng về: 'Lượt mẹ.'",
+        "Đếm vui '1–2–3 lượt' tối đa 5–8 lượt.",
+        "Dừng khi còn vui — kết bằng high-five."
+      ],
+      "parentPhrases": [
+        "Đến lượt con này.",
+        "Cảm ơn con đã chờ.",
+        "Chơi vui quá."
+      ],
+      "easier": "Mẹ hỗ trợ tay lăn giúp.",
+      "harder": "Thêm bạn/anh chị; hàng chờ 2 người (30m+).",
+      "safety": "Bóng nhẹ; không ném mạnh vào mặt.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-04",
+      "title": "Chào và tạm biệt cửa",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Không"
+      ],
+      "goal": "Tập hành vi giao tiếp chào / tạm biệt trong nếp thật.",
+      "steps": [
+        "Trước khi ra/vào cửa: dừng 3 giây.",
+        "Mẫu: 'Con chào bà ạ.' Vẫy tay.",
+        "Khen nỗ lực (cử chỉ cũng được).",
+        "Không bắt làm lại nhiều lần nếu bé ngại."
+      ],
+      "parentPhrases": [
+        "Vẫy tay bye bye nào.",
+        "Con chào nhẹ là được rồi.",
+        "Bà vui lắm."
+      ],
+      "easier": "Chỉ vẫy tay, mẹ nói hộ.",
+      "harder": "Thêm 'cảm ơn' khi nhận đồ (24m+).",
+      "safety": "Không xấu hổ trước người lạ; tôn trọng tính nhút.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-06",
+      "title": "Nhìn con — khoe việc vừa làm",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Sản phẩm vừa xếp/vẽ"
+      ],
+      "goal": "Thể hiện tự hào lành mạnh; gắn kết qua chú ý thật.",
+      "steps": [
+        "Khi bé kéo tay khoe: dừng việc đang làm nếu có thể.",
+        "Ngồi thấp bằng mắt bé: 'Con làm gì đây?'",
+        "Khen cụ thể: 'Con xếp cao quá.' (không chỉ 'giỏi' chung chung).",
+        "Hỏi: 'Con muốn làm tiếp không?'"
+      ],
+      "parentPhrases": [
+        "Mẹ nhìn đây này.",
+        "Con cố xếp thật chăm.",
+        "Mẹ thích chơi cùng con."
+      ],
+      "easier": "Chỉ mỉm cười + mô tả 1 chi tiết.",
+      "harder": "Bé kể 'con làm…' (30m+).",
+      "safety": "Tránh so sánh anh chị/hàng xóm.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-07",
+      "title": "Tay nhẹ với bạn",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Búp bê/thú bông; kem dưỡng hoặc không"
+      ],
+      "goal": "Thực hành chạm nhẹ; thay thế hành vi mạnh.",
+      "steps": [
+        "Mẫu xoa lưng thú: 'Tay nhẹ.'",
+        "Để bé thử; nếu mạnh: giữ tay êm, làm lại mẫu.",
+        "Nói: 'Bạn đau nếu tay mạnh. Mình xoa nhẹ.'",
+        "Khen khi nhẹ."
+      ],
+      "parentPhrases": [
+        "Nhẹ như lông vũ.",
+        "Bạn thích lắm.",
+        "Con biết giữ tay rồi."
+      ],
+      "easier": "Chỉ xoa thú, chưa có trẻ khác.",
+      "harder": "Áp dụng khi chơi cạnh bạn thật có người lớn.",
+      "safety": "Không đánh trả để 'dạy'; không dọa đau đớn.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-08",
+      "title": "Chia sẻ có người lớn cầm",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "2 món giống nhau hoặc đồng hồ cát 1 phút"
+      ],
+      "goal": "Làm quen chia sẻ / chờ mà không cướp.",
+      "steps": [
+        "Ưu tiên 2 món giống nhau nếu có.",
+        "Nếu 1 món: 'Con chơi 1 phút, rồi đến lượt…' (đồng hồ cát).",
+        "Người lớn giữ nhịp; không bắt bé 'phải vui vẻ chia'.",
+        "Cảm ơn cả hai khi đổi lượt."
+      ],
+      "parentPhrases": [
+        "Mỗi bạn một cái nhé.",
+        "Sắp đến lượt con.",
+        "Cảm ơn con đã chờ."
+      ],
+      "easier": "Chỉ chơi song song, chưa đổi đồ.",
+      "harder": "Đổi lượt 2–3 lần (30m+).",
+      "safety": "Không lấy đồ đang chơi của bé đột ngột để 'dạy chia'.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-09",
+      "title": "Đọc mặt người khác",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Sách tranh có mặt người rõ"
+      ],
+      "goal": "Để ý cảm xúc người khác ở mức đơn giản.",
+      "steps": [
+        "Chỉ mặt nhân vật: 'Bạn này đang cười — vui.'",
+        "Hỏi: 'Bạn buồn hay vui?'",
+        "Nối với đời thật: 'Lúc nãy em khóc, em buồn.'",
+        "Hỏi: 'Mình có thể làm gì?' (đưa khăn / ngồi cạnh)."
+      ],
+      "parentPhrases": [
+        "Bạn trông buồn.",
+        "Con muốn ngồi cạnh bạn không?",
+        "Con có trái tim ấm."
+      ],
+      "easier": "Chỉ phân biệt cười/khóc.",
+      "harder": "Bé chọn cách an ủi (30m+).",
+      "safety": "Không bắt bé ôm người đang khó chịu nếu bé sợ.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-10",
+      "title": "Chơi giả bộ chăm em",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Búp bê; khăn; thìa/cốc đồ chơi"
+      ],
+      "goal": "Thể hiện quan tâm qua trò chơi giả bộ.",
+      "steps": [
+        "Mời: 'Em bé đói, mình cho ăn nào.'",
+        "Để bé xúc/cho ngủ/đắp khăn.",
+        "Nói lời dịu: 'Em ngủ ngon.'",
+        "Kết: cất nhẹ nhàng 'em ngủ rồi'."
+      ],
+      "parentPhrases": [
+        "Con chăm em khéo quá.",
+        "Em thích con.",
+        "Mẹ thấy con rất dịu dàng."
+      ],
+      "easier": "1 hành động: đắp khăn.",
+      "harder": "Chuỗi 2–3 hành động chăm sóc.",
+      "safety": "Không dùng trò để đổ lỗi bé thật; tránh nội dung bệnh/sợ.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-11",
+      "title": "Hộp cảm xúc trong ngày",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "3 thẻ mặt vui/buồn/giận tự vẽ; hộp nhỏ"
+      ],
+      "goal": "Gọi tên cảm xúc cuối ngày không phán xét.",
+      "steps": [
+        "Xếp 3 thẻ ra.",
+        "Hỏi: 'Hôm nay mặt con giống thẻ nào?'",
+        "Nghe và xác nhận: 'Con buồn — mẹ hiểu.'",
+        "Hỏi 1 việc làm dịu (ôm, hát, nước)."
+      ],
+      "parentPhrases": [
+        "Mọi cảm xúc đều được.",
+        "Cảm ơn con đã nói.",
+        "Mai mình chơi gì vui nào?"
+      ],
+      "easier": "Chỉ 2 thẻ vui/buồn.",
+      "harder": "Kể 1 lý do ngắn ('vì…').",
+      "safety": "Không bắt 'phải vui'; không phạt vì chọn thẻ giận.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-12",
+      "title": "Cất đồ cùng nhạc ngắn",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Thùng đồ chơi; bài hát 1–2 phút"
+      ],
+      "goal": "Làm theo nếp đơn giản với người lớn — gắn kết hợp tác.",
+      "steps": [
+        "Bật/hát 1 bài cố định 'giờ cất đồ'.",
+        "Mẹ cầm 1 món, bé 1 món — cùng bỏ vào thùng.",
+        "Khen hợp tác, không soi số lượng.",
+        "High-five khi nhạc hết."
+      ],
+      "parentPhrases": [
+        "Mình cùng nhau nào.",
+        "Con giúp mẹ rồi.",
+        "Xong rồi, nhẹ phòng quá."
+      ],
+      "easier": "Chỉ cất 2 món.",
+      "harder": "Bé chọn 'nhà' cho từng loại đồ (30m+).",
+      "safety": "Không đe dọa bỏ đồ chơi nếu không cất.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-13",
+      "title": "Bạn ngồi cạnh mình",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "2 bộ đồ chơi giống nhau"
+      ],
+      "goal": "Chơi song song thân thiện; giảm tranh giành.",
+      "steps": [
+        "Chuẩn bị 2 không gian cạnh nhau.",
+        "Nói: 'Bạn chơi đây, con chơi đây.'",
+        "Người lớn ngồi giữa, bình luận vui (không chỉ đạo nhiều).",
+        "Nếu tranh: nhắc 'tay nhẹ' + thêm món giống."
+      ],
+      "parentPhrases": [
+        "Hai bạn chơi gần nhau vui quá.",
+        "Mỗi bạn một bộ nhé.",
+        "Con đang xếp đẹp."
+      ],
+      "easier": "Chỉ có người lớn, chưa có bạn.",
+      "harder": "Mời trao đổi 1 món có đồng ý hai bên.",
+      "safety": "Giám sát liên tục; tách nhẹ nếu cắn/đánh.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-14",
+      "title": "Cảm ơn thật lòng",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Tình huống thật: đưa bánh, mở cửa…"
+      ],
+      "goal": "Nói/ra dấu cảm ơn trong giao tiếp thật.",
+      "steps": [
+        "Khi đưa đồ: dừng 1 nhịp, nhìn bé.",
+        "Mẫu: 'Cảm ơn mẹ ạ.'",
+        "Chấp nhận gật/vẫy; đáp lại ấm.",
+        "Không bắt lặp lại trước khách."
+      ],
+      "parentPhrases": [
+        "Cảm ơn con.",
+        "Con muốn nói cảm ơn không?",
+        "Mẹ thấy con đang cố nói cảm ơn."
+      ],
+      "easier": "Chỉ cử chỉ.",
+      "harder": "Bé nói với người khác trong nhà.",
+      "safety": "Không bắt ép trước đám đông.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "SOC-15",
+      "title": "Khi giận — chọn việc an toàn",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Gối ôm; chỗ ngồi; giấy để vò"
+      ],
+      "goal": "Có lựa chọn hành vi khi giận thay vì làm đau người.",
+      "steps": [
+        "Khi bé giận: xác nhận 'Con đang giận'.",
+        "Chỉ 2 lựa chọn: 'ôm gối' hoặc 'vò giấy' (có sẵn).",
+        "Ở gần, giọng thấp, không dài dòng.",
+        "Khi dịu: 'Lúc giận mình chọn việc an toàn.'"
+      ],
+      "parentPhrases": [
+        "Giận được. Làm đau người thì không.",
+        "Con chọn gối hay giấy?",
+        "Mẹ ở đây."
+      ],
+      "easier": "Chỉ ôm gối với mẹ.",
+      "harder": "Bé tự chỉ chỗ 'góc dịu' (30m+).",
+      "safety": "Không nhốt phòng tối; không dọa ma/cảnh sát.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-01",
+      "title": "Nguệch ngoạc sáp – nghe âm thanh",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "AESTHETIC",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Giấy A4 dán bàn; 2–3 sáp màu lớn; áo cũ"
+      ],
+      "goal": "Cảm nhận để lại dấu vết; luyện cầm nắm.",
+      "steps": [
+        "Dán giấy; đặt sáp trong tầm với.",
+        "Mẹ nguệch mẫu 1 đường rồi để bé.",
+        "Nói màu: 'Đỏ này!' Không sửa hình.",
+        "Khoe tranh lên tường thấp 1 ngày."
+      ],
+      "parentPhrases": [
+        "Con vẽ mạnh quá.",
+        "Đường này cong đẹp.",
+        "Mẹ treo đây cho cả nhà xem."
+      ],
+      "easier": "Mẹ cầm tay cùng vẽ vài nét.",
+      "harder": "Chọn màu theo lời (24m+).",
+      "safety": "Sáp không độc; không để bé cắn nhiều; giám sát liên tục.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-02",
+      "title": "Ban nhạc xoong nồi",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "1 nồi/chậu nhựa; 1 thìa gỗ"
+      ],
+      "goal": "Khám phá âm thanh và nhịp đơn giản.",
+      "steps": [
+        "Gõ chậm: 'Bốp… bốp…'",
+        "Để bé gõ; bắt chước nhịp bé.",
+        "Đổi to/nhỏ: 'Nhẹ nào… mạnh nào…' (vừa phải).",
+        "Kết bằng cúi chào vui."
+      ],
+      "parentPhrases": [
+        "Nghe hay quá!",
+        "Con làm nhạc trưởng.",
+        "Một bài nữa rồi nghỉ."
+      ],
+      "easier": "Chỉ vỗ tay theo nhạc điện thoại nhỏ.",
+      "harder": "Gõ theo bài hát đếm 1-2-3 (30m+).",
+      "safety": "Không nồi kim loại cạnh tai; không đồ nóng/sắt nặng.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-03",
+      "title": "Hát ru / hát chơi một bài",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Không; có thể thêm khăn đung đưa"
+      ],
+      "goal": "Nghe và hát theo; gắn kết qua giọng người lớn.",
+      "steps": [
+        "Chọn 1 bài cố định mỗi tối/điểm ngày.",
+        "Hát nhìn mắt bé; nhún nhẹ.",
+        "Để trống 1 câu cho bé bập bẹ.",
+        "Kết ôm hoặc vỗ lưng."
+      ],
+      "parentPhrases": [
+        "Mẹ hát cho con.",
+        "Con hát cùng mẹ nghe này.",
+        "Giọng con ấm quá."
+      ],
+      "easier": "Chỉ nghe, không bắt hát.",
+      "harder": "Thêm 2 động tác tay theo lời.",
+      "safety": "Âm lượng êm; không tai nghe lớn cho bé.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-04",
+      "title": "Vò–xé giấy mây mưa",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Giấy màu/báo; khay; keo dán hồ bột hoặc băng keo giấy"
+      ],
+      "goal": "Khám phá chất liệu; tạo hình đơn giản.",
+      "steps": [
+        "Cùng vò giấy thành 'mây'.",
+        "Xé mảnh nhỏ làm 'mưa' (mẹ hỗ trợ).",
+        "Dán lên tờ nền bằng băng keo giấy.",
+        "Đặt tên tranh cùng bé."
+      ],
+      "parentPhrases": [
+        "Mây mềm quá.",
+        "Mưa rơi tí tách.",
+        "Con làm tranh đẹp."
+      ],
+      "easier": "Chỉ vò, không xé.",
+      "harder": "Thêm vẽ tia mưa bằng sáp (30m+).",
+      "safety": "Không để bé ăn keo; cắt sẵn nếu kéo nguy hiểm; giám sát.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-05",
+      "title": "Nhún nhảy theo nhạc",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "1 bài nhạc vui vừa đủ nhỏ"
+      ],
+      "goal": "Vận động theo nhịp; biểu lộ vui.",
+      "steps": [
+        "Bật nhạc; mẹ nhún mẫu.",
+        "Vỗ tay/dậm chân nhẹ theo phách.",
+        "Đổi chậm–nhanh 1 lần.",
+        "Tắt nhạc, thở cùng nhau."
+      ],
+      "parentPhrases": [
+        "Nhún nào!",
+        "Chân con đánh nhịp hay.",
+        "Hết bài, mình cười nào."
+      ],
+      "easier": "Bế nhún nếu bé chưa vững.",
+      "harder": "Đứng dừng khi nhạc 'ngắt' (30m+).",
+      "safety": "Sàn không trơn; không xoay mạnh cổ; âm lượng bảo vệ thính giác.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-06",
+      "title": "Đất nặn bột mì (tùy chọn)",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 12,
+      "materials": [
+        "Bột mì + muối + ít dầu + nước (nặn trước); khay"
+      ],
+      "goal": "Nặn ấn, dẹp, cuốn — cảm nhận thẩm mỹ xúc giác.",
+      "steps": [
+        "Đưa một viên; mẹ ấn mẫu.",
+        "Để bé ói/dẹp/cuốn tự do.",
+        "Gọi tên hình nếu bé nói ('bánh', 'rắn').",
+        "Cất hộp kín sau chơi; rửa tay."
+      ],
+      "parentPhrases": [
+        "Mềm quá!",
+        "Con ấn mạnh này.",
+        "Trông giống bánh bông lan."
+      ],
+      "easier": "Chỉ ấn tay.",
+      "harder": "Ép khuôn cốc nhỏ (30m+).",
+      "safety": "Không nuốt; không dùng nếu gia đình không rõ công thức an toàn; giám sát tuyệt đối.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-07",
+      "title": "Xem tranh và chọn thích",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "2–3 tranh/lịch ảnh màu"
+      ],
+      "goal": "Quan sát và bày tỏ sở thích thẩm mỹ.",
+      "steps": [
+        "Đặt 2 tranh trước mặt.",
+        "Hỏi: 'Con thích tranh nào?'",
+        "Nói về màu/vật: 'Mẹ thích màu xanh.'",
+        "Treo tranh bé chọn ở tầm mắt bé."
+      ],
+      "parentPhrases": [
+        "Con chọn tranh này à?",
+        "Màu vàng sáng quá.",
+        "Con có mắt nhìn đẹp."
+      ],
+      "easier": "Chỉ nhìn 1 tranh, mẹ mô tả.",
+      "harder": "Nói vì sao thích (30m+).",
+      "safety": "Tranh không đinh nhọn; tránh hình ảnh đáng sợ.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-08",
+      "title": "Lục lạc chai nhựa",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "AESTHETIC"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Lục lạc mua sẵn (ưu tiên 18–23 tháng)",
+        "HOẶC từ ≥24 tháng: chai nhựa sạch + hạt/đậu lớn do người lớn đổ, dán nắp chắc"
+      ],
+      "goal": "Tạo nhạc cụ đơn giản; chơi nhịp.",
+      "steps": [
+        "18–23 tháng: chỉ đưa lục lạc mua sẵn, đã kiểm tra nắp/khớp.",
+        "≥24 tháng nếu DIY: người lớn đổ hạt lớn, dán/siết nắp chắc trước khi đưa — bé không tham gia đổ hạt.",
+        "Lắc chậm theo bài hát; đổi tay; lắc to/nhỏ.",
+        "Cất khỏi tầm với ngay khi xong; không để bé tự mở nắp."
+      ],
+      "parentPhrases": [
+        "Lắc lắc!",
+        "Nghe như mưa.",
+        "Con giữ chắc nào."
+      ],
+      "easier": "Chỉ lục lạc mua sẵn mọi tuổi trong band này.",
+      "harder": "≥24 tháng: lắc theo câu thơ ngắn; vẫn cấm mở nắp.",
+      "safety": "18–23 tháng: không DIY hạt trong chai. DIY chỉ ≥24 tháng + dán nắp không mở được + hạt lớn + giám sát + cất sau chơi. Kiểm tra nứt chai. Chống hóc.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-09",
+      "title": "Ngón tay màu (tem màu)",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Màu finger-paint trẻ em hoặc bột màu thực phẩm pha đặc; giấy; khăn ướt"
+      ],
+      "goal": "In dấu ngón tay; khám phá màu.",
+      "steps": [
+        "Chấm 1 màu lên đĩa; in vài dấu mẫu.",
+        "Để bé in tự do.",
+        "Nói tên màu; không ép hình.",
+        "Rửa tay vui vẻ ngay sau."
+      ],
+      "parentPhrases": [
+        "Chấm chấm!",
+        "Đỏ dính tay này.",
+        "Tranh của con đây."
+      ],
+      "easier": "Chỉ 1 màu.",
+      "harder": "Trộn 2 màu xem đổi (30m+).",
+      "safety": "Chỉ màu ghi dùng được cho trẻ; không để vào mắt/miệng; trải bàn.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-10",
+      "title": "Điệu bộ theo lời bài hát",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "1 bài có động tác đơn (vd. vỗ tay, giơ cao)"
+      ],
+      "goal": "Hát + vận động khớp lời — cảm nhận thẩm mỹ vận động.",
+      "steps": [
+        "Hát chậm, làm 1 động tác/ câu.",
+        "Lặp 2 lần; để bé dẫn động tác lần 3.",
+        "Cười khi lệch nhịp — không sửa cứng.",
+        "Kết tạo hình 'tượng' đứng yên 3 giây."
+      ],
+      "parentPhrases": [
+        "Giơ cao nào!",
+        "Con nhảy đúng rồi.",
+        "Nhạc trưởng ơi, thêm một lần!"
+      ],
+      "easier": "Ngồi vỗ tay.",
+      "harder": "2 động tác xen kẽ (30m+).",
+      "safety": "Không nhào lộn; khoảng trống đủ.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-11",
+      "title": "Xếp hình màu giấy",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC",
+        "COGNITIVE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "Mảnh giấy màu cắt sẵn hình lớn (vuông/tròn); nền A4; keo/băng keo"
+      ],
+      "goal": "Sắp xếp tạo bố cục đơn giản theo ý thích.",
+      "steps": [
+        "Đưa 4–6 mảnh lớn.",
+        "Mời xếp lên nền 'như thế nào cũng được'.",
+        "Dán giúp khi bé ưng ý.",
+        "Đặt tên: 'Nhà của con' / 'Vườn hoa' tùy bé."
+      ],
+      "parentPhrases": [
+        "Con đặt chỗ nào cũng đẹp.",
+        "Mảnh tròn ở đây sáng quá.",
+        "Mẹ thích bố cục của con."
+      ],
+      "easier": "Chỉ xếp không dán.",
+      "harder": "Thêm 1 chi tiết vẽ sau khi dán.",
+      "safety": "Mảnh đủ lớn không nuốt; keo an toàn trẻ em.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_eat_018_01",
+      "title": "Thìa của con",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "1 thìa nhựa mềm",
+        "cháo/cơm mềm nguội",
+        "yếm hoặc khăn"
+      ],
+      "goal": "Bé tập cầm thìa đưa miệng, bố mẹ chấp nhận vương vãi",
+      "steps": [
+        "Cho bé ngồi ghế ăn, mặc yếm",
+        "Đưa thìa vào tay bé, mẹ cầm tay hướng dẫn 1–2 thìa đầu",
+        "Khen nỗ lực: 'Con đang tập xúc đó'",
+        "Mẹ xúc xen kẽ nếu bé mệt — không ép hết tô"
+      ],
+      "parentPhrases": [
+        "Con cầm thìa nào",
+        "Đưa lên miệng nhé",
+        "Giỏi quá, Con đang tập"
+      ],
+      "easier": "Bé cầm thìa trống, mẹ xúc bằng thìa khác",
+      "harder": "Bé xúc 3–5 thìa liên tiếp trước khi mẹ hỗ trợ",
+      "safety": "Thức ăn nguội vừa ăn; ghế chắc, có người lớn cạnh; không chạy khi miệng còn đồ",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_eat_018_02",
+      "title": "Cốc tập uống",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "cốc tập / cốc nhỏ có quai",
+        "nước lọc",
+        "khăn lau"
+      ],
+      "goal": "Bé nâng cốc uống vài ngụm với hỗ trợ",
+      "steps": [
+        "Đổ ít nước (1–2 cm) vào cốc",
+        "Hai tay mẹ kèm tay bé nâng cốc",
+        "Uống xong: 'Hết rồi, đặt cốc xuống'",
+        "Lau miệng cùng bé"
+      ],
+      "parentPhrases": [
+        "Hai tay nâng cốc nào",
+        "Từ từ nhé",
+        "Đặt cốc xuống bàn"
+      ],
+      "easier": "Dùng bình tập có vòi mềm",
+      "harder": "Bé tự nâng 2 tay, mẹ chỉ giữ đáy cốc",
+      "safety": "Ngồi vững; nước thường (không nóng); không để bé đi lại khi uống",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_eat_024_03",
+      "title": "Bữa ăn có khay",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 15,
+      "materials": [
+        "khay/đĩa chia ngăn hoặc 2–3 chén nhỏ",
+        "cơm mềm",
+        "rau/đậu mềm",
+        "thìa"
+      ],
+      "goal": "Bé tự chọn xúc từng ngăn, luyện ngồi và tự lập nhẹ",
+      "steps": [
+        "Bày 2–3 món mềm đã nguội trên khay",
+        "Chỉ: 'Con lấy cơm trước nhé'",
+        "Để bé xúc/cầm; mẹ ngồi cạnh, không soi từng thìa",
+        "Kết thúc: cùng bỏ thìa vào bát, cảm ơn con"
+      ],
+      "parentPhrases": [
+        "Con chọn món nào?",
+        "Thêm một thìa nữa nhé?",
+        "Bữa ăn xong rồi"
+      ],
+      "easier": "Chỉ 1 món + đồ cầm tay",
+      "harder": "Bé tự nói 'thêm / thôi' trước khi mẹ lấy thêm",
+      "safety": "Không hạt cứng, không quả tròn nhỏ; cắt mềm; luôn có người lớn",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_eat_024_04",
+      "title": "Rửa tay trước ăn",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "xà phòng dịu",
+        "ghế đẩu thấp chắc",
+        "khăn lau tay"
+      ],
+      "goal": "Bé làm theo 3 bước rửa tay trước bữa",
+      "steps": [
+        "Kéo ghế đẩu, vặn nước (người lớn kiểm soát nhiệt)",
+        "Hát đếm 1–2–3 khi xát xà phòng",
+        "Xả nước, lau khô",
+        "Nói: 'Sạch rồi, vào bàn ăn nào'"
+      ],
+      "parentPhrases": [
+        "Xát xà phòng nào",
+        "Đếm 1-2-3",
+        "Lau khô tay"
+      ],
+      "easier": "Mẹ cầm tay bé xát, bé chỉ quan sát đếm",
+      "harder": "Bé tự lấy xà phòng và nhắc mẹ 'rửa tay'",
+      "safety": "Nước ấm vừa; ghế chống trượt; không để bé một mình trong WC/bếp",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_eat_030_05",
+      "title": "Con dọn thìa",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "thìa/bát nhẹ",
+        "chậu nhỏ hoặc bồn đã tắt nước nóng"
+      ],
+      "goal": "Sau bữa, bé mang thìa vào chậu — tập kết thúc nếp ăn",
+      "steps": [
+        "Báo hiệu: 'Bữa xong, mình dọn nào'",
+        "Nhờ bé cầm thìa/bát nhựa nhẹ",
+        "Bỏ vào chậu; vỗ tay nhẹ",
+        "Lau bàn cùng mẹ (bé cầm khăn)"
+      ],
+      "parentPhrases": [
+        "Cảm ơn con đã dọn",
+        "Thìa vào đây nhé",
+        "Bàn sạch rồi"
+      ],
+      "easier": "Chỉ mang thìa, mẹ mang bát",
+      "harder": "Bé phân loại thìa / khăn vào đúng chỗ",
+      "safety": "Không đồ thủy tinh/nặng/nóng; sàn khô; giám sát gần bếp",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_sleep_018_06",
+      "title": "Nghi thức 4 bước ngủ",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 10,
+      "materials": [
+        "đèn dịu",
+        "1 cuốn sách ảnh",
+        "gấu bông/gối quen"
+      ],
+      "goal": "Lặp cùng thứ tự mỗi tối để tín hiệu 'sắp ngủ'",
+      "steps": [
+        "Bước 1: thu đồ chơi vào rổ (mẹ làm chính, bé bỏ 1–2 món)",
+        "Bước 2: đánh răng / lau răng theo tuổi (người lớn thực hiện)",
+        "Bước 3: đọc 1 cuốn sách ngắn",
+        "Bước 4: tắt đèn lớn, ôm, nói câu kết cố định"
+      ],
+      "parentPhrases": [
+        "Sắp đến giờ ngủ của con",
+        "Mình đọc một cuốn thôi nhé",
+        "Chúc con ngủ ngon"
+      ],
+      "easier": "Rút còn 2 bước: sách + ôm",
+      "harder": "Bé tự lấy sách và gối theo thứ tự",
+      "safety": "Không màn hình sáng trong nghi thức; giường/chiếu an toàn, không vật nhỏ gần gối",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_sleep_018_07",
+      "title": "Hát ru quen",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "giọng hát bố mẹ hoặc 1 bài hát không lời êm"
+      ],
+      "goal": "Dùng cùng một bài hát làm tín hiệu ngủ trưa/tối",
+      "steps": [
+        "Làm dịu phòng (ánh sáng, giảm TV)",
+        "Bế/ngồi cạnh, hát cùng 1 bài mỗi lần",
+        "Giảm dần âm lượng",
+        "Đặt bé xuống khi mắt chậm"
+      ],
+      "parentPhrases": [
+        "Nghe bài hát ngủ nào",
+        "Mắt con nặng rồi",
+        "Mẹ/bố ở đây"
+      ],
+      "easier": "Chỉ nestle + ngân nga không lời",
+      "harder": "Bé yêu cầu 'hát nữa' rồi chấp nhận dừng sau câu hẹn",
+      "safety": "Tư thế ngủ an toàn theo hướng dẫn y tế địa phương; không đệm thừa che mặt",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_sleep_024_08",
+      "title": "Tắt đèn cùng con",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "công tắc đèn trong tầm với có hỗ trợ",
+        "đèn ngủ dịu (tuỳ)"
+      ],
+      "goal": "Bé tham gia bước 'tắt đèn' trong nghi thức",
+      "steps": [
+        "Báo: 'Đến bước tắt đèn rồi'",
+        "Bế hoặc ghế đẩu chắc, bé ấn công tắc (mẹ giữ)",
+        "Bật đèn ngủ nếu cần",
+        "Nói câu kết: 'Phòng tối, con ngủ nào'"
+      ],
+      "parentPhrases": [
+        "Con tắt đèn giúp mẹ",
+        "Đèn ngủ nhỏ thôi",
+        "Ngủ ngon"
+      ],
+      "easier": "Mẹ đặt tay lên tay bé ấn cùng",
+      "harder": "Bé tự đi tới công tắc (có đèn đủ sáng) rồi gọi mẹ",
+      "safety": "Không để bé trèo tủ; giám sát điện; không bóng tối đột ngột gây sợ — đèn ngủ OK",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_sleep_030_09",
+      "title": "Con lấy gối",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "gối nhỏ / thú quen",
+        "chỗ ngủ cố định"
+      ],
+      "goal": "Bé tự lấy đồ ngủ quen và đến chỗ ngủ",
+      "steps": [
+        "Nhắc: 'Đi lấy gối của con nào'",
+        "Để bé tìm và cầm",
+        "Cùng đặt lên chỗ ngủ",
+        "Nằm xuống, đọc/ hát ngắn"
+      ],
+      "parentPhrases": [
+        "Gối của con đâu rồi?",
+        "Đặt gối đây nhé",
+        "Con giỏi quá"
+      ],
+      "easier": "Mẹ chỉ tay vào gối",
+      "harder": "Bé lấy gối + sách + thú theo checklist 3 món",
+      "safety": "Không dây/túi nilon gần chỗ ngủ; giám sát tư thế",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_potty_018_10",
+      "title": "Làm quen với bô",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "bô trẻ hoặc bệ lót toilet trẻ",
+        "sách ảnh nhỏ"
+      ],
+      "goal": "Bé ngồi bô mặc quần vài phút vui vẻ — không ép ị",
+      "steps": [
+        "Đặt bô nơi cố định, dễ với",
+        "Mời: 'Con ngồi chơi trên bô một chút nhé?'",
+        "Đọc sách / hát 1–2 phút",
+        "Kết thúc vui, không hỏi 'đã ị chưa?'"
+      ],
+      "parentPhrases": [
+        "Ngồi chơi nào",
+        "Bô của con đây",
+        "Xong rồi, mình chơi tiếp"
+      ],
+      "easier": "Chỉ nhìn / chạm bô, chưa ngồi",
+      "harder": "Ngồi chơi ngắn hơn một chút, hoặc để bé tự chạm/chỉ bô rồi đứng dậy — vẫn không ép ị.",
+      "safety": "Bô sạch, sàn chống trượt; không để bé một mình trên toilet cao",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_potty_024_11",
+      "title": "Nhắc ngồi bô nhẹ",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "bô",
+        "giấy vệ sinh",
+        "ghế đẩu nếu cần"
+      ],
+      "goal": "Thử ngồi bô theo khung (sau ăn / trước ngủ) không ép lâu",
+      "steps": [
+        "Chọn lúc bé đang vui, không đang chơi say",
+        "Mời ngồi 2–3 phút tối đa",
+        "Nếu không có gì: 'Mai mình thử lại' — giọng bình thường",
+        "Rửa tay cùng nhau"
+      ],
+      "parentPhrases": [
+        "Thử ngồi bô nhé?",
+        "Không sao nếu chưa sẵn sàng",
+        "Rửa tay nào"
+      ],
+      "easier": "Chỉ kéo quần giả / ngồi mặc quần",
+      "harder": "Bé tự nói 'bô' khi cần",
+      "safety": "Không phạt, không so sánh; vệ sinh tay; hỗ trợ thăng bằng",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_potty_024_12",
+      "title": "Từ tín hiệu của con",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "không bắt buộc — có thể ảnh bô đơn giản"
+      ],
+      "goal": "Gắn từ/cử chỉ 'tè / ị / bô' với cảm giác",
+      "steps": [
+        "Khi thay tã, gọi tên: 'Tã ướt rồi'",
+        "Hỏi: 'Con muốn ngồi bô không?'",
+        "Lặp từ ngắn mỗi lần",
+        "Ăn mừng mọi lần báo (kể cả báo muộn)"
+      ],
+      "parentPhrases": [
+        "Tã ướt",
+        "Con tè rồi",
+        "Bô nào"
+      ],
+      "easier": "Chỉ bố mẹ gọi tên, chưa hỏi",
+      "harder": "Bé nói từ hoặc dẫn tay mẹ tới bô",
+      "safety": "Giọng trung tính; không xấu hổ / trêu",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_potty_030_13",
+      "title": "Kéo quần tập",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "quần thun rộng",
+        "ghế thấp để ngồi"
+      ],
+      "goal": "Bé kéo quần lên/xuống phần lớn với hỗ trợ",
+      "steps": [
+        "Chọn quần dễ (thun, không khuy khó)",
+        "Bé cầm bo ống kéo xuống khi ngồi bô",
+        "Sau đó kéo lên, mẹ chỉnh eo",
+        "Khen quá trình, không chỉ kết quả sạch tã"
+      ],
+      "parentPhrases": [
+        "Hai tay kéo nào",
+        "Đứng vững đã",
+        "Mẹ giúp một chút"
+      ],
+      "easier": "Mẹ kéo 80%, bé kéo nốt",
+      "harder": "Bé tự kéo gần xong trước khi gọi mẹ",
+      "safety": "Không để bé đứng trên mặt ướt; hỗ trợ thăng bằng",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_potty_024_14",
+      "title": "Rửa tay sau bô",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "xà phòng",
+        "khăn",
+        "ghế đẩu"
+      ],
+      "goal": "Ghép 'xong bô → rửa tay' thành nếp",
+      "steps": [
+        "Ngay sau bô/thay tã: 'Bước tiếp theo: rửa tay'",
+        "Làm 3 bước như hoạt động rửa tay trước ăn",
+        "Dùng cùng bài hát để dễ nhớ",
+        "Kết: 'Sạch rồi, chơi tiếp'"
+      ],
+      "parentPhrases": [
+        "Xong bô, rửa tay nào",
+        "Xát xà phòng",
+        "Sạch rồi"
+      ],
+      "easier": "Khăn ướt dịu khi chưa tới vòi nước",
+      "harder": "Bé tự nhắc 'rửa tay' sau bô",
+      "safety": "Vệ sinh tay người lớn sau hỗ trợ; nước vừa",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_safe_018_15",
+      "title": "Ngồi mới ăn",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "ghế ăn / chiếu ngồi cố định",
+        "đồ ăn nhẹ mềm"
+      ],
+      "goal": "Bé học quy tắc: có đồ ăn thì ngồi",
+      "steps": [
+        "Trước khi đưa đồ: 'Ngồi xuống đã nhé'",
+        "Chỉ đưa bánh/hoa quả khi bé ngồi",
+        "Nếu đứng dậy: tạm dừng đồ ăn, mời ngồi lại (không la)",
+        "Khen khi ngồi ổn định"
+      ],
+      "parentPhrases": [
+        "Ngồi rồi mới ăn",
+        "Con ngồi đây nào",
+        "Giỏi, đang ngồi ăn"
+      ],
+      "easier": "Bé ngồi lòng mẹ",
+      "harder": "Bé tự leo ghế ăn rồi vỗ tay báo sẵn sàng",
+      "safety": "Không chạy khi nhai; cắt mềm chống hóc; giám sát",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_safe_024_16",
+      "title": "Nóng — dừng tay",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "cốc nước ấm (không nóng bỏng) để làm mẫu",
+        "hoặc ảnh minh họa ấm đun"
+      ],
+      "goal": "Phản xạ nghe 'nóng' và dừng tay gần đồ ấm",
+      "steps": [
+        "Chỉ cốc ấm: 'Nóng — không chạm'",
+        "Làm mẫu rút tay, mặt bình tĩnh",
+        "Cho bé luyện nói 'nóng' và rút tay giả",
+        "Nhắc lại khi vào bếp (bé không vào gần bếp một mình)"
+      ],
+      "parentPhrases": [
+        "Nóng",
+        "Dừng tay",
+        "Nhờ mẹ/bố lấy"
+      ],
+      "easier": "Chỉ quan sát mẹ làm mẫu",
+      "harder": "Bé nhắc người lớn 'nóng' khi thấy hơi nước",
+      "safety": "Không dùng đồ thật đang sôi; khoảng cách an toàn với bếp/gas",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_safe_024_17",
+      "title": "Đồ nhỏ không vào miệng",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "hộp đồ chơi lớn an toàn",
+        "vài vật to (>3 cm) vs minh họa 'không'"
+      ],
+      "goal": "Phân biệt đồ chơi miệng được / không được (qua chơi, không hù)",
+      "steps": [
+        "Chọn 2–3 món to an toàn để 'được cầm'",
+        "Với vật nhỏ (chỉ người lớn cầm): 'Cái này không vào miệng'",
+        "Chơi phân loại: bỏ món to vào hộp 'chơi'",
+        "Kết: kiểm tra sàn cùng mẹ"
+      ],
+      "parentPhrases": [
+        "Cái to chơi được",
+        "Cái nhỏ không vào miệng",
+        "Nhờ mẹ giữ"
+      ],
+      "easier": "Chỉ chơi với món to, mẹ nói quy tắc",
+      "harder": "Bé đưa vật nhỏ cho mẹ thay vì bỏ miệng",
+      "safety": "Không để vật nhỏ trong tầm với không giám sát; chống hóc",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_safe_030_18",
+      "title": "Một quy tắc trước bữa",
+      "ageMinMonths": 30,
+      "ageMaxMonths": 36,
+      "domains": [
+        "SELF_CARE"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "không bắt buộc"
+      ],
+      "goal": "Trước mỗi bữa, nhắc 1 câu quy tắc an toàn (ngồi / chậm / nóng)",
+      "steps": [
+        "Trước khi ngồi bàn: hỏi 'Hôm nay quy tắc gì?'",
+        "Gợi ý nếu cần: 'Ngồi ăn' hoặc 'Thổi nguội'",
+        "Bé nhắc lại 1 câu",
+        "Bắt đầu bữa"
+      ],
+      "parentPhrases": [
+        "Quy tắc hôm nay là…",
+        "Con nhắc mẹ nghe nào",
+        "Giỏi, nhớ rồi"
+      ],
+      "easier": "Mẹ nói, bé gật",
+      "harder": "Bé chọn giữa 2 quy tắc",
+      "safety": "Nhắc ngồi khi ăn; không chạy/đi khi miệng còn đồ; đồ nóng — thổi nguội / chờ người lớn đưa. Giọng vui, không thành bài kiểm tra điểm.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "phy_16_bo_ham_goi",
+      "title": "Chui–bò qua hầm gối",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "2–4 gối/đệm tạo đường hầm thấp",
+        "sàn sạch"
+      ],
+      "goal": "Luyện bò/chui có chủ đích, đổi tư thế tay–gối trên mặt phẳng nhà.",
+      "steps": [
+        "Xếp gối thành đường hầm thấp, chắc, không đổ.",
+        "Người lớn bò mẫu một lượt; mời bé chui theo.",
+        "Vỗ tay khi bé ra phía kia; làm 2–4 lượt rồi nghỉ."
+      ],
+      "parentPhrases": [
+        "Con chui vào nào!",
+        "Bố/mẹ ở phía bên kia."
+      ],
+      "easier": "Hầm rất thấp–ngắn; người lớn nâng mép gối.",
+      "harder": "Thêm góc nhẹ hoặc mang bóng mềm qua hầm.",
+      "safety": "Không gối chồng cao; không bịt kín; giám sát liên tục; sàn khô.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "phy_17_vac_tui_nhe",
+      "title": "Xách túi nhẹ vài bước",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "PHYSICAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "Túi vải nhỏ có 1–2 món nhẹ (khăn/đồ chơi mềm)"
+      ],
+      "goal": "Mang–xách có kiểm soát, đi thẳng đoạn ngắn trong nhà.",
+      "steps": [
+        "Cho bé cầm quai túi nhẹ bằng một hoặc hai tay.",
+        "Chỉ đích gần (ghế/gối); đi cạnh bé.",
+        "Đặt túi xuống đích; khen và nghỉ."
+      ],
+      "parentPhrases": [
+        "Con xách túi giúp mẹ/bố nào.",
+        "Đặt xuống ghế này nhé."
+      ],
+      "easier": "Túi gần như trống; chỉ vài bước.",
+      "harder": "Đường dài hơn hoặc thêm 1 món nhẹ.",
+      "safety": "Không nặng; không dây dài quanh cổ; tránh cầu thang.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "LANG-16",
+      "title": "Hỏi Ai–Đâu–Gì với tranh",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "LANGUAGE"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "1–2 tranh/ảnh lớn quen (người, đồ, thú)"
+      ],
+      "goal": "Luyện hiểu và trả lời câu hỏi ngắn Ai/Đâu/Gì.",
+      "steps": [
+        "Chỉ tranh: hỏi lần lượt 'Ai đây?', 'Đâu rồi?', 'Cái gì đây?'.",
+        "Đợi 5–10 giây; chấp nhận chỉ tay hoặc 1–2 từ.",
+        "Nhắc lại câu trả lời đầy đủ ngắn; dừng khi bé quay đi."
+      ],
+      "parentPhrases": [
+        "Ai đây nhỉ?",
+        "Đâu rồi?",
+        "À, đúng rồi."
+      ],
+      "easier": "Chỉ hỏi 'Đâu?' và để bé chỉ.",
+      "harder": "Để bé hỏi lại bố/mẹ một câu.",
+      "safety": "Không ép trả lời; tranh không góc sắc/miếng rời.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "AES-12",
+      "title": "Trưng bày tranh trên tường thấp",
+      "ageMinMonths": 24,
+      "ageMaxMonths": 36,
+      "domains": [
+        "AESTHETIC"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "1 tranh bé vừa vẽ/nguệch",
+        "băng keo giấy hoặc nam châm tủ lạnh"
+      ],
+      "goal": "Thưởng thức và 'trưng bày' sản phẩm — gắn cảm nhận thẩm mỹ với niềm vui.",
+      "steps": [
+        "Cùng chọn 1 tranh bé thích hôm nay.",
+        "Dán/treo thấp ngang tầm mắt bé (không đinh).",
+        "Đứng xem 30–60 giây; nói 1 câu về màu/nét; chụp ảnh nếu muốn (không bắt)."
+      ],
+      "parentPhrases": [
+        "Tranh của con treo đây này.",
+        "Mẹ/bố thích màu này."
+      ],
+      "easier": "Chỉ để tranh trên bàn và 'khoe' 20 giây.",
+      "harder": "Bé chọn giữa 2 tranh để treo.",
+      "safety": "Không đinh/kéo sắc; băng keo giấy; giám sát không xé ăn giấy.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_soc_chi_khoe_do",
+      "title": "Chỉ và khoe đồ",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 26,
+      "domains": [
+        "SOCIAL_EMOTIONAL",
+        "LANGUAGE"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "2–3 món đồ chơi quen",
+        "chỗ ngồi cạnh nhau"
+      ],
+      "goal": "Bé chỉ hoặc đưa đồ để khoe — người lớn nhìn và gọi tên; không bắt nói.",
+      "steps": [
+        "Ngồi cùng tầm mắt; để đồ trong tầm với.",
+        "Khi bé chỉ/đưa: nhìn theo, nói ngắn “Xe của con!” hoặc “Con đang khoe.”",
+        "Khoe lại một món của mình (mẫu); chờ bé nếu muốn.",
+        "Dừng khi bé quay đi chơi khác."
+      ],
+      "parentPhrases": [
+        "Con đang khoe gì thế?",
+        "Mẹ/bố nhìn đây này.",
+        "Xe đỏ của con!"
+      ],
+      "easier": "Chỉ phản ứng khi bé chỉ; chưa khoe lại.",
+      "harder": "Hỏi nhẹ “Cho mẹ xem?” — chấp nhận lắc đầu.",
+      "safety": "Đồ to, không cạnh sắc; không ép nói từ.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_soc_tach_hop_lai_peek",
+      "title": "Tách ngắn – hợp lại (peek)",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 24,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "Ghế/cửa thấp hoặc khăn mỏng",
+        "không gian một phòng"
+      ],
+      "goal": "Người lớn khuất nhẹ vài giây rồi hiện lại — luôn trong tầm nhìn/nghe; gắn bó vui, không luyện “bỏ mẹ”.",
+      "steps": [
+        "Báo trước: “Mẹ/bố ra sau ghế một chút rồi về.”",
+        "Khuất 2–3 giây vẫn nói chuyện được; hiện ra “Ú òa!”.",
+        "Ôm/cười; lặp 2–3 lần nếu bé vui.",
+        "Dừng ngay nếu bé khóc hoặc bám chặt."
+      ],
+      "parentPhrases": [
+        "Mẹ/bố đây này!",
+        "Con vẫn thấy mẹ/bố.",
+        "Ú òa!"
+      ],
+      "easier": "Chỉ che mặt bằng tay trước mặt bé.",
+      "harder": "Ra sau ghế lâu hơn một nhịp — vẫn gọi tên liên tục.",
+      "safety": "Không đóng cửa, không ra phòng khác, không “luyện bỏ”; luôn nghe thấy tiếng người lớn.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_soc_choi_song_song_khay",
+      "title": "Chơi song song hai khay",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 28,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Hai khay/chậu nhỏ",
+        "đồ chơi giống hoặc tương tự (khối, muỗng)"
+      ],
+      "goal": "Chơi cạnh nhau với khay riêng — nền tảng trước chia sẻ; không bắt đưa đồ.",
+      "steps": [
+        "Đặt hai khay cạnh nhau; mỗi người một khay.",
+        "Người lớn chơi khay mình, mô tả ngắn việc đang làm.",
+        "Nếu bé lấy đồ của mình: để yên hoặc đổi nhẹ nhàng — không giảng “phải chia”.",
+        "Kết: cất cùng nhau nếu bé muốn."
+      ],
+      "parentPhrases": [
+        "Khay của con đây.",
+        "Mẹ/bố chơi khay này.",
+        "Mình ngồi cạnh nhau vui."
+      ],
+      "easier": "Chỉ một loại đồ, khoảng cách gần.",
+      "harder": "Đổi món giữa hai khay khi bé đồng ý.",
+      "safety": "Đồ to; không tranh giành thành ép chia sẻ; giám sát.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_cog_do_hat_hop",
+      "title": "Đổ hạt lớn vào hộp",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 28,
+      "domains": [
+        "COGNITIVE",
+        "PHYSICAL"
+      ],
+      "durationMinutes": 8,
+      "materials": [
+        "Hộp/khay miệng rộng",
+        "Hạt/đồ lớn rõ (khối gỗ nhỏ an toàn, nắp chai to, hoặc pompon to) — cấm hạt nhỏ/gạo/đậu"
+      ],
+      "goal": "Đưa–đổ đồ lớn vào hộp — khám phá trong–ngoài; luôn chống hóc.",
+      "steps": [
+        "Người lớn mẫu: thả 1 món to vào hộp, nghe tiếng “cộp”.",
+        "Mời bé thả thêm; chấp nhận đổ ra sàn có khay hứng.",
+        "Đếm vui vài cái; dừng khi mệt.",
+        "Cất hết món nhỏ hơn miệng hộp thuốc tiêu chuẩn ngay sau chơi."
+      ],
+      "parentPhrases": [
+        "Bỏ vào hộp nào.",
+        "Cộp!",
+        "Thêm một cái nữa."
+      ],
+      "easier": "Chỉ 2–3 món rất to; người lớn giữ hộp.",
+      "harder": "Đổ từ hộp này sang hộp kia.",
+      "safety": "Chỉ đồ lớn không nuốt được; cấm hạt nhỏ/gạo/đậu/viên bi. Giám sát miệng 100%; ngồi chơi; cất sau chơi. Chống hóc.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_sc_bo_do_vao_gio",
+      "title": "Bỏ đồ vào giỏ giúp việc",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "SELF_CARE",
+        "COGNITIVE"
+      ],
+      "durationMinutes": 7,
+      "materials": [
+        "Giỏ/túi vải",
+        "3–5 món đồ nhẹ (áo, khăn, thú)"
+      ],
+      "goal": "Giúp bỏ vài món vào giỏ — việc nhà vui, không bắt dọn hết phòng.",
+      "steps": [
+        "Đặt giỏ giữa sàn; để 3–5 món trong tầm với.",
+        "Mời: “Bỏ khăn vào giỏ giúp mẹ/bố nhé?”",
+        "Làm cùng 1–2 món; khen giúp việc.",
+        "Xong sớm — không kéo thành phiên dọn nhà."
+      ],
+      "parentPhrases": [
+        "Giúp mẹ/bố một chút nhé.",
+        "Bỏ vào giỏ!",
+        "Cảm ơn con đã giúp."
+      ],
+      "easier": "Chỉ một món; người lớn chỉ tay vào giỏ.",
+      "harder": "Bé mang giỏ nhẹ 2–3 bước tới ghế.",
+      "safety": "Giỏ không nặng; không dây dài quanh cổ; sàn sạch.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_lang_anh_gia_dinh",
+      "title": "Ảnh gia đình gọi tên",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "LANGUAGE",
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 6,
+      "materials": [
+        "2–4 ảnh in hoặc album điện thoại (ông bà, bố mẹ, thú cưng)"
+      ],
+      "goal": "Chỉ ảnh người thân và nghe/gọi tên — gắn bó và ngôn ngữ, không kiểm tra.",
+      "steps": [
+        "Mở 1 ảnh; chỉ: “Đây bà nội.”",
+        "Chờ bé chỉ/bập bẹ; nhắc lại tên ấm.",
+        "Lật ảnh khác nếu bé còn hứng.",
+        "Ôm hoặc nói “Nhớ bà” — không ép nói đủ từ."
+      ],
+      "parentPhrases": [
+        "Đây ai đây?",
+        "Bà của con.",
+        "Con chỉ bố/mẹ nào?"
+      ],
+      "easier": "Chỉ 1 ảnh quen nhất.",
+      "harder": "Hỏi “Bà đâu?” trong 2 ảnh.",
+      "safety": "Không ảnh đáng sợ; giữ máy chắc, không dây sạc gần cổ.",
+      "reviewed_by": [],
+      "isPremium": false
+    },
+    {
+      "id": "act_soc_dua_do_khi_xin",
+      "title": "Đưa đồ khi được xin",
+      "ageMinMonths": 18,
+      "ageMaxMonths": 30,
+      "domains": [
+        "SOCIAL_EMOTIONAL"
+      ],
+      "durationMinutes": 5,
+      "materials": [
+        "1–2 món đồ chơi bé đang cầm",
+        "người lớn ngồi gần"
+      ],
+      "goal": "Thử đưa đồ khi nghe “Cho mẹ/bố xem?” — tiền-chia sẻ; chấp nhận chưa đưa.",
+      "steps": [
+        "Khi bé cầm đồ: đưa tay mở, nói “Cho mẹ/bố xem một chút?”",
+        "Nếu đưa: cảm ơn, xem 2–3 giây, trả lại ngay.",
+        "Nếu không: mỉm cười “Không sao, con giữ.” — không giật.",
+        "Lặp thỉnh thoảng trong ngày, không thành bài tập."
+      ],
+      "parentPhrases": [
+        "Cho mẹ/bố xem nhé?",
+        "Cảm ơn con.",
+        "Con giữ cũng được."
+      ],
+      "easier": "Chỉ xin đồ người lớn đang cầm mẫu đưa–nhận.",
+      "harder": "Xin đưa cho người thứ hai trong nhà (ông/bà).",
+      "safety": "Không giật đồ; không phạt khi không đưa; tránh tranh chấp thành ép chia sẻ.",
+      "reviewed_by": [],
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,2189 @@
+{
+  "version": 6,
+  "content_status": "draft_unreviewed",
+  "curation_policy": "Dong dao/ca dao/hat ru: chi loi da kiem F1–F5 (draft). Bai nhac si: tip_find, khong chep loi. Khong bia loi roi gan folk_traditional.",
+  "disclaimer": "Đồng dao/hát ru đã rà F1–F5. Tranh kể chuyện minh họa board book VN (100/100 đã sẵn) — đã thẩm định danh mục C1/C2. Nháp — chưa chuyên gia người thật. Bài nhạc sĩ: chỉ hướng tìm.",
+  "categories": [
+    {
+      "id": "dong_dao",
+      "label": "Đồng dao (đủ lời)"
+    },
+    {
+      "id": "hat",
+      "label": "Hát ru / dân gian"
+    },
+    {
+      "id": "to_tranh",
+      "label": "Tranh kể chuyện"
+    },
+    {
+      "id": "sach",
+      "label": "Hướng tìm sách"
+    },
+    {
+      "id": "mau_cau",
+      "label": "Câu nói chăm sóc"
+    }
+  ],
+  "items": [
+    {
+      "id": "dd_nu_na",
+      "category": "dong_dao",
+      "title": "Nu na nu nống",
+      "ageHint": "18–36 tháng",
+      "source": "Đồng dao dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ tay hoặc đung đưa. Biến thể theo nhà — hỏi ông bà.",
+      "body": "Nu na nu nống\nCái trống nằm trong\nCon ong nằm ngoài\nCủ khoai chấm mật\nPhật ngồi Phật khóc\nCon cóc nhảy ra\nCon gà ú ụ\n\n(Biến thể theo nhà — hỏi ông bà. Bản rút: dừng sau 4 câu.)",
+      "region": "Miền Bắc",
+      "themes": [
+        "ru"
+      ]
+    },
+    {
+      "id": "dd_chi_chi",
+      "category": "dong_dao",
+      "title": "Chi chi chành chành",
+      "ageHint": "30–36 tháng (nghe PH)",
+      "source": "Đồng dao / trò chơi ngón tay dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Chạm ngón tay. Có hình ảnh «chết trương» — chỉ nghe với PH; có thể dừng sau 2 câu đầu.",
+      "body": "Chi chi chành chành\nCái đanh thổi lửa\nCon ngựa chết trương\nBa vương bú tí\nBắt dế đi tìm\nÙ à ù ập",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_thang_bom",
+      "category": "dong_dao",
+      "title": "Thằng Bờm",
+      "ageHint": "30–36 tháng (nghe)",
+      "source": "Ca dao / đồng dao dân gian Việt Nam (bản rút)",
+      "license": "folk_traditional",
+      "howToUse": "Bé nhỏ: bản rút 4 câu. Cười là đủ.",
+      "body": "Thằng Bờm có cái quạt mo\nPhú ông xin đổi ba bò chín trâu\nBờm rằng Bờm chẳng lấy trâu\nPhú ông xin đổi nắm xôi Bờm cười.\n\n(Bản đủ dài hơn — hỏi ông bà nếu muốn nghe tiếp.)",
+      "region": "Cả nước",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_dung_dang",
+      "category": "dong_dao",
+      "title": "Dung dăng dung dẻ",
+      "ageHint": "18–36 tháng",
+      "source": "Đồng dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Đung đưa tay hoặc chân bé theo nhịp.",
+      "body": "Dung dăng dung dẻ\nDắt trẻ đi chơi\nĐến tận cửa trời\nLấy kèm lấy kẹp\nLấy tiền lấy thóc\nCho chúng nó chơi.",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_keo_cua",
+      "category": "dong_dao",
+      "title": "Kéo cưa lừa xẻ",
+      "ageHint": "18–36 tháng",
+      "source": "Đồng dao dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Hai người nắm tay kéo qua kéo lại như cưa. Bản miền Bắc phổ biến.",
+      "body": "Kéo cưa lừa xẻ\nÔng thợ nào khỏe\nVề ăn cơm vua\nÔng thợ nào thua\nVề bú tí mẹ",
+      "region": "Miền Bắc",
+      "themes": [
+        "gia_dinh",
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_con_co",
+      "category": "dong_dao",
+      "title": "Con cò bay lả bay la",
+      "ageHint": "24–36 tháng",
+      "source": "Ca dao / đồng dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Dang tay giả làm cánh cò; giọng chậm.",
+      "body": "Con cò bay lả bay la\nBay từ cửa phủ bay về Đồng Đăng\nĐồng Đăng có phố Kỳ Lừa\nCó nàng Tô Thị có chùa Tam Thanh.",
+      "region": "Miền Bắc (Lạng Sơn)",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_bau_ai",
+      "category": "dong_dao",
+      "title": "Bầu ơi thương lấy bí cùng",
+      "ageHint": "30–36 tháng (nghe)",
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Giải thích nhẹ: anh chị em thương nhau — không giảng đạo dài.",
+      "body": "Bầu ơi thương lấy bí cùng\nTuy rằng khác giống nhưng chung một giàn.",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ]
+    },
+    {
+      "id": "dd_hom_na",
+      "category": "dong_dao",
+      "title": "Hom na / ù ơ (bản ngắn)",
+      "ageHint": "18–30 tháng",
+      "source": "Đồng dao dân gian miền Bắc (biến thể mở của Nu na)",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ đùi theo nhịp; hỏi ông bà bản địa phương.",
+      "body": "Hom na hom nống\nCái trống nằm trong\nCon ong nằm ngoài\n\n(Biến thể mở của «Nu na». Nhà bạn có thể hát «Ù a ù à» — dùng đúng bản nhà.)",
+      "region": "Miền Bắc",
+      "themes": [
+        "ru"
+      ]
+    },
+    {
+      "id": "dd_chim_chim",
+      "category": "dong_dao",
+      "title": "Chi chi xì xà xì xồ",
+      "ageHint": "24–36 tháng",
+      "source": "Trò chơi chọn người / đồng dao phổ biến sân trường",
+      "license": "folk_traditional",
+      "howToUse": "Chạm lần lượt từng ngón; vui, không loại bạn nặng nề.",
+      "body": "Chi chi xì xà xì xồ\nEm cầm lá bồ\nEm ngồi ghế gỗ\nChi chi…\nÚ òa!",
+      "region": "Cả nước",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "hat_ru_a_oi",
+      "category": "hat",
+      "title": "À ơi (hát ru truyền thống — lời ngắn)",
+      "ageHint": "0–36 tháng",
+      "source": "Hát ru dân gian Việt Nam (dạng rút gọn phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Giọng nhỏ, lặp. Bé không cần hát theo. Ông bà thường có bản dài hơn — học thêm từ họ.",
+      "body": "À ơi… à ơi…\nVí dầu cầu ván đóng đinh\nCầu tre lắc lẻo gập ghềnh khó đi\nKhó đi mẹ dắt con đi\nCon đi trường học mẹ đi trường đời\n\nÀ ơi… à ơi…\nCon ơi con ngủ cho ngon\nĐể mẹ gánh nước cho toàn ruộng sâu.",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ]
+    },
+    {
+      "id": "hat_ru_vi_dao",
+      "category": "hat",
+      "title": "Ví dầu (lời ru / ca dao)",
+      "ageHint": "18–36 tháng",
+      "source": "Ca dao / hát ru dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Ru hoặc đọc chậm như thơ.",
+      "body": "Ví dầu cầu ván đóng đinh\nCầu tre lắc lẻo gập ghềnh khó đi\nKhó đi mẹ dắt con đi\nCon đi trường học mẹ đi trường đời.",
+      "region": "Cả nước",
+      "themes": [
+        "me",
+        "ru"
+      ]
+    },
+    {
+      "id": "hat_ly_cay_bong",
+      "category": "hat",
+      "title": "Lý cây bông (dân ca — lời quen)",
+      "ageHint": "30–36 tháng (nghe–vỗ)",
+      "source": "Dân ca Nam Bộ / lưu truyền rộng",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ tay theo nhịp; không bắt thuộc hết.",
+      "body": "Lý cây bông\nLý cây bông\nCó cái bông\nLý cây bông…\n\n(Bản đầy đủ dài — học thêm câu từ ông bà miền Nam hoặc cô nhà trẻ. App giữ điệp khúc mở đầu để chơi nhịp.)",
+      "region": "Nam Bộ (tham khảo)",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "title": "Đàn gà con (hướng tìm — bài có nhạc sĩ)",
+      "category": "sach",
+      "license": "tip_find",
+      "source": "Hướng tìm — không chép lời (nhạc Filippenko, lời Việt Anh / SGK)",
+      "ageHint": "18–36 tháng",
+      "region": "Cả nước / nhà trẻ",
+      "themes": [
+        "me",
+        "choi"
+      ],
+      "howToUse": "Hỏi cô giáo lớp bé hát giúp; không tải video quảng cáo.",
+      "body": "Bài «Đàn gà con» phổ biến nhà trẻ nhưng **có tác giả** (không phải đồng dao cổ).\nApp **không** chép lời. Học miệng từ cô / ông bà.",
+      "id": "hat_dan_ga"
+    },
+    {
+      "id": "dd_ba_cong",
+      "category": "dong_dao",
+      "title": "Bà còng đi chợ trời mưa",
+      "ageHint": "24–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "ba",
+        "gia_dinh"
+      ],
+      "source": "Đồng dao dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Giọng vui; chỉ «bà» trong tranh/ảnh gia đình nếu có.",
+      "body": "Bà còng đi chợ trời mưa\nHỏi thăm cậu ấm hết chưa cậu về\nCậu về cậu mặc áo the\nCậu đi câu cá đứng kề ao sâu."
+    },
+    {
+      "id": "dd_rong_ran",
+      "category": "dong_dao",
+      "title": "Rồng rắn lên mây",
+      "ageHint": "24–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi_nhom"
+      ],
+      "source": "Đồng dao / trò chơi dây dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Nắm tay thành dây dài; đi theo nhịp. Bé nhỏ: chỉ hát 4 câu đầu.",
+      "body": "Rồng rắn lên mây\nCó cây nêu cao\nCó nhà sàn thấp\nCó anh học trò\nCó cô tát nước bên sông\nRồng rắn lên mây…"
+    },
+    {
+      "id": "dd_con_kien",
+      "category": "dong_dao",
+      "title": "Con kiến mà leo cành đa",
+      "ageHint": "18–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi"
+      ],
+      "source": "Đồng dao dân gian Việt Nam (phổ biến miền Bắc)",
+      "license": "folk_traditional",
+      "howToUse": "Ngón tay «leo» lên cánh tay bé; cười, không hù.",
+      "body": "Con kiến mà leo cành đa\nLeo phải cành cụt leo ra leo vào\nCon kiến mà leo cành đào\nLeo phải cành cụt leo vào leo ra."
+    },
+    {
+      "id": "dd_cai_bong",
+      "category": "dong_dao",
+      "title": "Cái bống cái bang",
+      "ageHint": "18–30 tháng",
+      "region": "Cả nước",
+      "themes": [
+        "choi"
+      ],
+      "source": "Đồng dao dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ nhẹ mu bàn tay theo nhịp.",
+      "body": "Cái bống cái bang\nNằm trong cái hang\nChui ra chui vào\nÚ òa!"
+    },
+    {
+      "id": "dd_thang_cuoi",
+      "category": "dong_dao",
+      "title": "Thằng Cuội ngồi gốc cây đa",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "trang",
+        "gia_dinh"
+      ],
+      "source": "Đồng dao dân gian Việt Nam (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Chỉ mặt trăng nếu muốn; lời đồng dao khác chuyện chị Hằng.",
+      "body": "Thằng Cuội ngồi gốc cây đa\nĐể trâu ăn lúa gọi cha ời ời\nCha còn cắt cỏ trên trời\nMẹ còn cưỡi ngựa đi mời quan viên\nÔng thì cầm bút cầm nghiên\nÔng thì cầm tiền đi chuộc lá đa\n\n(Tuổi nhỏ: chỉ 2–4 câu đầu. Chuyện chị Hằng kể riêng — không nhét vào lời đồng dao này.)"
+    },
+    {
+      "id": "dd_mot_hai_ba",
+      "category": "dong_dao",
+      "title": "Một hai ba bốn (đếm ngón)",
+      "ageHint": "18–36 tháng",
+      "region": "Cả nước",
+      "themes": [
+        "dem",
+        "gia_dinh"
+      ],
+      "source": "Đồng dao đếm ngón tay dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Cầm từng ngón tay bé đếm chậm.",
+      "body": "Một — hai — ba — bốn — năm\nSáu — bảy — tám — chín — mười\n\n(Kết bài theo nhà — hỏi ông bà / cô giáo.)"
+    },
+    {
+      "id": "ca_cong_cha",
+      "category": "hat",
+      "title": "Công cha như núi Thái Sơn",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "bo",
+        "me",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Đọc chậm như thơ; không giảng dài. Chỉ bố mẹ khi đọc.",
+      "body": "Công cha như núi Thái Sơn\nNghĩa mẹ như nước trong nguồn chảy ra\nMột lòng thờ mẹ kính cha\nCho tròn chữ hiếu mới là đạo con."
+    },
+    {
+      "id": "hat_cai_ngu",
+      "category": "hat",
+      "title": "Cái ngủ mày ngủ cho lâu",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ],
+      "source": "Hát ru dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Ru ngủ; giọng nhỏ, lặp. Bé không cần hát theo.",
+      "body": "Cái ngủ mày ngủ cho lâu\nMẹ mày đi cấy đồng sâu chưa về\nBắt được con trắm con trê\nCắm cổ mang về cho cái ngủ ăn"
+    },
+    {
+      "id": "hat_me_ganh_nuoc",
+      "category": "hat",
+      "title": "Con ơi con ngủ (mẹ gánh nước)",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ],
+      "source": "Hát ru / ca dao dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Ru hoặc đọc chậm trước ngủ.",
+      "body": "À ơi… à ơi…\nCon ơi con ngủ cho ngon\nĐể mẹ gánh nước cho toàn ruộng sâu\nBao giờ cho đến tháng mười\nMẹ về mẹ kể chuyện cười cho con."
+    },
+    {
+      "id": "hat_gio_dua",
+      "category": "hat",
+      "title": "Gió đưa cành trúc la đà",
+      "ageHint": "18–36 tháng",
+      "region": "Miền Bắc (Hà Nội; có biến thể Huế)",
+      "themes": [
+        "ru",
+        "me"
+      ],
+      "source": "Ca dao / hát ru dân gian (bản Hà Nội phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Đung đưa; giọng êm. Hỏi ông bà biến thể quê mình.",
+      "body": "Gió đưa cành trúc la đà\nTiếng chuông Trấn Vũ, canh gà Thọ Xương\n\n(Biến thể Huế: «Tiếng chuông Thiên Mụ…» — hỏi ông bà bản quen.)"
+    },
+    {
+      "id": "hat_au_o_bac",
+      "category": "hat",
+      "title": "Ầu ơ… ví dầu (bản Bắc)",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ],
+      "source": "Hát ru dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Lặp «ầu ơ»; ghép câu ví dầu quen.",
+      "body": "Ầu ơ… ầu ơ…\nVí dầu cầu ván đóng đinh\nCầu tre lắc lẻo gập ghềnh khó đi\nKhó đi mẹ dắt con đi\nCon đi trường học mẹ đi trường đời\nẦu ơ… ầu ơ…"
+    },
+    {
+      "id": "ca_anh_em",
+      "category": "hat",
+      "title": "Anh em như thể chân tay",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Khi có anh/chị/em; nói thương nhau — không bắt thuộc.",
+      "body": "Anh em như thể chân tay\nRách lành đùm bọc, dở hay đỡ đần."
+    },
+    {
+      "id": "ca_chi_nga",
+      "category": "hat",
+      "title": "Chị ngã em nâng",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Đọc khi anh chị em chơi cùng; khen khi biết nhường.",
+      "body": "Chị ngã em nâng\nRách lành đùm bọc lấy nhau."
+    },
+    {
+      "id": "ca_ga_mot_me",
+      "category": "hat",
+      "title": "Gà cùng một mẹ",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Nói anh chị em cùng nhà; ngắn gọn.",
+      "body": "Gà cùng một mẹ\nChớ hoài đá nhau."
+    },
+    {
+      "id": "ca_con_co_dem",
+      "category": "hat",
+      "title": "Con cò mà đi ăn đêm",
+      "ageHint": "36+ tháng (nghe PH)",
+      "region": "Cả nước",
+      "themes": [
+        "ru"
+      ],
+      "source": "Ca dao dân gian Việt Nam (bản rút cho bé nhỏ)",
+      "license": "folk_traditional",
+      "howToUse": "Giọng chậm; dang tay. Chỉ 2 câu đã rút — không đọc phần tiếp của bản cổ với bé nhỏ.",
+      "body": "Con cò mà đi ăn đêm\nĐậu phải cành mềm lộn cổ xuống ao\n\n(Bản cổ còn câu tiếp — dừng đây với bé nhỏ. Không đọc phần «xáo măng».)"
+    },
+    {
+      "id": "ca_doi_ta",
+      "category": "hat",
+      "title": "Ta về ta tắm ao ta",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "gia_dinh",
+        "que"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Nói về nhà mình / quê ông bà — gần gũi, không giảng.",
+      "body": "Ta về ta tắm ao ta\nDù trong dù đục ao nhà vẫn hơn."
+    },
+    {
+      "title": "Đàn vịt con (hướng tìm — bài có nhạc sĩ)",
+      "category": "sach",
+      "license": "tip_find",
+      "source": "Hướng tìm — không chép lời (thường gắn Mộng Lân)",
+      "ageHint": "18–36 tháng",
+      "region": "Cả nước / nhà trẻ",
+      "themes": [
+        "me",
+        "choi"
+      ],
+      "howToUse": "Hỏi cô giáo; học miệng tại lớp.",
+      "body": "Bài «Đàn vịt con» nhà trẻ thường có nhạc sĩ — app **không** chép lời.\nHọc từ cô giáo / bản nhà mình.",
+      "id": "hat_dan_vit"
+    },
+    {
+      "id": "tip_bai_ba_me",
+      "category": "sach",
+      "title": "Bài hát về bà/mẹ (hỏi ông bà / cô giáo)",
+      "ageHint": "18–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "ba",
+        "me",
+        "gia_dinh"
+      ],
+      "source": "Hướng tìm — không chép lời thương mại",
+      "license": "tip_find",
+      "howToUse": "Hỏi bà/cô lớp bé hát giúp; ghi lời nhà mình vào sổ. Không tải video quảng cáo.",
+      "body": "Một số bài nhà trẻ hay hát về bà, mẹ, cả nhà (thường có nhạc sĩ — app không chép lời):\n• Cháu yêu bà / Bà ơi bà…\n• Cả nhà thương nhau\n• Mẹ yêu không nào\n• Đưa cơm cho mẹ đi cày (dân ca / bài học thuộc lòng — hỏi bản cô dạy)\n\nCách làm an toàn: học miệng từ ông bà hoặc cô giáo; hát không loa quảng cáo."
+    },
+    {
+      "id": "tip_hat_ru_bac",
+      "category": "sach",
+      "title": "Sưu tầm hát ru ông bà miền Bắc",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "ru",
+        "ba",
+        "me"
+      ],
+      "source": "Hướng thực hành gia đình",
+      "license": "tip_find",
+      "howToUse": "Ghi âm giọng bà (chỉ trong máy nhà, không đăng). Học 1–2 câu mỗi tuần.",
+      "body": "Hỏi ông bà:\n1) Quê mình ru bằng «à ơi» hay «ầu ơ»?\n2) Câu nào về mẹ đi cấy / gánh nước / chợ?\n3) Có câu gọi tên con không?\nGhi vào điện thoại offline — giữ trong nhà, không đưa lên mạng."
+    },
+    {
+      "id": "sach_tieu_chi",
+      "category": "sach",
+      "title": "Chọn sách tranh 18–36 tháng",
+      "ageHint": "18–36 tháng",
+      "source": "Gợi ý thực hành",
+      "license": "editorial_guidance",
+      "howToUse": "Mang list khi vào thư viện / nhà sách.",
+      "body": "Bìa cứng, ít chữ, tranh to, chủ đề gần nhà VN. 5–10 phút/lần. Mượn thư viện trước khi mua."
+    },
+    {
+      "id": "sach_goi_y_dong",
+      "category": "sach",
+      "title": "Nơi tìm sách (VN)",
+      "ageHint": "Phụ huynh",
+      "source": "Thư viện / nhà trẻ / nhà sách",
+      "license": "directory_reference",
+      "howToUse": "Hỏi thủ thư: board book 0–3 tuổi.",
+      "body": "Thư viện quận·huyện · tủ sách lớp · nhà sách kệ 0–3 tuổi · sách cũ họ hàng."
+    },
+    {
+      "id": "mau_cho_luot",
+      "category": "mau_cau",
+      "title": "Khi tranh / giành đồ chơi",
+      "ageHint": "18–36 tháng",
+      "source": "Script thực hành",
+      "license": "practice_script",
+      "howToUse": "Không giật đồ để dạy chia sẻ.",
+      "body": "«Con đang chơi — thêm chút rồi đến lượt…»\n«Sắp đến lượt con.»\n«Hai bạn cùng thích — thêm một món / lần lượt.»\n«Mẹ ở đây.»"
+    },
+    {
+      "id": "mau_an_va",
+      "category": "mau_cau",
+      "title": "Khi ăn vạ",
+      "ageHint": "18–36 tháng",
+      "source": "Script thực hành an toàn cảm xúc",
+      "license": "practice_script",
+      "howToUse": "Không chẩn đoán; lo bất thường → bác sĩ.",
+      "body": "Kiểm tra đói/khát/mệt. Ở gần, giọng thấp. Không đánh/nhốt. Đợi dịu rồi nói luật ngắn. Cho chọn 2 món."
+    },
+    {
+      "id": "mau_ke_chuyen_tranh",
+      "category": "mau_cau",
+      "title": "Cách kể chuyện từ 1 bức tranh tô",
+      "ageHint": "18–36 tháng",
+      "source": "Thực hành sư phạm phổ biến (tranh → lời)",
+      "license": "practice_script",
+      "howToUse": "Mỗi tranh 3 câu hỏi: Ai/Con gì? Làm gì? Rồi sao?",
+      "body": "1) Chỉ: «Đây là gì?»\n2) «Nó đang làm gì?»\n3) «Rồi sẽ ra sao?» / «Con muốn gì?»\n4) Ghép thành 3–5 câu chuyện — không cần «đúng cốt».\n5) Lần sau tô lại: kể biến tấu khác (mưa / nắng / ông bà)."
+    },
+    {
+      "id": "to_chuoi",
+      "category": "to_tranh",
+      "title": "Tranh: Quả chuối",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/chuoi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Quả chuối. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Quả chuối.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ga",
+      "category": "to_tranh",
+      "title": "Tranh: Con gà",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ga.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Con gà. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Con gà.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_meo",
+      "category": "to_tranh",
+      "title": "Tranh: Con mèo",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/meo.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Con mèo. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Con mèo.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ca",
+      "category": "to_tranh",
+      "title": "Tranh: Con cá",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ca.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Con cá. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Con cá.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_mua",
+      "category": "to_tranh",
+      "title": "Tranh: Mưa trên sân",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/mua.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Mưa trên sân. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mưa trên sân.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_mat_troi",
+      "category": "to_tranh",
+      "title": "Tranh: Mặt trời",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/mat_troi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Mặt trời. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mặt trời.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_dep",
+      "category": "to_tranh",
+      "title": "Tranh: Đôi dép",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/dep.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Đôi dép. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Đôi dép.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_coc",
+      "category": "to_tranh",
+      "title": "Tranh: Cái cốc",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/coc.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Cái cốc. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cái cốc.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_xe_dap",
+      "category": "to_tranh",
+      "title": "Tranh: Xe đạp",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/xe_dap.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Xe đạp. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Xe đạp.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_la_cay",
+      "category": "to_tranh",
+      "title": "Tranh: Lá cây",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/la_cay.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Lá cây. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Lá cây.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_me_bong_con",
+      "category": "to_tranh",
+      "title": "Tranh: Mẹ bế con",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/me_bong_con.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Ai đây? Mẹ đang bế con — rồi mẹ hôn nhẹ lên má con.",
+      "body": "Tranh màu: Mẹ bế con.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ba_ke_chuyen",
+      "category": "to_tranh",
+      "title": "Tranh: Bà kể chuyện",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ba_ke_chuyen.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bà ngồi trên chiếu kể chuyện. Bé nghe — rồi bé cười theo bà.",
+      "body": "Tranh màu: Bà kể chuyện.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ong_dan_choi",
+      "category": "to_tranh",
+      "title": "Tranh: Ông dẫn chơi",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ong_dan_choi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Ông nắm tay cháu đi quanh sân. Rồi ông chỉ cây xanh cho cháu xem.",
+      "body": "Tranh màu: Ông dẫn chơi.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ca_nha_com",
+      "category": "to_tranh",
+      "title": "Tranh: Cả nhà ăn cơm",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ca_nha_com.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bé ngồi ăn cơm với mẹ. Bát cơm thơm — rồi cùng cảm ơn nhau.",
+      "body": "Tranh màu: Cả nhà ăn cơm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_om_ba",
+      "category": "to_tranh",
+      "title": "Tranh: Ôm bà",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/om_ba.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bé ôm bà thật chặt. Bà cũng ôm bé — ấm ơi là ấm.",
+      "body": "Tranh màu: Ôm bà.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_chao_bo",
+      "category": "to_tranh",
+      "title": "Tranh: Chào bố",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/chao_bo.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bố về tới cửa. Bé vẫy tay chào — bố cười thật to.",
+      "body": "Tranh màu: Chào bố.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_anh_em_choi",
+      "category": "to_tranh",
+      "title": "Tranh: Anh em chơi",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/anh_em_choi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Anh chị em chơi khối gỗ. Xây tháp — tháp cao quá!",
+      "body": "Tranh màu: Anh em chơi.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_me_hat_ru",
+      "category": "to_tranh",
+      "title": "Tranh: Mẹ hát ru",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/me_hat_ru.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Mẹ ru bé ngủ. Bé lim dim — rồi ngủ ngon.",
+      "body": "Tranh màu: Mẹ hát ru.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cua_so",
+      "category": "to_tranh",
+      "title": "Tranh: Cửa sổ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cua_so.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Cửa sổ. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cửa sổ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_san_gach",
+      "category": "to_tranh",
+      "title": "Tranh: Sân gạch",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/san_gach.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Sân gạch. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Sân gạch.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_giuong_ngu",
+      "category": "to_tranh",
+      "title": "Tranh: Giường ngủ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/giuong_ngu.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Giường ngủ. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Giường ngủ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_den_ngu",
+      "category": "to_tranh",
+      "title": "Tranh: Đèn ngủ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/den_ngu.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Đèn ngủ. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Đèn ngủ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ban_chai",
+      "category": "to_tranh",
+      "title": "Tranh: Bàn chải đánh răng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ban_chai.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Bàn chải đánh răng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Bàn chải đánh răng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_khan_mat",
+      "category": "to_tranh",
+      "title": "Tranh: Khăn mặt",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/khan_mat.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Khăn mặt. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Khăn mặt.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ghe_go",
+      "category": "to_tranh",
+      "title": "Tranh: Ghế gỗ thấp",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ghe_go.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Ghế gỗ thấp. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Ghế gỗ thấp.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_tu_lanh",
+      "category": "to_tranh",
+      "title": "Tranh: Tủ lạnh",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/tu_lanh.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Tủ lạnh. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Tủ lạnh.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_noi_com",
+      "category": "to_tranh",
+      "title": "Tranh: Nồi cơm",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/noi_com.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Nồi cơm. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Nồi cơm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_chieu_coi",
+      "category": "to_tranh",
+      "title": "Tranh: Chiếu cói",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/chieu_coi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Chiếu cói trải sàn. Bé ngồi chơi — rồi nằm nghỉ.",
+      "body": "Tranh màu: Chiếu cói.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cho_con",
+      "category": "to_tranh",
+      "title": "Tranh: Con chó",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cho_con.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Con chó. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Con chó.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_vit_ao",
+      "category": "to_tranh",
+      "title": "Tranh: Con vịt",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/vit_ao.png",
+      "howToUse": "Chỉ tranh; gần nước thật luôn có người lớn.",
+      "storyPrompt": "Đây là gì? Con vịt. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Con vịt.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_heo_con",
+      "category": "to_tranh",
+      "title": "Tranh: Heo con",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/heo_con.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Heo con. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Heo con.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_chim_se",
+      "category": "to_tranh",
+      "title": "Tranh: Chim sẻ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/chim_se.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Chim sẻ. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Chim sẻ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_bo_sua",
+      "category": "to_tranh",
+      "title": "Tranh: Bò",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/bo_sua.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Bò. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Bò.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ech_xanh",
+      "category": "to_tranh",
+      "title": "Tranh: Con ếch",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ech_xanh.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Con ếch. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Con ếch.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_buom_vang",
+      "category": "to_tranh",
+      "title": "Tranh: Bướm",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/buom_vang.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Bướm. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Bướm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_tom_song",
+      "category": "to_tranh",
+      "title": "Tranh: Tôm",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/tom_song.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Tôm. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Tôm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cua_bien",
+      "category": "to_tranh",
+      "title": "Tranh: Cua",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cua_bien.png",
+      "howToUse": "Cua mềm, càng cụp — không hù kẹp.",
+      "storyPrompt": "Đây là gì? Cua. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cua.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_tho_trang",
+      "category": "to_tranh",
+      "title": "Tranh: Thỏ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/tho_trang.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Thỏ. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Thỏ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cay_dua",
+      "category": "to_tranh",
+      "title": "Tranh: Cây dừa",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cay_dua.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Cây dừa. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cây dừa.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_hoa_sen",
+      "category": "to_tranh",
+      "title": "Tranh: Hoa sen",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/hoa_sen.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Hoa sen. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Hoa sen.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_hoa_mai",
+      "category": "to_tranh",
+      "title": "Tranh: Hoa mai",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/hoa_mai.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Hoa mai vàng ngày Tết. Nhà mình có mai — vui quá.",
+      "body": "Tranh màu: Hoa mai.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ruong_lua",
+      "category": "to_tranh",
+      "title": "Tranh: Ruộng lúa",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ruong_lua.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Ruộng lúa. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Ruộng lúa.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_song_nuoc",
+      "category": "to_tranh",
+      "title": "Tranh: Sông nước",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/song_nuoc.png",
+      "howToUse": "Quan sát tranh; không mô phỏng tự xuống sông.",
+      "storyPrompt": "Đây là gì? Sông nước. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Sông nước.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cau_vong",
+      "category": "to_tranh",
+      "title": "Tranh: Cầu vồng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cau_vong.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Cầu vồng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cầu vồng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ong_trang",
+      "category": "to_tranh",
+      "title": "Tranh: Ông trăng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ong_trang.png",
+      "howToUse": "Kể ông trăng cười; để đèn phòng sáng dịu.",
+      "storyPrompt": "Đây là gì? Ông trăng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Ông trăng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_sao_dem",
+      "category": "to_tranh",
+      "title": "Tranh: Sao đêm",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/sao_dem.png",
+      "howToUse": "Xem cùng người lớn; phòng có đèn ngủ.",
+      "storyPrompt": "Đây là gì? Sao đêm. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Sao đêm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_may_trang",
+      "category": "to_tranh",
+      "title": "Tranh: Mây trắng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/may_trang.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Mây trắng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mây trắng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_con_mua_xuan",
+      "category": "to_tranh",
+      "title": "Tranh: Mưa xuân",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/con_mua_xuan.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Mưa xuân. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mưa xuân.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_soi_da",
+      "category": "to_tranh",
+      "title": "Tranh: Hòn đá",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/soi_da.png",
+      "howToUse": "Chỉ–kể; không cho sỏi nhỏ vào miệng.",
+      "storyPrompt": "Đây là gì? Hòn đá. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Hòn đá.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_hoa_phuong",
+      "category": "to_tranh",
+      "title": "Tranh: Hoa phượng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/hoa_phuong.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Hoa phượng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Hoa phượng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_bat_com",
+      "category": "to_tranh",
+      "title": "Tranh: Bát cơm",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/bat_com.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bát cơm trắng thơm. Ai xúc? Bé tập xúc thìa.",
+      "body": "Tranh màu: Bát cơm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_qua_xoai",
+      "category": "to_tranh",
+      "title": "Tranh: Quả xoài",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/qua_xoai.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Quả xoài. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Quả xoài.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_dua_hau",
+      "category": "to_tranh",
+      "title": "Tranh: Dưa hấu",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/dua_hau.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Dưa hấu. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Dưa hấu.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cam_ngot",
+      "category": "to_tranh",
+      "title": "Tranh: Quả cam",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cam_ngot.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Quả cam. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Quả cam.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_hop_sua",
+      "category": "to_tranh",
+      "title": "Tranh: Hộp sữa",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/hop_sua.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Hộp sữa. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Hộp sữa.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_banh_mi",
+      "category": "to_tranh",
+      "title": "Tranh: Bánh mì",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/banh_mi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Bánh mì. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Bánh mì.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_trung_luoc",
+      "category": "to_tranh",
+      "title": "Tranh: Trứng luộc",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/trung_luoc.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Trứng luộc. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Trứng luộc.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_rau_muong",
+      "category": "to_tranh",
+      "title": "Tranh: Rau muống",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/rau_muong.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Rau muống. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Rau muống.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_banh_chung",
+      "category": "to_tranh",
+      "title": "Tranh: Bánh chưng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/banh_chung.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bánh chưng xanh trên lá chuối. Tết đến — cả nhà cùng ăn.",
+      "body": "Tranh màu: Bánh chưng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_kem_que",
+      "category": "to_tranh",
+      "title": "Tranh: Kem que",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/kem_que.png",
+      "howToUse": "Giám sát khi ăn kem thật; tranh dùng kem ly.",
+      "storyPrompt": "Đây là gì? Kem que. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Kem que.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_rua_tay",
+      "category": "to_tranh",
+      "title": "Tranh: Rửa tay",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/rua_tay.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bé rửa tay với xà phòng. Bọt bay — tay sạch rồi.",
+      "body": "Tranh màu: Rửa tay.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_danh_rang",
+      "category": "to_tranh",
+      "title": "Tranh: Đánh răng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/danh_rang.png",
+      "howToUse": "PH hiện rõ, ấm; không bóng mờ.",
+      "storyPrompt": "Đây là gì? Đánh răng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Đánh răng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_mac_ao",
+      "category": "to_tranh",
+      "title": "Tranh: Mặc áo",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/mac_ao.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Mặc áo. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mặc áo.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_xep_khoi",
+      "category": "to_tranh",
+      "title": "Tranh: Xếp khối",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/xep_khoi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Bé xếp khối màu. Tháp nghiêng — xây lại nào!",
+      "body": "Tranh màu: Xếp khối.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_doc_sach",
+      "category": "to_tranh",
+      "title": "Tranh: Đọc sách",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/doc_sach.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Mẹ và bé xem sách tranh. Bé chỉ hình — mẹ đọc tên.",
+      "body": "Tranh màu: Đọc sách.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_da_bong",
+      "category": "to_tranh",
+      "title": "Tranh: Đá bóng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/da_bong.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Đá bóng. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Đá bóng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ve_sap",
+      "category": "to_tranh",
+      "title": "Tranh: Vẽ sáp màu",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ve_sap.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Vẽ sáp màu. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Vẽ sáp màu.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_di_cho",
+      "category": "to_tranh",
+      "title": "Tranh: Đi chợ với mẹ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/di_cho.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Mẹ xách giỏ đi chợ. Trong giỏ có chuối — về nhà sẽ ăn.",
+      "body": "Tranh màu: Đi chợ với mẹ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_tuoi_cay",
+      "category": "to_tranh",
+      "title": "Tranh: Tưới cây",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/tuoi_cay.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Tưới cây. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Tưới cây.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_quet_nha",
+      "category": "to_tranh",
+      "title": "Tranh: Quét nhà",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/quet_nha.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Quét nhà. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Quét nhà.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_uong_nuoc",
+      "category": "to_tranh",
+      "title": "Tranh: Uống nước",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/uong_nuoc.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Uống nước. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Uống nước.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ngu_ngon",
+      "category": "to_tranh",
+      "title": "Tranh: Ngủ ngon",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ngu_ngon.png",
+      "howToUse": "Nhấn đèn ngủ + thú bông; không kể bỏ một mình trong tối.",
+      "storyPrompt": "Đây là gì? Ngủ ngon. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Ngủ ngon.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_non_la",
+      "category": "to_tranh",
+      "title": "Tranh: Nón lá",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/non_la.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Nón lá treo trên tường. Ai đội nón? Mẹ đội ra nắng.",
+      "body": "Tranh màu: Nón lá.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ao_dai_me",
+      "category": "to_tranh",
+      "title": "Tranh: Áo dài mẹ",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ao_dai_me.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Mẹ mặc áo dài. Mẹ đẹp — bé nắm vạt áo mẹ.",
+      "body": "Tranh màu: Áo dài mẹ.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_den_long",
+      "category": "to_tranh",
+      "title": "Tranh: Đèn lồng",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/den_long.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đèn lồng sáng dịu. Bé nhìn — đẹp quá.",
+      "body": "Tranh màu: Đèn lồng.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_trong_tre_em",
+      "category": "to_tranh",
+      "title": "Tranh: Trống trẻ em",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/trong_tre_em.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Trống trẻ em. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Trống trẻ em.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_sao_tre",
+      "category": "to_tranh",
+      "title": "Tranh: Sao giấy Trung thu",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/sao_tre.png",
+      "howToUse": "Que ngắn; có PH; ánh sáng dịu.",
+      "storyPrompt": "Đây là gì? Sao giấy Trung thu. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Sao giấy Trung thu.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_mere_tre",
+      "category": "to_tranh",
+      "title": "Tranh: Mẹt tre",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/mere_tre.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Mẹt tre. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mẹt tre.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_quat_nan",
+      "category": "to_tranh",
+      "title": "Tranh: Quạt nan",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/quat_nan.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Quạt nan. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Quạt nan.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_am_tra",
+      "category": "to_tranh",
+      "title": "Tranh: Ấm trà",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/am_tra.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Ấm trà. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Ấm trà.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_tranh_dong_ho",
+      "category": "to_tranh",
+      "title": "Tranh: Đồng hồ treo tường",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/tranh_dong_ho.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Đồng hồ treo tường. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Đồng hồ treo tường.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_bong_mem",
+      "category": "to_tranh",
+      "title": "Tranh: Bóng mềm",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/bong_mem.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Bóng mềm. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Bóng mềm.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_xe_do_choi",
+      "category": "to_tranh",
+      "title": "Tranh: Xe đồ chơi",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/xe_do_choi.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Xe đồ chơi. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Xe đồ chơi.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_gau_bong",
+      "category": "to_tranh",
+      "title": "Tranh: Gấu bông",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/gau_bong.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Gấu bông nằm trên gối. Bé ôm ngủ — chúc ngủ ngon.",
+      "body": "Tranh màu: Gấu bông.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_bup_be",
+      "category": "to_tranh",
+      "title": "Tranh: Búp bê",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/bup_be.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Búp bê. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Búp bê.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_thuyen_giay",
+      "category": "to_tranh",
+      "title": "Tranh: Thuyền giấy",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/thuyen_giay.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Thuyền giấy. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Thuyền giấy.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_may_bay_giay",
+      "category": "to_tranh",
+      "title": "Tranh: Máy bay giấy",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/may_bay_giay.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Máy bay giấy. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Máy bay giấy.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_o_to_bus",
+      "category": "to_tranh",
+      "title": "Tranh: Xe buýt đồ chơi",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/o_to_bus.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Xe buýt đồ chơi. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Xe buýt đồ chơi.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_den_pin",
+      "category": "to_tranh",
+      "title": "Tranh: Đèn pin",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/den_pin.png",
+      "howToUse": "Chơi đèn pin khi phòng vẫn sáng; có PH cạnh.",
+      "storyPrompt": "Đây là gì? Đèn pin. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Đèn pin.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_chuong_xe",
+      "category": "to_tranh",
+      "title": "Tranh: Chuông xe đạp",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/chuong_xe.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Chuông xe đạp. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Chuông xe đạp.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_gio_xach",
+      "category": "to_tranh",
+      "title": "Tranh: Giỏ xách",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/gio_xach.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Giỏ xách. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Giỏ xách.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_xe_day_be",
+      "category": "to_tranh",
+      "title": "Tranh: Xe đẩy em bé",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/xe_day_be.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Xe đẩy em bé. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Xe đẩy em bé.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_truong_mam_non",
+      "category": "to_tranh",
+      "title": "Tranh: Cổng trường mầm non",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/truong_mam_non.png",
+      "howToUse": "Kể mẹ/bố ở gần; không ép vào một mình.",
+      "storyPrompt": "Đây là gì? Cổng trường mầm non. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cổng trường mầm non.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cong_vien",
+      "category": "to_tranh",
+      "title": "Tranh: Công viên",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cong_vien.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Công viên. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Công viên.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_cau_truot",
+      "category": "to_tranh",
+      "title": "Tranh: Cầu trượt",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/cau_truot.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Cầu trượt. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Cầu trượt.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_xich_du",
+      "category": "to_tranh",
+      "title": "Tranh: Xích đu",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/xich_du.png",
+      "howToUse": "Xích đu thấp; PH đứng cạnh rõ.",
+      "storyPrompt": "Đây là gì? Xích đu. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Xích đu.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_ho_ca",
+      "category": "to_tranh",
+      "title": "Tranh: Hồ cá",
+      "ageHint": "24–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/ho_ca.png",
+      "howToUse": "Chỉ nhìn; không khuyến khích với tay xuống nước không giám sát.",
+      "storyPrompt": "Đây là gì? Hồ cá. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Hồ cá.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_vuon_rau",
+      "category": "to_tranh",
+      "title": "Tranh: Vườn rau",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/vuon_rau.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Vườn rau. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Vườn rau.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_gian_hoa",
+      "category": "to_tranh",
+      "title": "Tranh: Giàn hoa",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/gian_hoa.png",
+      "howToUse": "Xem tranh cùng bé. Hỏi: Đây là gì? Đang làm gì? Rồi sẽ ra sao? Ghép 3–5 câu chuyện.",
+      "storyPrompt": "Đây là gì? Giàn hoa. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Giàn hoa.\nXem tranh rồi kể theo gợi ý."
+    },
+    {
+      "id": "to_mo_cua",
+      "category": "to_tranh",
+      "title": "Tranh: Mở cửa chào",
+      "ageHint": "18–36 tháng",
+      "region": "Việt Nam",
+      "themes": [
+        "ke_chuyen",
+        "age_note"
+      ],
+      "source": "Minh họa thiếu nhi cho «Hôm nay chơi gì?» (board book, văn hóa VN) · đã qua C1/C2 danh mục",
+      "license": "original_illustration_app",
+      "image": "images/mo_cua.png",
+      "howToUse": "Cửa mở chào — không khóa nhốt.",
+      "storyPrompt": "Đây là gì? Mở cửa chào. Đang ở đâu? Rồi sẽ ra sao? Kể 3–5 câu cùng bé.",
+      "body": "Tranh màu: Mở cửa chào.\nXem tranh rồi kể theo gợi ý."
+    }
+  ],
+  "themeLabels": {
+    "gia_dinh": "Gia đình",
+    "me": "Mẹ",
+    "ba": "Bà",
+    "bo": "Bố / ông",
+    "ong": "Ông",
+    "anh_chi_em": "Anh chị em",
+    "ru": "Hát ru",
+    "choi": "Chơi",
+    "mien_bac": "Miền Bắc"
+  },
+  "folk_review": {
+    "panel": "F1–F5",
+    "consensus": "qa/experts/folk/00_CONSENSUS_FOLK.md",
+    "note": "Persona AI nội bộ — chưa chuyên gia văn hóa dân gian người thật duyệt."
+  },
+  "art_library": {
+    "target": 100,
+    "shipped": 100,
+    "missing": [],
+    "panel": "A1–A3 + C1–C3",
+    "consensus": "qa/experts/art/00_CONSENSUS_ART.md"
+  }
+}

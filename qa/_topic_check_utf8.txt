@@ -1,0 +1,17 @@
+COGNITIVE primary count: 15
+SOCIAL_EMOTIONAL any: 23
+--- Related to share/turn/tantrum ---
+cog_10_ve_vong_tron_mau | COGNITIVE,PHYSICAL | Vẽ vòng theo mẫu | tranh
+LANG-02 | LANGUAGE | Sách tranh 5 phút | tranh
+LANG-08 | LANGUAGE | Kể lại việc vừa làm | tranh
+LANG-15 | LANGUAGE | Hỏi–đáp tranh lớn | tranh
+SOC-03 | SOCIAL_EMOTIONAL,PHYSICAL | Đến lượt lăn bóng | luân phiên
+SOC-08 | SOCIAL_EMOTIONAL | Chia sẻ có người lớn cầm | chia sẻ|đến lượt
+SOC-13 | SOCIAL_EMOTIONAL | Bạn ngồi cạnh mình | tranh|giành
+AES-01 | AESTHETIC,PHYSICAL | Nguệch ngoạc sáp – nghe âm thanh | tranh
+AES-04 | AESTHETIC,PHYSICAL | Vò–xé giấy mây mưa | tranh
+AES-07 | AESTHETIC,LANGUAGE | Xem tranh và chọn thích | tranh
+LANG-16 | LANGUAGE | Hỏi Ai–Đâu–Gì với tranh | tranh
+AES-12 | AESTHETIC | Trưng bày tranh trên tường thấp | tranh
+act_soc_choi_song_song_khay | SOCIAL_EMOTIONAL | Chơi song song hai khay | chia sẻ
+act_soc_dua_do_khi_xin | SOCIAL_EMOTIONAL | Đưa đồ khi được xin | chia sẻ

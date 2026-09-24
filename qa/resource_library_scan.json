@@ -1,0 +1,318 @@
+{
+  "total": 97,
+  "by_tag_combo": {
+    "('picture_book',)": [
+      {
+        "id": "phy_10_lat_sach_tung_trang",
+        "title": "Lật sách từng trang",
+        "materials": [
+          "Sách tranh bìa cứng trang dày"
+        ]
+      },
+      {
+        "id": "cog_10_ve_vong_tron_mau",
+        "title": "Vẽ vòng theo mẫu",
+        "materials": [
+          "Giấy",
+          "sáp lớn"
+        ]
+      },
+      {
+        "id": "LANG-02",
+        "title": "Sách tranh 5 phút",
+        "materials": [
+          "1 sách tranh dày trang, ít chữ"
+        ]
+      },
+      {
+        "id": "LANG-04",
+        "title": "Tên gọi cơ thể",
+        "materials": [
+          "Gương nhỏ cố định hoặc ảnh bé"
+        ]
+      },
+      {
+        "id": "LANG-08",
+        "title": "Kể lại việc vừa làm",
+        "materials": [
+          "Ảnh chụp nhanh hoạt động vừa xong (tùy chọn)"
+        ]
+      },
+      {
+        "id": "LANG-15",
+        "title": "Hỏi–đáp tranh lớn",
+        "materials": [
+          "1 tranh khổ A4/A3 hoặc lịch ảnh gia đình"
+        ]
+      },
+      {
+        "id": "SOC-09",
+        "title": "Đọc mặt người khác",
+        "materials": [
+          "Sách tranh có mặt người rõ"
+        ]
+      },
+      {
+        "id": "SOC-13",
+        "title": "Bạn ngồi cạnh mình",
+        "materials": [
+          "2 bộ đồ chơi giống nhau"
+        ]
+      },
+      {
+        "id": "AES-01",
+        "title": "Nguệch ngoạc sáp – nghe âm thanh",
+        "materials": [
+          "Giấy A4 dán bàn; 2–3 sáp màu lớn; áo cũ"
+        ]
+      },
+      {
+        "id": "AES-04",
+        "title": "Vò–xé giấy mây mưa",
+        "materials": [
+          "Giấy màu/báo; khay; keo dán hồ bột hoặc băng keo giấy"
+        ]
+      },
+      {
+        "id": "AES-07",
+        "title": "Xem tranh và chọn thích",
+        "materials": [
+          "2–3 tranh/lịch ảnh màu"
+        ]
+      },
+      {
+        "id": "AES-11",
+        "title": "Xếp hình màu giấy",
+        "materials": [
+          "Mảnh giấy màu cắt sẵn hình lớn (vuông/tròn); nền A4; keo/băng keo"
+        ]
+      },
+      {
+        "id": "act_sc_sleep_018_06",
+        "title": "Nghi thức 4 bước ngủ",
+        "materials": [
+          "đèn dịu",
+          "1 cuốn sách ảnh",
+          "gấu bông/gối quen"
+        ]
+      },
+      {
+        "id": "act_sc_potty_024_12",
+        "title": "Từ tín hiệu của Gấu",
+        "materials": [
+          "không bắt buộc — có thể ảnh bô đơn giản"
+        ]
+      },
+      {
+        "id": "act_sc_safe_024_16",
+        "title": "Nóng — dừng tay",
+        "materials": [
+          "cốc nước ấm (không nóng bỏng) để làm mẫu",
+          "hoặc ảnh minh họa ấm đun"
+        ]
+      },
+      {
+        "id": "LANG-16",
+        "title": "Hỏi Ai–Đâu–Gì với tranh",
+        "materials": [
+          "1–2 tranh/ảnh lớn quen (người, đồ, thú)"
+        ]
+      },
+      {
+        "id": "AES-12",
+        "title": "Trưng bày tranh trên tường thấp",
+        "materials": [
+          "1 tranh bé vừa vẽ/nguệch",
+          "băng keo giấy hoặc nam châm tủ lạnh"
+        ]
+      },
+      {
+        "id": "act_lang_anh_gia_dinh",
+        "title": "Ảnh gia đình gọi tên",
+        "materials": [
+          "2–4 ảnh in hoặc album điện thoại (ông bà, bố mẹ, thú cưng)"
+        ]
+      }
+    ],
+    "('song',)": [
+      {
+        "id": "cog_04_nut_do_choi",
+        "title": "Bấm nút đồ chơi có phản hồi",
+        "materials": [
+          "Đồ chơi nút đèn/nhạc nhẹ hoặc điều khiển TV giả (hộp)"
+        ]
+      },
+      {
+        "id": "LANG-14",
+        "title": "Nhật ký từ mới trong ngày",
+        "materials": [
+          "Giấy hoặc ghi chú app phụ huynh"
+        ]
+      },
+      {
+        "id": "SOC-11",
+        "title": "Hộp cảm xúc trong ngày",
+        "materials": [
+          "3 thẻ mặt vui/buồn/giận tự vẽ; hộp nhỏ"
+        ]
+      },
+      {
+        "id": "SOC-12",
+        "title": "Cất đồ cùng nhạc ngắn",
+        "materials": [
+          "Thùng đồ chơi; bài hát 1–2 phút"
+        ]
+      },
+      {
+        "id": "AES-02",
+        "title": "Ban nhạc xoong nồi",
+        "materials": [
+          "1 nồi/chậu nhựa; 1 thìa gỗ"
+        ]
+      },
+      {
+        "id": "AES-03",
+        "title": "Hát ru / hát chơi một bài",
+        "materials": [
+          "Không; có thể thêm khăn đung đưa"
+        ]
+      },
+      {
+        "id": "AES-05",
+        "title": "Nhún nhảy theo nhạc",
+        "materials": [
+          "1 bài nhạc vui vừa đủ nhỏ"
+        ]
+      },
+      {
+        "id": "AES-08",
+        "title": "Lục lạc chai nhựa",
+        "materials": [
+          "Lục lạc mua sẵn (ưu tiên 18–23 tháng)",
+          "HOẶC từ ≥24 tháng: chai nhựa sạch + hạt/đậu lớn do người lớn đổ, dán nắp chắc"
+        ]
+      },
+      {
+        "id": "AES-10",
+        "title": "Điệu bộ theo lời bài hát",
+        "materials": [
+          "1 bài có động tác đơn (vd. vỗ tay, giơ cao)"
+        ]
+      },
+      {
+        "id": "act_sc_eat_024_04",
+        "title": "Rửa tay trước ăn",
+        "materials": [
+          "xà phòng dịu",
+          "ghế đẩu thấp chắc",
+          "khăn lau tay"
+        ]
+      },
+      {
+        "id": "act_sc_sleep_018_07",
+        "title": "Hát ru quen",
+        "materials": [
+          "giọng hát bố mẹ hoặc 1 bài hát không lời êm"
+        ]
+      },
+      {
+        "id": "act_sc_sleep_030_09",
+        "title": "Gấu lấy gối",
+        "materials": [
+          "gối nhỏ / thú quen",
+          "chỗ ngủ cố định"
+        ]
+      },
+      {
+        "id": "act_sc_potty_024_14",
+        "title": "Rửa tay sau bô",
+        "materials": [
+          "xà phòng",
+          "khăn",
+          "ghế đẩu"
+        ]
+      }
+    ],
+    "('song', 'poem')": [
+      {
+        "id": "LANG-03",
+        "title": "Đồng dao vỗ tay",
+        "materials": [
+          "Không bắt buộc; có thể thêm 2 thìa gỗ"
+        ]
+      },
+      {
+        "id": "LANG-12",
+        "title": "Thơ ngắn đọc tiếp",
+        "materials": [
+          "1 bài thơ/vè 4–6 câu đã thuộc của gia đình"
+        ]
+      }
+    ],
+    "('picture_book', 'video')": [
+      {
+        "id": "LANG-06",
+        "title": "Tiếng kêu thú gần gũi",
+        "materials": [
+          "Đồ chơi thú / ảnh / video tắt tiếng nếu có"
+        ]
+      }
+    ],
+    "('song', 'picture_book')": [
+      {
+        "id": "act_sc_potty_018_10",
+        "title": "Làm quen với bô",
+        "materials": [
+          "bô trẻ hoặc bệ lót toilet trẻ",
+          "sách ảnh nhỏ"
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "song": 16,
+    "book_picture": 20,
+    "story": 0
+  },
+  "song_ids": [
+    "cog_04_nut_do_choi",
+    "LANG-03",
+    "LANG-12",
+    "LANG-14",
+    "SOC-11",
+    "SOC-12",
+    "AES-02",
+    "AES-03",
+    "AES-05",
+    "AES-08",
+    "AES-10",
+    "act_sc_eat_024_04",
+    "act_sc_sleep_018_07",
+    "act_sc_sleep_030_09",
+    "act_sc_potty_018_10",
+    "act_sc_potty_024_14"
+  ],
+  "book_picture_ids": [
+    "phy_10_lat_sach_tung_trang",
+    "cog_10_ve_vong_tron_mau",
+    "LANG-02",
+    "LANG-04",
+    "LANG-06",
+    "LANG-08",
+    "LANG-15",
+    "SOC-09",
+    "SOC-13",
+    "AES-01",
+    "AES-04",
+    "AES-07",
+    "AES-11",
+    "act_sc_sleep_018_06",
+    "act_sc_potty_018_10",
+    "act_sc_potty_024_12",
+    "act_sc_safe_024_16",
+    "LANG-16",
+    "AES-12",
+    "act_lang_anh_gia_dinh"
+  ],
+  "story_ids": []
+}

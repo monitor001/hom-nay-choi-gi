@@ -1,0 +1,446 @@
+{
+  "count": 30,
+  "items": [
+    {
+      "id": "dd_nu_na",
+      "category": "dong_dao",
+      "title": "Nu na nu nống",
+      "ageHint": "18–36 tháng",
+      "source": "Đồng dao dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ tay hoặc đung đưa. Biến thể theo nhà — hỏi ông bà.",
+      "body": "Nu na nu nống\nCái trống nằm trong\nCon ong nằm ngoài\nCủ khoai chấm mật\nPhật ngồi Phật khóc\nCon cóc nhảy ra\nCon gà ú ụ\n\n(Biến thể theo nhà — hỏi ông bà. Bản rút: dừng sau 4 câu.)",
+      "region": "Miền Bắc",
+      "themes": [
+        "ru"
+      ]
+    },
+    {
+      "id": "dd_chi_chi",
+      "category": "dong_dao",
+      "title": "Chi chi chành chành",
+      "ageHint": "30–36 tháng (nghe PH)",
+      "source": "Đồng dao / trò chơi ngón tay dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Chạm ngón tay. Có hình ảnh «chết trương» — chỉ nghe với PH; có thể dừng sau 2 câu đầu.",
+      "body": "Chi chi chành chành\nCái đanh thổi lửa\nCon ngựa chết trương\nBa vương bú tí\nBắt dế đi tìm\nÙ à ù ập",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_thang_bom",
+      "category": "dong_dao",
+      "title": "Thằng Bờm",
+      "ageHint": "30–36 tháng (nghe)",
+      "source": "Ca dao / đồng dao dân gian Việt Nam (bản rút)",
+      "license": "folk_traditional",
+      "howToUse": "Bé nhỏ: bản rút 4 câu. Cười là đủ.",
+      "body": "Thằng Bờm có cái quạt mo\nPhú ông xin đổi ba bò chín trâu\nBờm rằng Bờm chẳng lấy trâu\nPhú ông xin đổi nắm xôi Bờm cười.\n\n(Bản đủ dài hơn — hỏi ông bà nếu muốn nghe tiếp.)",
+      "region": "Cả nước",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_dung_dang",
+      "category": "dong_dao",
+      "title": "Dung dăng dung dẻ",
+      "ageHint": "18–36 tháng",
+      "source": "Đồng dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Đung đưa tay hoặc chân bé theo nhịp.",
+      "body": "Dung dăng dung dẻ\nDắt trẻ đi chơi\nĐến tận cửa trời\nLấy kèm lấy kẹp\nLấy tiền lấy thóc\nCho chúng nó chơi.",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_keo_cua",
+      "category": "dong_dao",
+      "title": "Kéo cưa lừa xẻ",
+      "ageHint": "18–36 tháng",
+      "source": "Đồng dao dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Hai người nắm tay kéo qua kéo lại như cưa. Bản miền Bắc phổ biến.",
+      "body": "Kéo cưa lừa xẻ\nÔng thợ nào khỏe\nVề ăn cơm vua\nÔng thợ nào thua\nVề bú tí mẹ",
+      "region": "Miền Bắc",
+      "themes": [
+        "gia_dinh",
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_con_co",
+      "category": "dong_dao",
+      "title": "Con cò bay lả bay la",
+      "ageHint": "24–36 tháng",
+      "source": "Ca dao / đồng dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Dang tay giả làm cánh cò; giọng chậm.",
+      "body": "Con cò bay lả bay la\nBay từ cửa phủ bay về Đồng Đăng\nĐồng Đăng có phố Kỳ Lừa\nCó nàng Tô Thị có chùa Tam Thanh.",
+      "region": "Miền Bắc (Lạng Sơn)",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_bau_ai",
+      "category": "dong_dao",
+      "title": "Bầu ơi thương lấy bí cùng",
+      "ageHint": "30–36 tháng (nghe)",
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Giải thích nhẹ: anh chị em thương nhau — không giảng đạo dài.",
+      "body": "Bầu ơi thương lấy bí cùng\nTuy rằng khác giống nhưng chung một giàn.",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ]
+    },
+    {
+      "id": "dd_hom_na",
+      "category": "dong_dao",
+      "title": "Hom na / ù ơ (bản ngắn)",
+      "ageHint": "18–30 tháng",
+      "source": "Đồng dao dân gian miền Bắc (biến thể mở của Nu na)",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ đùi theo nhịp; hỏi ông bà bản địa phương.",
+      "body": "Hom na hom nống\nCái trống nằm trong\nCon ong nằm ngoài\n\n(Biến thể mở của «Nu na». Nhà bạn có thể hát «Ù a ù à» — dùng đúng bản nhà.)",
+      "region": "Miền Bắc",
+      "themes": [
+        "ru"
+      ]
+    },
+    {
+      "id": "dd_chim_chim",
+      "category": "dong_dao",
+      "title": "Chi chi xì xà xì xồ",
+      "ageHint": "24–36 tháng",
+      "source": "Trò chơi chọn người / đồng dao phổ biến sân trường",
+      "license": "folk_traditional",
+      "howToUse": "Chạm lần lượt từng ngón; vui, không loại bạn nặng nề.",
+      "body": "Chi chi xì xà xì xồ\nEm cầm lá bồ\nEm ngồi ghế gỗ\nChi chi…\nÚ òa!",
+      "region": "Cả nước",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "hat_ru_a_oi",
+      "category": "hat",
+      "title": "À ơi (hát ru truyền thống — lời ngắn)",
+      "ageHint": "0–36 tháng",
+      "source": "Hát ru dân gian Việt Nam (dạng rút gọn phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Giọng nhỏ, lặp. Bé không cần hát theo. Ông bà thường có bản dài hơn — học thêm từ họ.",
+      "body": "À ơi… à ơi…\nVí dầu cầu ván đóng đinh\nCầu tre lắc lẻo gập ghềnh khó đi\nKhó đi mẹ dắt con đi\nCon đi trường học mẹ đi trường đời\n\nÀ ơi… à ơi…\nCon ơi con ngủ cho ngon\nĐể mẹ gánh nước cho toàn ruộng sâu.",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ]
+    },
+    {
+      "id": "hat_ru_vi_dao",
+      "category": "hat",
+      "title": "Ví dầu (lời ru / ca dao)",
+      "ageHint": "18–36 tháng",
+      "source": "Ca dao / hát ru dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Ru hoặc đọc chậm như thơ.",
+      "body": "Ví dầu cầu ván đóng đinh\nCầu tre lắc lẻo gập ghềnh khó đi\nKhó đi mẹ dắt con đi\nCon đi trường học mẹ đi trường đời.",
+      "region": "Cả nước",
+      "themes": [
+        "me",
+        "ru"
+      ]
+    },
+    {
+      "id": "hat_ly_cay_bong",
+      "category": "hat",
+      "title": "Lý cây bông (dân ca — lời quen)",
+      "ageHint": "30–36 tháng (nghe–vỗ)",
+      "source": "Dân ca Nam Bộ / lưu truyền rộng",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ tay theo nhịp; không bắt thuộc hết.",
+      "body": "Lý cây bông\nLý cây bông\nCó cái bông\nLý cây bông…\n\n(Bản đầy đủ dài — học thêm câu từ ông bà miền Nam hoặc cô nhà trẻ. App giữ điệp khúc mở đầu để chơi nhịp.)",
+      "region": "Nam Bộ (tham khảo)",
+      "themes": [
+        "choi"
+      ]
+    },
+    {
+      "id": "dd_ba_cong",
+      "category": "dong_dao",
+      "title": "Bà còng đi chợ trời mưa",
+      "ageHint": "24–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "ba",
+        "gia_dinh"
+      ],
+      "source": "Đồng dao dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Giọng vui; chỉ «bà» trong tranh/ảnh gia đình nếu có.",
+      "body": "Bà còng đi chợ trời mưa\nHỏi thăm cậu ấm hết chưa cậu về\nCậu về cậu mặc áo the\nCậu đi câu cá đứng kề ao sâu."
+    },
+    {
+      "id": "dd_rong_ran",
+      "category": "dong_dao",
+      "title": "Rồng rắn lên mây",
+      "ageHint": "24–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi_nhom"
+      ],
+      "source": "Đồng dao / trò chơi dây dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Nắm tay thành dây dài; đi theo nhịp. Bé nhỏ: chỉ hát 4 câu đầu.",
+      "body": "Rồng rắn lên mây\nCó cây nêu cao\nCó nhà sàn thấp\nCó anh học trò\nCó cô tát nước bên sông\nRồng rắn lên mây…"
+    },
+    {
+      "id": "dd_con_kien",
+      "category": "dong_dao",
+      "title": "Con kiến mà leo cành đa",
+      "ageHint": "18–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "choi"
+      ],
+      "source": "Đồng dao dân gian Việt Nam (phổ biến miền Bắc)",
+      "license": "folk_traditional",
+      "howToUse": "Ngón tay «leo» lên cánh tay bé; cười, không hù.",
+      "body": "Con kiến mà leo cành đa\nLeo phải cành cụt leo ra leo vào\nCon kiến mà leo cành đào\nLeo phải cành cụt leo vào leo ra."
+    },
+    {
+      "id": "dd_cai_bong",
+      "category": "dong_dao",
+      "title": "Cái bống cái bang",
+      "ageHint": "18–30 tháng",
+      "region": "Cả nước",
+      "themes": [
+        "choi"
+      ],
+      "source": "Đồng dao dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Vỗ nhẹ mu bàn tay theo nhịp.",
+      "body": "Cái bống cái bang\nNằm trong cái hang\nChui ra chui vào\nÚ òa!"
+    },
+    {
+      "id": "dd_thang_cuoi",
+      "category": "dong_dao",
+      "title": "Thằng Cuội ngồi gốc cây đa",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "trang",
+        "gia_dinh"
+      ],
+      "source": "Đồng dao dân gian Việt Nam (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Chỉ mặt trăng nếu muốn; lời đồng dao khác chuyện chị Hằng.",
+      "body": "Thằng Cuội ngồi gốc cây đa\nĐể trâu ăn lúa gọi cha ời ời\nCha còn cắt cỏ trên trời\nMẹ còn cưỡi ngựa đi mời quan viên\nÔng thì cầm bút cầm nghiên\nÔng thì cầm tiền đi chuộc lá đa\n\n(Tuổi nhỏ: chỉ 2–4 câu đầu. Chuyện chị Hằng kể riêng — không nhét vào lời đồng dao này.)"
+    },
+    {
+      "id": "dd_mot_hai_ba",
+      "category": "dong_dao",
+      "title": "Một hai ba bốn (đếm ngón)",
+      "ageHint": "18–36 tháng",
+      "region": "Cả nước",
+      "themes": [
+        "dem",
+        "gia_dinh"
+      ],
+      "source": "Đồng dao đếm ngón tay dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Cầm từng ngón tay bé đếm chậm.",
+      "body": "Một — hai — ba — bốn — năm\nSáu — bảy — tám — chín — mười\n\n(Kết bài theo nhà — hỏi ông bà / cô giáo.)"
+    },
+    {
+      "id": "ca_cong_cha",
+      "category": "hat",
+      "title": "Công cha như núi Thái Sơn",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "bo",
+        "me",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Đọc chậm như thơ; không giảng dài. Chỉ bố mẹ khi đọc.",
+      "body": "Công cha như núi Thái Sơn\nNghĩa mẹ như nước trong nguồn chảy ra\nMột lòng thờ mẹ kính cha\nCho tròn chữ hiếu mới là đạo con."
+    },
+    {
+      "id": "hat_cai_ngu",
+      "category": "hat",
+      "title": "Cái ngủ mày ngủ cho lâu",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ],
+      "source": "Hát ru dân gian miền Bắc (bản phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Ru ngủ; giọng nhỏ, lặp. Bé không cần hát theo.",
+      "body": "Cái ngủ mày ngủ cho lâu\nMẹ mày đi cấy đồng sâu chưa về\nBắt được con trắm con trê\nCắm cổ mang về cho cái ngủ ăn"
+    },
+    {
+      "id": "hat_me_ganh_nuoc",
+      "category": "hat",
+      "title": "Con ơi con ngủ (mẹ gánh nước)",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ],
+      "source": "Hát ru / ca dao dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Ru hoặc đọc chậm trước ngủ.",
+      "body": "À ơi… à ơi…\nCon ơi con ngủ cho ngon\nĐể mẹ gánh nước cho toàn ruộng sâu\nBao giờ cho đến tháng mười\nMẹ về mẹ kể chuyện cười cho con."
+    },
+    {
+      "id": "hat_gio_dua",
+      "category": "hat",
+      "title": "Gió đưa cành trúc la đà",
+      "ageHint": "18–36 tháng",
+      "region": "Miền Bắc (Hà Nội; có biến thể Huế)",
+      "themes": [
+        "ru",
+        "me"
+      ],
+      "source": "Ca dao / hát ru dân gian (bản Hà Nội phổ biến)",
+      "license": "folk_traditional",
+      "howToUse": "Đung đưa; giọng êm. Hỏi ông bà biến thể quê mình.",
+      "body": "Gió đưa cành trúc la đà\nTiếng chuông Trấn Vũ, canh gà Thọ Xương\n\n(Biến thể Huế: «Tiếng chuông Thiên Mụ…» — hỏi ông bà bản quen.)"
+    },
+    {
+      "id": "hat_au_o_bac",
+      "category": "hat",
+      "title": "Ầu ơ… ví dầu (bản Bắc)",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "me",
+        "ru"
+      ],
+      "source": "Hát ru dân gian miền Bắc",
+      "license": "folk_traditional",
+      "howToUse": "Lặp «ầu ơ»; ghép câu ví dầu quen.",
+      "body": "Ầu ơ… ầu ơ…\nVí dầu cầu ván đóng đinh\nCầu tre lắc lẻo gập ghềnh khó đi\nKhó đi mẹ dắt con đi\nCon đi trường học mẹ đi trường đời\nẦu ơ… ầu ơ…"
+    },
+    {
+      "id": "ca_anh_em",
+      "category": "hat",
+      "title": "Anh em như thể chân tay",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Khi có anh/chị/em; nói thương nhau — không bắt thuộc.",
+      "body": "Anh em như thể chân tay\nRách lành đùm bọc, dở hay đỡ đần."
+    },
+    {
+      "id": "ca_chi_nga",
+      "category": "hat",
+      "title": "Chị ngã em nâng",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Đọc khi anh chị em chơi cùng; khen khi biết nhường.",
+      "body": "Chị ngã em nâng\nRách lành đùm bọc lấy nhau."
+    },
+    {
+      "id": "ca_ga_mot_me",
+      "category": "hat",
+      "title": "Gà cùng một mẹ",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "anh_chi_em",
+        "gia_dinh"
+      ],
+      "source": "Ca dao dân gian",
+      "license": "folk_traditional",
+      "howToUse": "Nói anh chị em cùng nhà; ngắn gọn.",
+      "body": "Gà cùng một mẹ\nChớ hoài đá nhau."
+    },
+    {
+      "id": "ca_con_co_dem",
+      "category": "hat",
+      "title": "Con cò mà đi ăn đêm",
+      "ageHint": "36+ tháng (nghe PH)",
+      "region": "Cả nước",
+      "themes": [
+        "ru"
+      ],
+      "source": "Ca dao dân gian Việt Nam (bản rút cho bé nhỏ)",
+      "license": "folk_traditional",
+      "howToUse": "Giọng chậm; dang tay. Chỉ 2 câu đã rút — không đọc phần tiếp của bản cổ với bé nhỏ.",
+      "body": "Con cò mà đi ăn đêm\nĐậu phải cành mềm lộn cổ xuống ao\n\n(Bản cổ còn câu tiếp — dừng đây với bé nhỏ. Không đọc phần «xáo măng».)"
+    },
+    {
+      "id": "ca_doi_ta",
+      "category": "hat",
+      "title": "Ta về ta tắm ao ta",
+      "ageHint": "30–36 tháng (nghe)",
+      "region": "Cả nước",
+      "themes": [
+        "gia_dinh",
+        "que"
+      ],
+      "source": "Ca dao dân gian Việt Nam",
+      "license": "folk_traditional",
+      "howToUse": "Nói về nhà mình / quê ông bà — gần gũi, không giảng.",
+      "body": "Ta về ta tắm ao ta\nDù trong dù đục ao nhà vẫn hơn."
+    },
+    {
+      "id": "tip_bai_ba_me",
+      "category": "sach",
+      "title": "Bài hát về bà/mẹ (hỏi ông bà / cô giáo)",
+      "ageHint": "18–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "ba",
+        "me",
+        "gia_dinh"
+      ],
+      "source": "Hướng tìm — không chép lời thương mại",
+      "license": "tip_find",
+      "howToUse": "Hỏi bà/cô lớp bé hát giúp; ghi lời nhà mình vào sổ. Không tải video quảng cáo.",
+      "body": "Một số bài nhà trẻ hay hát về bà, mẹ, cả nhà (thường có nhạc sĩ — app không chép lời):\n• Cháu yêu bà / Bà ơi bà…\n• Cả nhà thương nhau\n• Mẹ yêu không nào\n• Đưa cơm cho mẹ đi cày (dân ca / bài học thuộc lòng — hỏi bản cô dạy)\n\nCách làm an toàn: học miệng từ ông bà hoặc cô giáo; hát không loa quảng cáo."
+    },
+    {
+      "id": "tip_hat_ru_bac",
+      "category": "sach",
+      "title": "Sưu tầm hát ru ông bà miền Bắc",
+      "ageHint": "0–36 tháng",
+      "region": "Miền Bắc",
+      "themes": [
+        "ru",
+        "ba",
+        "me"
+      ],
+      "source": "Hướng thực hành gia đình",
+      "license": "tip_find",
+      "howToUse": "Ghi âm giọng bà (chỉ trong máy nhà, không đăng). Học 1–2 câu mỗi tuần.",
+      "body": "Hỏi ông bà:\n1) Quê mình ru bằng «à ơi» hay «ầu ơ»?\n2) Câu nào về mẹ đi cấy / gánh nước / chợ?\n3) Có câu gọi tên con không?\nGhi vào điện thoại offline — giữ trong nhà, không đưa lên mạng."
+    }
+  ]
+}
