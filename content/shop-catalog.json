@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "tiers": [
+    { "id": "SHARED_MOMENT", "label": "Khoảnh khắc" },
+    { "id": "EXPERIENCE", "label": "Trải nghiệm" },
+    { "id": "PLAY", "label": "Đồ chơi" },
+    { "id": "FOOD_TREAT", "label": "Đồ ăn / uống (tùy chọn)" }
+  ],
+  "items": [
+    { "id": "mom_song_pick", "title": "Bé chọn bài hát / nhảy 1 bài", "costGx": 25, "vndHint": "0đ", "tier": "SHARED_MOMENT", "image": "reward_song.png" },
+    { "id": "mom_choose_game", "title": "Bé chọn trò tiếp theo", "costGx": 28, "vndHint": "0đ", "tier": "SHARED_MOMENT", "image": "reward_choose_game.png" },
+    { "id": "mom_story_10", "title": "Thêm 10 phút chuyện / sách", "costGx": 30, "vndHint": "0đ", "tier": "SHARED_MOMENT", "image": "reward_story.png" },
+    { "id": "mom_bath_toys", "title": "Tắm chơi thêm 5 phút", "costGx": 35, "vndHint": "0đ", "tier": "SHARED_MOMENT", "image": "reward_bath.png" },
+    { "id": "mom_sticker", "title": "Sticker khen cụ thể", "costGx": 40, "vndHint": "10–30 nghìn", "tier": "SHARED_MOMENT", "image": "reward_sticker.png" },
+    { "id": "mom_grandparents", "title": "Gọi ông bà khoe trò hôm nay", "costGx": 45, "vndHint": "0đ", "tier": "SHARED_MOMENT", "image": "reward_grandparents.png" },
+    { "id": "mom_picnic_blanket", "title": "Picnic thảm tại nhà", "costGx": 60, "vndHint": "0–40 nghìn", "tier": "SHARED_MOMENT", "image": "reward_picnic.png" },
+    { "id": "mom_photo_print", "title": "In 1 ảnh chơi cùng nhau", "costGx": 80, "vndHint": "5–25 nghìn", "tier": "SHARED_MOMENT", "image": "reward_photo.png" },
+    { "id": "exp_bus_ride", "title": "Chuyến xe buýt / tàu vui ngắn", "costGx": 120, "vndHint": "20–60 nghìn", "tier": "EXPERIENCE", "image": "reward_bus.png" },
+    { "id": "exp_park", "title": "Công viên / sân chơi 1 buổi", "costGx": 200, "vndHint": "50–150 nghìn", "tier": "EXPERIENCE", "image": "reward_park.png" },
+    { "id": "exp_swim_paddle", "title": "Bể bơi nông (gia đình quen)", "costGx": 260, "vndHint": "70–180 nghìn", "tier": "EXPERIENCE", "image": "reward_swim.png" },
+    { "id": "exp_zoo_corner", "title": "Góc thú / bảo tàng thiếu nhi", "costGx": 280, "vndHint": "80–200 nghìn", "tier": "EXPERIENCE", "image": "reward_zoo.png" },
+    { "id": "play_reuse", "title": "Đồ chơi từ nhà (carton, chai sạch)", "costGx": 40, "vndHint": "0–20 nghìn", "tier": "PLAY", "image": "reward_reuse.png" },
+    { "id": "play_art", "title": "Sáp / màu ngón tay an toàn", "costGx": 140, "vndHint": "30–90 nghìn", "tier": "PLAY", "image": "reward_art.png" },
+    { "id": "play_small", "title": "Đồ chơi nhỏ", "costGx": 150, "vndHint": "30–80 nghìn", "tier": "PLAY", "image": "reward_toy_small.png" },
+    { "id": "play_book", "title": "Sách tranh 1 cuốn", "costGx": 180, "vndHint": "40–120 nghìn", "tier": "PLAY", "image": "reward_story.png" },
+    { "id": "play_mid", "title": "Đồ chơi trung", "costGx": 320, "vndHint": "100–250 nghìn", "tier": "PLAY", "image": "reward_toy_mid.png" },
+    { "id": "food_yogurt", "title": "Sữa chua ít đường thêm", "costGx": 45, "vndHint": "10–30 nghìn", "tier": "FOOD_TREAT", "image": "reward_yogurt.png", "caution": false },
+    { "id": "food_fruit_cup", "title": "Trái cây cắt / cup", "costGx": 50, "vndHint": "15–40 nghìn", "tier": "FOOD_TREAT", "image": "reward_fruit.png" },
+    { "id": "food_watermelon", "title": "Nước dưa hấu / dưa cắt", "costGx": 50, "vndHint": "15–35 nghìn", "tier": "FOOD_TREAT", "image": "reward_watermelon.png" },
+    { "id": "food_lollipop", "title": "Kẹo mút (1 cây)", "costGx": 35, "vndHint": "5–15 nghìn", "tier": "FOOD_TREAT", "image": "reward_lollipop.png", "caution": true },
+    { "id": "food_snack", "title": "Bim bim gói nhỏ", "costGx": 45, "vndHint": "10–25 nghìn", "tier": "FOOD_TREAT", "image": "reward_snack.png", "caution": true },
+    { "id": "food_sugarcane", "title": "Nước mía (ly)", "costGx": 55, "vndHint": "10–20 nghìn", "tier": "FOOD_TREAT", "image": "reward_sugarcane.png", "caution": true },
+    { "id": "food_che_beans", "title": "Chè đậu / tàu hủ ít đường", "costGx": 65, "vndHint": "15–35 nghìn", "tier": "FOOD_TREAT", "image": "reward_che.png", "caution": true },
+    { "id": "food_banhmi_mini", "title": "Bánh mì mini / bánh bao nhỏ", "costGx": 70, "vndHint": "15–40 nghìn", "tier": "FOOD_TREAT", "image": "reward_banhmi.png" },
+    { "id": "food_oc", "title": "Ăn ốc (suất nhỏ / share)", "costGx": 90, "vndHint": "40–80 nghìn", "tier": "FOOD_TREAT", "image": "reward_oc.png", "caution": true }
+  ]
+}

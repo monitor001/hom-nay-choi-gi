@@ -7,6 +7,12 @@ const defaultState = () => ({
   dailyPicks: {}, // { [dateIso]: string[] }
   fontScale: 1,
   disclaimerDismissed: false,
+  milestoneObs: {},
+  gxLedger: [], // { id, at, amount, kind, refId?, note? }
+  rewardsEnabled: true,
+  foodTreatVisible: false,
+  lastEarnMessage: null,
+  lastGxAwarded: 0,
 });
 
 export function loadState() {
