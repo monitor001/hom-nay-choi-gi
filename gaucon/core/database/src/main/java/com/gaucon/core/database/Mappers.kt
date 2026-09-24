@@ -15,6 +15,7 @@ import com.gaucon.domain.model.Domain
 import com.gaucon.domain.model.Feedback
 import com.gaucon.domain.model.Reminder
 import com.gaucon.domain.model.ReminderAction
+import com.gaucon.domain.model.ReminderLog
 import com.gaucon.domain.model.ReminderType
 import org.json.JSONArray
 import java.time.Instant

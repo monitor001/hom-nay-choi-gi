@@ -37,7 +37,14 @@ node tests/content.test.mjs
 
 ## Android
 
-Xem `gaucon/README.md`. Chưa `assembleDebug` trên máy thiếu JDK/SDK.
+Xem `gaucon/README.md`. Bản **debug APK** (`0.1.0-dev`): xem `gaucon/BUILD_APK.md`.
+
+```bat
+cd gaucon
+gradlew.bat :app:assembleDebug
+```
+
+APK: `gaucon/app/build/outputs/apk/debug/app-debug.apk`
 
 ## Triển khai
 

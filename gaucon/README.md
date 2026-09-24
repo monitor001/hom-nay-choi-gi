@@ -70,13 +70,14 @@ feature/reminder       Partial — schedule 19:30
 
 ## BLOCKERS trên máy scaffold
 
-Máy agent Wave 3 **không có** JDK / `ANDROID_HOME` / Gradle runtime tại thời điểm tạo source. Vì vậy `:app:assembleDebug` **chưa chạy được tại đây**.
+Đã cài JDK 17 + Android SDK cmdline (platform 36 / build-tools 35) trên máy build 2026-09-24.  
+`:app:assembleDebug` → **SUCCESS** → xem `BUILD_APK.md`.
 
-Sau khi cài JDK 17 + SDK:
-
-1. Điền `local.properties`
-2. Nếu thiếu `gradle/wrapper/gradle-wrapper.jar`, chạy Android Studio sync (tự tải) hoặc `gradle wrapper` với Gradle đã cài.
-3. `gradlew.bat :app:assembleDebug`
+```bat
+set JAVA_HOME=C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot
+set ANDROID_HOME=%LOCALAPPDATA%\Android\Sdk
+gradlew.bat :app:assembleDebug
+```
 
 ## Privacy / an toàn sản phẩm
 

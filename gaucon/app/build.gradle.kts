@@ -14,8 +14,8 @@ android {
         applicationId = "com.gaucon.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0-scaffold"
+        versionCode = 2
+        versionName = "0.1.0-dev"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
