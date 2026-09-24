@@ -21,10 +21,10 @@
 ## 2. D0 — Repo GitHub (tuần này)
 
 - [x] Tách `ideas/BeGau` thành repo độc lập
-- [ ] Push `main` lên `github.com/<org>/gau-con` (hoặc `be-gau-con`)
-- [ ] README + LICENSE/NOTICE nội bộ
-- [ ] CI nhẹ: `node web/tests/*.mjs` trên push
-- [ ] GitHub Pages **hoặc** Cloudflare Pages từ `/web` (xem §3)
+- [x] Push `main` lên `github.com/monitor001/hom-nay-choi-gi`
+- [x] GitHub Pages từ nhánh `gh-pages` (nội dung `/web`) → https://monitor001.github.io/hom-nay-choi-gi/
+- [ ] CI nhẹ: `node web/tests/*.mjs` trên push (cần OAuth scope `workflow`)
+- [x] README + disclaimer draft_unreviewed
 
 **Phạm vi commit:** `web/`, `content/`, `plans/`, `research/`, `qa/`, `gaucon/` (scaffold), `docs/`, `scripts/`. Không commit `local.properties`, keystore, `.env`.
 

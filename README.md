@@ -4,6 +4,9 @@ App **dành cho phụ huynh**: mỗi ngày gợi ý 2–3 hoạt động ngắn 
 
 > Nội dung seed = **`draft_unreviewed`** — chưa chuyên gia người thật / Bộ GD&ĐT duyệt. Không chẩn đoán y tế. Không thu dữ liệu lên máy chủ (web pilot: localStorage).
 
+**Repo:** https://github.com/monitor001/hom-nay-choi-gi  
+**Web (GitHub Pages):** https://monitor001.github.io/hom-nay-choi-gi/
+
 Thử nghiệm phụ trong `ideas/BeGau` (cùng hệ sinh thái *Bé Gấu An Toàn* nhưng sản phẩm riêng). Không thay hướng sản phẩm khác của monorepo cha.
 
 ## Cấu trúc
