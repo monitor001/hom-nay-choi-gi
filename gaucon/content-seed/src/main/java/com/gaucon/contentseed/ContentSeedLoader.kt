@@ -31,8 +31,12 @@ class ContentSeedLoader @Inject constructor(
 
     suspend fun upsertIfNewer() {
         val seed = readSeed()
+        if (seed.activities.isEmpty()) {
+            error("content_seed.json has 0 activities — refusing to upsert")
+        }
         val local = prefs.contentVersion()
-        if (seed.version > local) {
+        val existing = activityRepository.getAllActive()
+        if (seed.version > local || existing.isEmpty()) {
             activityRepository.upsertAll(seed.activities.map { it.toDomain(seed.version) })
             prefs.setContentVersion(seed.version)
         }

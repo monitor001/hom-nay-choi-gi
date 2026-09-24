@@ -6,12 +6,18 @@ import com.gaucon.core.database.dao.ActivityDao
 import com.gaucon.core.database.dao.ActivityLogDao
 import com.gaucon.core.database.dao.ChildDao
 import com.gaucon.core.database.dao.DailyPickDao
+import com.gaucon.core.database.dao.GxLedgerDao
+import com.gaucon.core.database.dao.JournalEntryDao
+import com.gaucon.core.database.dao.MilestoneStatusDao
 import com.gaucon.core.database.dao.ReminderDao
 import com.gaucon.core.database.dao.ReminderLogDao
 import com.gaucon.core.database.entity.ActivityEntity
 import com.gaucon.core.database.entity.ActivityLogEntity
 import com.gaucon.core.database.entity.ChildEntity
 import com.gaucon.core.database.entity.DailyPickEntity
+import com.gaucon.core.database.entity.GxLedgerEntity
+import com.gaucon.core.database.entity.JournalEntryEntity
+import com.gaucon.core.database.entity.MilestoneStatusEntity
 import com.gaucon.core.database.entity.ReminderEntity
 import com.gaucon.core.database.entity.ReminderLogEntity
 
@@ -23,8 +29,11 @@ import com.gaucon.core.database.entity.ReminderLogEntity
         DailyPickEntity::class,
         ReminderEntity::class,
         ReminderLogEntity::class,
+        MilestoneStatusEntity::class,
+        JournalEntryEntity::class,
+        GxLedgerEntity::class,
     ],
-    version = 1,
+    version = 3,
     exportSchema = false,
 )
 abstract class GauConDatabase : RoomDatabase() {
@@ -34,4 +43,7 @@ abstract class GauConDatabase : RoomDatabase() {
     abstract fun dailyPickDao(): DailyPickDao
     abstract fun reminderDao(): ReminderDao
     abstract fun reminderLogDao(): ReminderLogDao
+    abstract fun milestoneStatusDao(): MilestoneStatusDao
+    abstract fun journalEntryDao(): JournalEntryDao
+    abstract fun gxLedgerDao(): GxLedgerDao
 }

@@ -5,6 +5,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.material.icons.automirrored.filled.TrendingUp
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.filled.Storefront
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -17,8 +25,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalDensity
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -28,9 +38,15 @@ import androidx.navigation.navArgument
 import com.gaucon.core.datastore.UserPreferences
 import com.gaucon.core.designsystem.GauConTheme
 import com.gaucon.feature.activity.ActivityDetailScreen
+import com.gaucon.feature.growth.GrowthScreen
+import com.gaucon.feature.journal.JournalScreen
+import com.gaucon.feature.library.LibraryScreen
+import com.gaucon.feature.library.ResourceDetailScreen
 import com.gaucon.feature.onboarding.ChildProfileScreen
 import com.gaucon.feature.onboarding.OnboardingViewModel
 import com.gaucon.feature.onboarding.WelcomeScreen
+import com.gaucon.feature.reminder.ReminderSettingsScreen
+import com.gaucon.feature.rewards.RewardsScreen
 import com.gaucon.feature.today.TodayScreen
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
@@ -51,9 +67,9 @@ class MainActivity : ComponentActivity() {
             val systemScale = LocalDensity.current.fontScale
 
             LaunchedEffect(systemScale) {
-                withContext(Dispatchers.IO) {
+                val (resolved, done) = withContext(Dispatchers.IO) {
                     val stored = prefs.fontScale()
-                    val resolved = when {
+                    val scale = when {
                         stored != 1.0f -> stored
                         systemScale >= 1.3f -> {
                             prefs.setFontScale(1.15f)
@@ -61,9 +77,10 @@ class MainActivity : ComponentActivity() {
                         }
                         else -> 1.0f
                     }
-                    fontScale = resolved
-                    onboardingDone = prefs.isOnboardingDone()
+                    scale to prefs.isOnboardingDone()
                 }
+                fontScale = resolved
+                onboardingDone = done
             }
 
             GauConTheme(fontScale = fontScale) {
@@ -84,9 +101,30 @@ object Routes {
     const val Welcome = "welcome"
     const val ChildProfile = "child_profile"
     const val Today = "today"
+    const val Shop = "shop"
+    const val Library = "library"
+    const val Growth = "growth"
+    const val Journal = "journal"
+    const val More = "more"
     const val Activity = "activity/{activityId}"
+    const val Resource = "resource/{resourceId}"
     fun activity(id: String) = "activity/$id"
+    fun resource(id: String) = "resource/$id"
 }
+
+private data class BottomTab(
+    val route: String,
+    val label: String,
+    val icon: ImageVector,
+)
+
+private val MainTabs = listOf(
+    BottomTab(Routes.Today, "Hôm nay", Icons.Filled.Home),
+    BottomTab(Routes.Shop, "Cửa hàng", Icons.Filled.Storefront),
+    BottomTab(Routes.Library, "Tài liệu", Icons.AutoMirrored.Filled.MenuBook),
+    BottomTab(Routes.Growth, "Phát triển", Icons.AutoMirrored.Filled.TrendingUp),
+    BottomTab(Routes.More, "Nhắc", Icons.Filled.Notifications),
+)
 
 @Composable
 fun GauConNav(
@@ -96,47 +134,39 @@ fun GauConNav(
     val navController = rememberNavController()
     val backStack by navController.currentBackStackEntryAsState()
     val route = backStack?.destination?.route
-    val showBottomBar = route == Routes.Today
+    val showBottomBar = MainTabs.any { it.route == route } || route == Routes.Journal
 
     Scaffold(
         bottomBar = {
             if (showBottomBar) {
-                NavigationBar {
-                    NavigationBarItem(
-                        selected = true,
-                        onClick = { },
-                        icon = { Text("•") },
-                        label = { Text("Hôm nay") },
-                    )
-                    // Other tabs placeholder — inactive Wave 3
-                    NavigationBarItem(
-                        selected = false,
-                        onClick = { },
-                        enabled = false,
-                        icon = { Text("○") },
-                        label = { Text("Thư viện") },
-                    )
-                    NavigationBarItem(
-                        selected = false,
-                        onClick = { },
-                        enabled = false,
-                        icon = { Text("○") },
-                        label = { Text("Phát triển") },
-                    )
-                    NavigationBarItem(
-                        selected = false,
-                        onClick = { },
-                        enabled = false,
-                        icon = { Text("○") },
-                        label = { Text("Nhật ký") },
-                    )
-                    NavigationBarItem(
-                        selected = false,
-                        onClick = { },
-                        enabled = false,
-                        icon = { Text("○") },
-                        label = { Text("Thêm") },
-                    )
+                NavigationBar(
+                    containerColor = MaterialTheme.colorScheme.surface,
+                    contentColor = MaterialTheme.colorScheme.onSurface,
+                ) {
+                    MainTabs.forEach { tab ->
+                        val selected = route == tab.route
+                        NavigationBarItem(
+                            selected = selected,
+                            onClick = {
+                                if (!selected) {
+                                    navController.navigate(tab.route) {
+                                        popUpTo(navController.graph.findStartDestination().id) {
+                                            saveState = true
+                                        }
+                                        launchSingleTop = true
+                                        restoreState = true
+                                    }
+                                }
+                            },
+                            icon = {
+                                Icon(
+                                    imageVector = tab.icon,
+                                    contentDescription = tab.label,
+                                )
+                            },
+                            label = { Text(tab.label) },
+                        )
+                    }
                 }
             }
         },
@@ -167,6 +197,35 @@ fun GauConNav(
             composable(Routes.Today) {
                 TodayScreen(
                     onOpenActivity = { id -> navController.navigate(Routes.activity(id)) },
+                    onOpenShop = {
+                        navController.navigate(Routes.Shop) {
+                            launchSingleTop = true
+                        }
+                    },
+                )
+            }
+            composable(Routes.Shop) {
+                RewardsScreen()
+            }
+            composable(Routes.Library) {
+                LibraryScreen(
+                    onOpenResource = { id -> navController.navigate(Routes.resource(id)) },
+                )
+            }
+            composable(Routes.Growth) {
+                GrowthScreen()
+            }
+            composable(Routes.Journal) {
+                JournalScreen()
+            }
+            composable(Routes.More) {
+                ReminderSettingsScreen(
+                    onOpenRewards = {
+                        navController.navigate(Routes.Shop) { launchSingleTop = true }
+                    },
+                    onOpenJournal = {
+                        navController.navigate(Routes.Journal)
+                    },
                 )
             }
             composable(
@@ -177,7 +236,21 @@ fun GauConNav(
                 ActivityDetailScreen(
                     activityId = id,
                     onBack = { navController.popBackStack() },
-                    onCompleted = { navController.popBackStack() },
+                    onCompleted = {
+                        navController.popBackStack(Routes.Today, inclusive = false)
+                    },
+                    onOpenShop = {
+                        navController.navigate(Routes.Shop) { launchSingleTop = true }
+                    },
+                    onOpenResource = { resId -> navController.navigate(Routes.resource(resId)) },
+                )
+            }
+            composable(
+                route = Routes.Resource,
+                arguments = listOf(navArgument("resourceId") { type = NavType.StringType }),
+            ) {
+                ResourceDetailScreen(
+                    onBack = { navController.popBackStack() },
                 )
             }
         }

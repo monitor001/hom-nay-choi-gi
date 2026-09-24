@@ -36,3 +36,9 @@ enum class ContentStatus {
     DRAFT_UNREVIEWED,
     REVIEWED,
 }
+
+enum class MilestoneObsStatus {
+    NOT_YET,
+    EMERGING,
+    OFTEN,
+}

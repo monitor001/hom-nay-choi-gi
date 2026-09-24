@@ -25,6 +25,10 @@ Desktop.ini
 *.pem
 credentials.json
 google-services.json
+keystore.properties
+*.jks
+upload-keystore.jks
+dist/
 
 # Python
 __pycache__/

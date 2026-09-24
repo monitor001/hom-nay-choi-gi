@@ -9,11 +9,17 @@ import com.gaucon.core.database.ActivityRepositoryImpl
 import com.gaucon.core.database.ChildRepositoryImpl
 import com.gaucon.core.database.DailyPickRepositoryImpl
 import com.gaucon.core.database.GauConDatabase
+import com.gaucon.core.database.GxLedgerRepositoryImpl
+import com.gaucon.core.database.JournalRepositoryImpl
+import com.gaucon.core.database.MilestoneObservationRepositoryImpl
 import com.gaucon.core.database.ReminderRepositoryImpl
 import com.gaucon.core.database.dao.ActivityDao
 import com.gaucon.core.database.dao.ActivityLogDao
 import com.gaucon.core.database.dao.ChildDao
 import com.gaucon.core.database.dao.DailyPickDao
+import com.gaucon.core.database.dao.GxLedgerDao
+import com.gaucon.core.database.dao.JournalEntryDao
+import com.gaucon.core.database.dao.MilestoneStatusDao
 import com.gaucon.core.database.dao.ReminderDao
 import com.gaucon.core.database.dao.ReminderLogDao
 import com.gaucon.core.network.CloudBackupGateway
@@ -25,8 +31,12 @@ import com.gaucon.domain.repository.ActivityLogRepository
 import com.gaucon.domain.repository.ActivityRepository
 import com.gaucon.domain.repository.ChildRepository
 import com.gaucon.domain.repository.DailyPickRepository
+import com.gaucon.domain.repository.GxLedgerRepository
+import com.gaucon.domain.repository.JournalRepository
+import com.gaucon.domain.repository.MilestoneObservationRepository
 import com.gaucon.domain.repository.ReminderRepository
 import com.gaucon.domain.usecase.GetTodayPicksUseCase
+import com.gaucon.domain.usecase.GxRewardsUseCase
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -51,6 +61,9 @@ object DatabaseModule {
     @Provides fun dailyPickDao(db: GauConDatabase): DailyPickDao = db.dailyPickDao()
     @Provides fun reminderDao(db: GauConDatabase): ReminderDao = db.reminderDao()
     @Provides fun reminderLogDao(db: GauConDatabase): ReminderLogDao = db.reminderLogDao()
+    @Provides fun milestoneStatusDao(db: GauConDatabase): MilestoneStatusDao = db.milestoneStatusDao()
+    @Provides fun journalEntryDao(db: GauConDatabase): JournalEntryDao = db.journalEntryDao()
+    @Provides fun gxLedgerDao(db: GauConDatabase): GxLedgerDao = db.gxLedgerDao()
 }
 
 @Module
@@ -61,6 +74,9 @@ abstract class RepositoryModule {
     @Binds @Singleton abstract fun activityLogRepo(impl: ActivityLogRepositoryImpl): ActivityLogRepository
     @Binds @Singleton abstract fun dailyPickRepo(impl: DailyPickRepositoryImpl): DailyPickRepository
     @Binds @Singleton abstract fun reminderRepo(impl: ReminderRepositoryImpl): ReminderRepository
+    @Binds @Singleton abstract fun milestoneObsRepo(impl: MilestoneObservationRepositoryImpl): MilestoneObservationRepository
+    @Binds @Singleton abstract fun journalRepo(impl: JournalRepositoryImpl): JournalRepository
+    @Binds @Singleton abstract fun gxLedgerRepo(impl: GxLedgerRepositoryImpl): GxLedgerRepository
 }
 
 @Module
@@ -88,6 +104,16 @@ object AppBindingsModule {
         pickRepo = pickRepo,
         logRepo = logRepo,
         picker = picker,
+    )
+
+    @Provides
+    @Singleton
+    fun provideGxRewards(
+        gxLedgerRepository: GxLedgerRepository,
+        activityLogRepository: ActivityLogRepository,
+    ): GxRewardsUseCase = GxRewardsUseCase(
+        ledger = gxLedgerRepository,
+        activityLogRepository = activityLogRepository,
     )
 
     @Provides

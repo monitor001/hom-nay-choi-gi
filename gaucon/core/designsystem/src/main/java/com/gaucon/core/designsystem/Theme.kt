@@ -10,20 +10,33 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-private val Forest = Color(0xFF2F6B4F)
-private val SoftSand = Color(0xFFF7F1E8)
-private val Ink = Color(0xFF1C2A22)
-private val Accent = Color(0xFFD97706)
+/** Soft teal — parent companion, not purple-on-white. */
+private val Teal = Color(0xFF1F6F6A)
+private val TealContainer = Color(0xFFD5EDEB)
+private val Coral = Color(0xFFD96B4C)
+private val Cream = Color(0xFFF6F0E6)
+private val Paper = Color(0xFFFFFBF5)
+private val Ink = Color(0xFF1A2B28)
+private val Muted = Color(0xFF5C6F6B)
 
 private val LightColors = lightColorScheme(
-    primary = Forest,
+    primary = Teal,
     onPrimary = Color.White,
-    secondary = Accent,
+    primaryContainer = TealContainer,
+    onPrimaryContainer = Color(0xFF0D3D3A),
+    secondary = Coral,
     onSecondary = Color.White,
-    background = SoftSand,
+    secondaryContainer = Color(0xFFF8E0D8),
+    onSecondaryContainer = Color(0xFF5C2A1C),
+    tertiary = Color(0xFFC4A35A),
+    tertiaryContainer = Color(0xFFF3E8C8),
+    background = Cream,
     onBackground = Ink,
-    surface = Color(0xFFFFFBF6),
+    surface = Paper,
     onSurface = Ink,
+    surfaceVariant = Color(0xFFE8E2D6),
+    onSurfaceVariant = Muted,
+    outline = Color(0xFFB8B0A2),
 )
 
 private fun scaledTypography(fontScale: Float): Typography {
@@ -32,11 +45,12 @@ private fun scaledTypography(fontScale: Float): Typography {
     return Typography(
         displayLarge = base.displayLarge.scaled().copy(fontFamily = FontFamily.Serif, fontWeight = FontWeight.Bold),
         headlineMedium = base.headlineMedium.scaled().copy(fontFamily = FontFamily.Serif, fontWeight = FontWeight.SemiBold),
-        titleLarge = base.titleLarge.scaled(),
+        titleLarge = base.titleLarge.scaled().copy(fontWeight = FontWeight.SemiBold),
         titleMedium = base.titleMedium.scaled(),
         bodyLarge = base.bodyLarge.scaled().copy(fontSize = 18.sp * fontScale, lineHeight = 26.sp * fontScale),
         bodyMedium = base.bodyMedium.scaled(),
         labelLarge = base.labelLarge.scaled(),
+        labelMedium = base.labelMedium.scaled(),
     )
 }
 

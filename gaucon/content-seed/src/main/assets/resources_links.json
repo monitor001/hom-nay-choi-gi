@@ -1,0 +1,159 @@
+{
+  "version": 6,
+  "note": "Sau F5: chỉ link id còn trong catalog; bài nhạc sĩ = tip_find; ưu tiên đồng dao/hát ru đã duyệt.",
+  "links": {
+    "LANG-02": [
+      "sach_tieu_chi",
+      "dd_nu_na",
+      "dd_mot_hai_ba",
+      "to_chuoi"
+    ],
+    "LANG-12": [
+      "dd_chi_chi",
+      "dd_keo_cua",
+      "dd_dung_dang"
+    ],
+    "LANG-15": [
+      "to_meo",
+      "to_ga",
+      "mau_ke_chuyen_tranh"
+    ],
+    "LANG-16": [
+      "to_mat_troi",
+      "dd_con_co",
+      "mau_ke_chuyen_tranh"
+    ],
+    "AES-01": [
+      "to_la_cay",
+      "mau_ke_chuyen_tranh"
+    ],
+    "AES-05": [
+      "hat_dan_ga",
+      "dd_con_kien",
+      "to_ga"
+    ],
+    "AES-06": [
+      "hat_ru_a_oi",
+      "hat_cai_ngu",
+      "to_me_hat_ru",
+      "to_ngu_ngon"
+    ],
+    "AES-07": [
+      "to_chuoi",
+      "to_mat_troi",
+      "mau_ke_chuyen_tranh"
+    ],
+    "AES-09": [
+      "dd_dung_dang",
+      "dd_rong_ran",
+      "dd_cai_bong"
+    ],
+    "AES-12": [
+      "to_chuoi",
+      "mau_ke_chuyen_tranh"
+    ],
+    "SOC-03": [
+      "mau_cho_luot",
+      "ca_anh_em"
+    ],
+    "SOC-08": [
+      "mau_cho_luot",
+      "ca_chi_nga"
+    ],
+    "SOC-13": [
+      "mau_cho_luot",
+      "dd_bau_ai"
+    ],
+    "act_soc_choi_song_song_khay": [
+      "mau_cho_luot"
+    ],
+    "act_soc_dua_do_khi_xin": [
+      "mau_cho_luot"
+    ],
+    "act_sc_sleep_018_06": [
+      "hat_ru_a_oi",
+      "hat_cai_ngu",
+      "dd_nu_na"
+    ],
+    "act_sc_sleep_024_07": [
+      "hat_ru_a_oi",
+      "hat_ru_vi_dao",
+      "hat_me_ganh_nuoc"
+    ],
+    "act_sc_sleep_024_08": [
+      "hat_au_o_bac",
+      "hat_gio_dua"
+    ],
+    "phy_01_lat_sach": [
+      "sach_tieu_chi",
+      "to_ga"
+    ],
+    "cog_08": [
+      "to_chuoi",
+      "mau_ke_chuyen_tranh"
+    ],
+    "act_sc_eat_018_01": [
+      "mau_an_va",
+      "to_coc"
+    ],
+    "act_sc_eat_024_03": [
+      "mau_an_va"
+    ],
+    "act_lang_anh_gia_dinh": [
+      "to_me_bong_con",
+      "to_ba_ke_chuyen",
+      "to_om_ba",
+      "ca_cong_cha",
+      "tip_bai_ba_me",
+      "tip_hat_ru_bac"
+    ]
+  },
+  "suggestedForTopics": {
+    "dong_dao": [
+      "dd_nu_na",
+      "dd_chi_chi",
+      "dd_keo_cua",
+      "dd_dung_dang",
+      "dd_ba_cong",
+      "dd_rong_ran",
+      "dd_con_kien",
+      "dd_con_co"
+    ],
+    "hat_ru_mien_bac": [
+      "hat_ru_a_oi",
+      "hat_cai_ngu",
+      "hat_au_o_bac",
+      "hat_me_ganh_nuoc",
+      "hat_gio_dua",
+      "tip_hat_ru_bac"
+    ],
+    "gia_dinh_me_ba": [
+      "dd_ba_cong",
+      "ca_cong_cha",
+      "ca_anh_em",
+      "ca_chi_nga",
+      "ca_ga_mot_me",
+      "tip_bai_ba_me"
+    ],
+    "to_tranh_ke_chuyen": [
+      "mau_ke_chuyen_tranh",
+      "to_me_bong_con",
+      "to_ba_ke_chuyen",
+      "to_om_ba",
+      "to_chao_bo",
+      "to_banh_chung",
+      "to_non_la",
+      "to_chuoi",
+      "to_ga",
+      "to_mua",
+      "to_doc_sach",
+      "to_xep_khoi"
+    ],
+    "chia_se_tranh_do": [
+      "mau_cho_luot"
+    ],
+    "an_va": [
+      "mau_an_va"
+    ]
+  }
+}

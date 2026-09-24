@@ -6,6 +6,8 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
+import java.util.Properties
+
 android {
     namespace = "com.gaucon.app"
     compileSdk = 36
@@ -14,9 +16,24 @@ android {
         applicationId = "com.gaucon.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.1.0-dev"
+        versionCode = 13
+        versionName = "0.1.10-fullscreen"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        create("release") {
+            val propsFile = rootProject.file("keystore.properties")
+            if (propsFile.exists()) {
+                val props = Properties().apply {
+                    propsFile.inputStream().use { load(it) }
+                }
+                storeFile = rootProject.file(props.getProperty("storeFile"))
+                storePassword = props.getProperty("storePassword")
+                keyAlias = props.getProperty("keyAlias")
+                keyPassword = props.getProperty("keyPassword")
+            }
+        }
     }
 
     buildTypes {
@@ -26,6 +43,10 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            val releaseSigning = signingConfigs.findByName("release")
+            if (releaseSigning?.storeFile?.exists() == true) {
+                signingConfig = releaseSigning
+            }
         }
     }
 
@@ -59,6 +80,10 @@ dependencies {
     implementation(project(":feature:today"))
     implementation(project(":feature:activity"))
     implementation(project(":feature:reminder"))
+    implementation(project(":feature:library"))
+    implementation(project(":feature:growth"))
+    implementation(project(":feature:journal"))
+    implementation(project(":feature:rewards"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -68,6 +93,7 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.hilt.android)
     implementation(libs.hilt.navigation.compose)

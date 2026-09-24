@@ -34,6 +34,8 @@ class UserPreferences @Inject constructor(
         val notifPermissionAskedAt = longPreferencesKey("notif_permission_asked_at")
         val notifBannerLastShownAt = longPreferencesKey("notif_banner_last_shown_at")
         val allowMeteredContentSync = booleanPreferencesKey("allow_metered_content_sync")
+        val rewardsEnabled = booleanPreferencesKey("rewards_enabled")
+        val foodTreatVisible = booleanPreferencesKey("foodtreat_visible")
     }
 
     val onboardingDoneFlow: Flow<Boolean> =
@@ -87,5 +89,21 @@ class UserPreferences @Inject constructor(
 
     suspend fun setNotifBannerLastShownAt(epochMs: Long) {
         context.dataStore.edit { it[Keys.notifBannerLastShownAt] = epochMs }
+    }
+
+    /** Soft ledger Gấu Xu — mặc định bật (P1). */
+    suspend fun rewardsEnabled(): Boolean =
+        context.dataStore.data.first()[Keys.rewardsEnabled] ?: true
+
+    suspend fun setRewardsEnabled(enabled: Boolean) {
+        context.dataStore.edit { it[Keys.rewardsEnabled] = enabled }
+    }
+
+    /** Catalog FoodTreat ẩn mặc định (R2). */
+    suspend fun foodTreatVisible(): Boolean =
+        context.dataStore.data.first()[Keys.foodTreatVisible] ?: false
+
+    suspend fun setFoodTreatVisible(visible: Boolean) {
+        context.dataStore.edit { it[Keys.foodTreatVisible] = visible }
     }
 }

@@ -2,6 +2,7 @@ import { ageMonths, toIsoDate, formatViDate } from "./age.mjs";
 import { pickDaily } from "./picker.mjs";
 import { loadState, saveState, resetState, newChildId } from "./storage.mjs";
 import { DOMAIN_LABELS, DOMAIN_ORDER, domainLabel, primaryDomain } from "./domains.mjs";
+import { earnOnComplete, redeemItem, gxBalance, tierLabel } from "./gx.mjs";
 
 const root = document.getElementById("app");
 let state = loadState();
@@ -11,11 +12,14 @@ let content = { activities: [] };
 let resources = { items: [], categories: [] };
 /** @type {{ links?: Record<string, string[]> }} */
 let resourceLinks = { links: {} };
+/** @type {{ tiers?: any[], items?: any[] }} */
+let shop = { tiers: [], items: [] };
 let route = { name: "boot" };
 let libraryFilter = "ALL";
 let libraryShowAll = false;
 let resourceFilter = "ALL";
 let completeDraft = { feedback: null, note: "" };
+let shopMessage = null;
 
 /** Stub milestone anchors for Progress (UI-P0-04) — observation only, not diagnosis. */
 const MILESTONE_STUBS = [
@@ -46,14 +50,16 @@ function completedIdsToday() {
 document.documentElement.style.setProperty("--font-scale", String(state.fontScale || 1));
 
 async function boot() {
-  const [actRes, catRes, linkRes] = await Promise.all([
+  const [actRes, catRes, linkRes, shopRes] = await Promise.all([
     fetch("./content/activities.json"),
     fetch("./content/resources-catalog.json"),
     fetch("./content/resources-links.json"),
+    fetch("./content/shop-catalog.json"),
   ]);
   content = await actRes.json();
   resources = await catRes.json();
   resourceLinks = await linkRes.json();
+  shop = await shopRes.json();
   if (!state.onboardingDone || !state.child) {
     route = { name: "welcome" };
   } else {
@@ -113,9 +119,9 @@ function completedTodayCount() {
 function navHtml(active) {
   const items = [
     { id: "today", icon: "☀️", label: "Hôm nay" },
+    { id: "shop", icon: "🏪", label: "Cửa hàng" },
+    { id: "resources", icon: "🎨", label: "Tài liệu" },
     { id: "library", icon: "📚", label: "Hoạt động" },
-    { id: "resources", icon: "🎵", label: "Tài liệu" },
-    { id: "progress", icon: "🌱", label: "Phát triển" },
     { id: "more", icon: "⋯", label: "Thêm" },
   ];
   return `<nav class="nav" aria-label="Điều hướng chính">
@@ -129,6 +135,47 @@ function navHtml(active) {
   </nav>`;
 }
 
+function gxChipHtml() {
+  if (!state.rewardsEnabled) return "";
+  const bal = gxBalance(state.gxLedger);
+  return `<button type="button" class="gx-chip" data-nav="shop" title="Cửa hàng Gấu Xu">
+    <img src="./assets/shop/ic_gau_xu.png" alt="" width="28" height="28" />
+    <strong>${bal}</strong><span>GX</span>
+  </button>`;
+}
+
+function openLightbox(src, title = "") {
+  let el = document.getElementById("lightbox");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "lightbox";
+    el.setAttribute("role", "dialog");
+    el.setAttribute("aria-modal", "true");
+    document.body.appendChild(el);
+    el.addEventListener("click", (ev) => {
+      if (ev.target === el || ev.target.closest("[data-lightbox-close]")) closeLightbox();
+    });
+  }
+  el.className = "lightbox open";
+  el.innerHTML = `
+    <div class="lightbox-bar">
+      ${title ? `<p class="lightbox-title">${escapeHtml(title)}</p>` : ""}
+      <button type="button" class="btn btn-primary lightbox-close" data-lightbox-close>Đóng tranh</button>
+    </div>
+    <img class="lightbox-img" src="${escapeAttr(src)}" alt="${escapeAttr(title)}" />
+    <p class="lightbox-hint">Phóng to bằng cử chỉ trình duyệt · chạm ngoài ảnh để đóng</p>`;
+  document.body.style.overflow = "hidden";
+}
+
+function closeLightbox() {
+  const el = document.getElementById("lightbox");
+  if (el) {
+    el.classList.remove("open");
+    el.innerHTML = "";
+  }
+  document.body.style.overflow = "";
+}
+
 function resourceById(id) {
   return (resources.items || []).find((x) => x.id === id);
 }
@@ -138,16 +185,24 @@ function linkedResourceCards(activityId) {
   const items = ids.map(resourceById).filter(Boolean);
   if (!items.length) return "";
   return `<div class="card">
-    <h3 style="font-size:1rem;margin:0 0 0.5rem">Tài liệu gợi ý</h3>
-    <p class="muted" style="margin-top:0">Không cần tự tìm trên mạng — mở ngay trong app.</p>
+    <h3 style="font-size:1rem;margin:0 0 0.5rem">Tranh / tài liệu cho bé</h3>
+    <p class="muted" style="margin-top:0">Chạm tranh để xem toàn màn hình.</p>
     <div class="stack" style="margin-top:0.65rem">
       ${items
-        .map(
-          (r) => `<button type="button" class="card list-item" data-action="open-resource" data-id="${escapeAttr(r.id)}" style="margin:0;box-shadow:none">
+        .map((r) => {
+          const img = r.image
+            ? `<button type="button" class="resource-art-btn" data-action="zoom-image" data-src="./content/resources/${escapeAttr(r.image)}" data-title="${escapeAttr(r.title)}">
+                <img src="./content/resources/${escapeAttr(r.image)}" alt="${escapeAttr(r.title)}" loading="lazy" />
+                <span class="zoom-badge">Toàn màn hình</span>
+              </button>`
+            : "";
+          return `<div class="card list-item linked-res" style="margin:0;box-shadow:none">
+        ${img}
         <strong>${escapeHtml(r.title)}</strong>
         <span class="chip">${escapeHtml((resources.categories || []).find((c) => c.id === r.category)?.label || r.category)}</span>
-      </button>`,
-        )
+        <button type="button" class="btn btn-secondary btn-block" data-action="open-resource" data-id="${escapeAttr(r.id)}" style="margin-top:0.5rem">Mở trang tài liệu</button>
+      </div>`;
+        })
         .join("")}
     </div>
   </div>`;
@@ -159,7 +214,10 @@ function topbar(subtitle = "") {
       <img class="brand-logo" src="./assets/logo.png" alt="" width="40" height="40" />
       <span class="brand-text"><strong>Hôm nay chơi gì?</strong><small>Web pilot</small></span>
     </a>
-    ${subtitle ? `<span class="pill">${subtitle}</span>` : ""}
+    <div class="topbar-end">
+      ${gxChipHtml()}
+      ${subtitle ? `<span class="pill">${subtitle}</span>` : ""}
+    </div>
   </header>`;
 }
 
@@ -240,7 +298,11 @@ function renderToday() {
         <p class="eyebrow">Hôm nay</p>
         <h1 style="font-family:var(--display);font-size:1.6rem;margin:0.2rem 0 0.4rem">Chào bạn — chơi cùng ${escapeHtml(child.nickname)} nhé?</h1>
         <p class="muted">Đã chơi ${done} hoạt động hôm nay. Mỗi bé một nhịp riêng.</p>
-        <p class="muted ia-note">Nhật ký &amp; nhắc lịch (S03) chưa có trên web — có trên Android / sắp có.</p>
+        ${
+          state.rewardsEnabled
+            ? `<p class="gx-today">Số dư <strong>${gxBalance(state.gxLedger)} GX</strong> — hoàn thành hoạt động để nhận Gấu Xu, đổi quà ở Cửa hàng.</p>`
+            : ""
+        }
       </div>
       ${
         picks.length
@@ -284,7 +346,9 @@ function renderActivity(id) {
       </article>
       ${linkedResourceCards(a.id)}
       <div class="cta-sticky" role="region" aria-label="Hành động">
-        <button class="btn btn-primary btn-block" type="button" data-action="go-complete" data-id="${escapeAttr(a.id)}">Đánh dấu hoàn thành</button>
+        <button class="btn btn-primary btn-block" type="button" data-action="go-complete" data-id="${escapeAttr(a.id)}">${
+          state.rewardsEnabled ? "Hoàn thành · nhận Gấu Xu" : "Đánh dấu hoàn thành"
+        }</button>
       </div>
     </section>
     ${navHtml("today")}`;
@@ -297,6 +361,29 @@ function renderComplete(id) {
     return render();
   }
   const fb = completeDraft.feedback;
+  const justEarned = route.celebrate;
+  if (justEarned) {
+    root.innerHTML = `
+      ${topbar("Đã chơi xong")}
+      <section class="stack celebrate">
+        <div class="card celebrate-card">
+          <img class="gx-big" src="./assets/shop/ic_gau_xu.png" alt="Gấu Xu" width="96" height="96" />
+          <h2>Đã chơi xong!</h2>
+          <p>${escapeHtml(state.lastEarnMessage || "Đã ghi nhận buổi chơi.")}</p>
+          ${
+            state.lastGxAwarded > 0
+              ? `<p class="gx-balance-line">Số dư: <strong>${gxBalance(state.gxLedger)} GX</strong></p>`
+              : ""
+          }
+          <div class="btn-row" style="margin-top:1.25rem;flex-direction:column">
+            <button class="btn btn-primary btn-block" type="button" data-action="go-today">Về Hôm nay</button>
+            <button class="btn btn-secondary btn-block" type="button" data-nav="shop">Mở cửa hàng đổi thưởng</button>
+          </div>
+        </div>
+      </section>
+      ${navHtml("today")}`;
+    return;
+  }
   root.innerHTML = `
     ${topbar("Phản hồi")}
     <section class="stack">
@@ -454,9 +541,17 @@ function renderMore() {
         </label>
       </div>
       <div class="card">
+        <h3>Gấu Xu &amp; cửa hàng</h3>
+        <p class="muted">Hoàn thành hoạt động để nhận GX · đổi quà do phụ huynh chuẩn bị. Dữ liệu chỉ trên máy.</p>
+        <button class="btn btn-secondary btn-block" type="button" data-nav="shop">Mở cửa hàng</button>
+      </div>
+      <div class="card">
+        <h3>Phát triển</h3>
+        <button class="btn btn-secondary btn-block" type="button" data-nav="progress">Xem mốc quan sát</button>
+      </div>
+      <div class="card">
         <h3>Về bản web này</h3>
-        <p class="muted">Pilot kiểm thử trước Android. Seed: ${content.activities.length} hoạt động · trạng thái <code>${escapeHtml(content.content_status || "draft")}</code>. Logic picker/ageMonths dùng chung hướng với module Android trong <code>gaucon/</code>.</p>
-        <p class="muted ia-note">Nhật ký &amp; nhắc S03: chưa có trên web — có trên Android / sắp có.</p>
+        <p class="muted">Pilot kiểm thử trước / song song Android. Seed: ${content.activities.length} hoạt động · trạng thái <code>${escapeHtml(content.content_status || "draft")}</code>.</p>
       </div>
       <div class="card">
         <h3>Quyền riêng tư</h3>
@@ -521,8 +616,13 @@ function renderResourceDetail(id) {
     return render();
   }
   const cat = (resources.categories || []).find((c) => c.id === r.category)?.label || r.category;
+  const imgSrc = r.image ? `./content/resources/${escapeAttr(r.image)}` : "";
   const img = r.image
-    ? `<div class="resource-art"><img src="./content/resources/${escapeAttr(r.image)}" alt="${escapeAttr(r.title)}" width="320" height="320" loading="lazy" /></div>`
+    ? `<button type="button" class="resource-art-btn hero" data-action="zoom-image" data-src="${imgSrc}" data-title="${escapeAttr(r.title)}">
+         <img src="${imgSrc}" alt="${escapeAttr(r.title)}" loading="lazy" />
+         <span class="zoom-badge">Chạm để xem toàn màn hình cho bé</span>
+       </button>
+       <button type="button" class="btn btn-primary btn-block" data-action="zoom-image" data-src="${imgSrc}" data-title="${escapeAttr(r.title)}" style="margin-top:0.65rem">Xem tranh toàn màn hình</button>`
     : "";
   const story = r.storyPrompt
     ? `<div class="card" style="margin-top:0.75rem;box-shadow:none;background:rgba(196,107,44,0.08)">
@@ -551,6 +651,64 @@ function renderResourceDetail(id) {
     ${navHtml("resources")}`;
 }
 
+function renderShop() {
+  const bal = gxBalance(state.gxLedger);
+  const foodOn = !!state.foodTreatVisible;
+  const enabled = state.rewardsEnabled !== false;
+  const items = (shop.items || []).filter((i) => i.tier !== "FOOD_TREAT" || foodOn);
+  const tiers = shop.tiers || [];
+  let lastTier = null;
+  const gridParts = [];
+  for (const item of items) {
+    if (item.tier !== lastTier) {
+      lastTier = item.tier;
+      gridParts.push(`<h3 class="shop-tier">${escapeHtml(tierLabel(item.tier, tiers))}</h3>`);
+      if (item.tier === "FOOD_TREAT") {
+        gridParts.push(`<p class="muted shop-caution">PH quyết định — không khuyến khích ép ăn.</p>`);
+      }
+    }
+    const can = enabled && bal >= item.costGx;
+    gridParts.push(`<article class="shop-tile">
+      <div class="shop-tile-art"><img src="./assets/shop/${escapeAttr(item.image)}" alt="" loading="lazy" /></div>
+      <h4>${escapeHtml(item.title)}</h4>
+      <div class="shop-price"><img src="./assets/shop/ic_gau_xu.png" alt="" width="18" height="18" /><strong>${item.costGx}</strong></div>
+      <button type="button" class="btn ${can ? "btn-primary" : "btn-secondary"} btn-block" data-action="redeem" data-id="${escapeAttr(item.id)}" ${can ? "" : "disabled"}>
+        ${can ? "Đổi" : "Chưa đủ"}
+      </button>
+    </article>`);
+  }
+  const recent = [...(state.gxLedger || [])].slice(-8).reverse();
+  root.innerHTML = `
+    ${topbar("Cửa hàng")}
+    <section class="shop-page">
+      <p class="eyebrow">Cửa hàng</p>
+      <h1 style="font-family:var(--display);font-size:1.55rem;margin:0.15rem 0 0.35rem">Đổi Gấu Xu</h1>
+      <p class="muted">Chọn ô quà — phụ huynh chuẩn bị khi đổi. Không ép bé bằng đồ ăn.</p>
+      <div class="shop-settings card">
+        <label class="switch-row">Bật sổ thưởng
+          <input type="checkbox" data-action="toggle-rewards" ${enabled ? "checked" : ""} />
+        </label>
+        <label class="switch-row">Hiện đồ ăn/uống
+          <input type="checkbox" data-action="toggle-food" ${foodOn ? "checked" : ""} />
+        </label>
+      </div>
+      ${shopMessage ? `<p class="shop-msg">${escapeHtml(shopMessage)}</p>` : ""}
+      <div class="shop-grid">${gridParts.join("")}</div>
+      ${
+        recent.length
+          ? `<h3 style="margin-top:1.25rem">Gần đây</h3>
+             <ul class="gx-recent">${recent
+               .map(
+                 (e) =>
+                   `<li>${e.amount >= 0 ? "+" : ""}${e.amount} · ${escapeHtml(e.note || e.kind)}</li>`,
+               )
+               .join("")}</ul>`
+          : ""
+      }
+    </section>
+    ${navHtml("shop")}`;
+}
+
 function render() {
   switch (route.name) {
     case "welcome":
@@ -569,6 +727,8 @@ function render() {
       return renderResources();
     case "resource":
       return renderResourceDetail(route.id);
+    case "shop":
+      return renderShop();
     case "progress":
       return renderProgress();
     case "more":
@@ -600,6 +760,10 @@ root.addEventListener("click", (e) => {
     if (n === "today") route = { name: "today" };
     else if (n === "library") route = { name: "library" };
     else if (n === "resources") route = { name: "resources" };
+    else if (n === "shop") {
+      shopMessage = null;
+      route = { name: "shop" };
+    }
     else if (n === "progress") route = { name: "progress" };
     else if (n === "more") route = { name: "more" };
     render();
@@ -620,6 +784,20 @@ root.addEventListener("click", (e) => {
   }
 
   const action = t.dataset.action;
+  if (action === "zoom-image") {
+    openLightbox(t.dataset.src, t.dataset.title || "");
+    return;
+  }
+  if (action === "redeem") {
+    const item = (shop.items || []).find((i) => i.id === t.dataset.id);
+    if (!item) return;
+    const result = redeemItem(state.gxLedger || [], item);
+    state.gxLedger = result.ledger;
+    shopMessage = result.message;
+    persist();
+    render();
+    return;
+  }
   if (action === "library-more") {
     libraryShowAll = true;
     render();
@@ -680,8 +858,18 @@ root.addEventListener("click", (e) => {
         primaryDomain: primaryDomain(a),
       },
     ];
+    let awarded = 0;
+    let message = "Đã ghi nhận buổi chơi.";
+    if (state.rewardsEnabled !== false) {
+      const earn = earnOnComplete(state.gxLedger || [], t.dataset.id, toIsoDate());
+      state.gxLedger = earn.ledger;
+      awarded = earn.awarded;
+      message = earn.message;
+    }
+    state.lastGxAwarded = awarded;
+    state.lastEarnMessage = message;
     persist();
-    route = { name: "today" };
+    route = { name: "complete", id: t.dataset.id, celebrate: true };
     render();
   } else if (action === "reset-data") {
     if (confirm("Xóa hồ sơ bé và nhật ký trên máy này?")) {
@@ -692,13 +880,28 @@ root.addEventListener("click", (e) => {
   }
 });
 
+root.addEventListener("change", (e) => {
+  const t = e.target;
+  if (!(t instanceof HTMLInputElement)) return;
+  if (t.dataset.action === "toggle-rewards") {
+    state.rewardsEnabled = t.checked;
+    persist();
+    render();
+  } else if (t.dataset.action === "toggle-food") {
+    state.foodTreatVisible = t.checked;
+    persist();
+    render();
+  } else if (t.dataset.action === "font-scale") {
+    state.fontScale = Number(t.value) || 1;
+    persist();
+  } else if (t.dataset.action === "note") {
+    completeDraft.note = t.value;
+  }
+});
+
 root.addEventListener("input", (e) => {
   const t = e.target;
   if (t.dataset.action === "note") completeDraft.note = t.value;
-  if (t.dataset.action === "font-scale") {
-    state.fontScale = Number(t.value) || 1;
-    persist();
-  }
 });
 
 root.addEventListener("submit", (e) => {

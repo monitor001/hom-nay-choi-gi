@@ -62,3 +62,57 @@ data class ReminderLog(
     val firedAt: Instant,
     val action: ReminderAction,
 )
+
+data class MilestoneStub(
+    val id: String,
+    val label: String,
+    val band: String,
+)
+
+data class MilestoneObservation(
+    val childId: String,
+    val milestoneId: String,
+    val status: MilestoneObsStatus,
+    val updatedAt: Instant,
+)
+
+data class JournalEntry(
+    val id: String,
+    val childId: String,
+    val createdAt: Instant,
+    val text: String,
+    val linkedActivityId: String? = null,
+)
+
+data class GxLedgerEntry(
+    val id: String,
+    val childId: String,
+    val createdAt: Instant,
+    val amount: Int,
+    val kind: String,
+    val refId: String? = null,
+    val note: String? = null,
+)
+
+object GxKinds {
+    const val COMPLETE = "COMPLETE"
+    const val FEEDBACK = "FEEDBACK"
+    const val JOURNAL = "JOURNAL"
+    const val STREAK = "STREAK"
+    const val STREAK_7 = "STREAK_7"
+    const val WEEK_KPI = "WEEK_KPI"
+    const val REDEEM = "REDEEM"
+}
+
+object GxRates {
+    const val COMPLETE = 15
+    const val FEEDBACK = 3
+    const val JOURNAL = 5
+    const val STREAK_DAY = 4
+    const val STREAK_7 = 15
+    const val WEEK_KPI = 25
+    const val DAILY_CAP = 45
+    const val WEEKLY_CAP = 150
+    const val MAX_COMPLETE_EARNS_PER_DAY = 3
+    const val COOLDOWN_MS = 8L * 60 * 1000
+}

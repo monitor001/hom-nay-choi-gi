@@ -75,3 +75,37 @@ data class ReminderLogEntity(
     val firedAt: Long,
     val action: String,
 )
+
+@Entity(
+    tableName = "milestone_status",
+    primaryKeys = ["childId", "milestoneId"],
+)
+data class MilestoneStatusEntity(
+    val childId: String,
+    val milestoneId: String,
+    val status: String,
+    val updatedAt: Long,
+)
+
+@Entity(tableName = "journal_entry", indices = [Index("childId"), Index("createdAt")])
+data class JournalEntryEntity(
+    @PrimaryKey val id: String,
+    val childId: String,
+    val createdAt: Long,
+    val text: String,
+    val linkedActivityId: String? = null,
+)
+
+@Entity(
+    tableName = "gx_ledger",
+    indices = [Index("childId"), Index("createdAt"), Index(value = ["childId", "kind", "refId"])],
+)
+data class GxLedgerEntity(
+    @PrimaryKey val id: String,
+    val childId: String,
+    val createdAt: Long,
+    val amount: Int,
+    val kind: String,
+    val refId: String? = null,
+    val note: String? = null,
+)

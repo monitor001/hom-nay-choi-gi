@@ -20,14 +20,17 @@ LAN: `python serve.py 0.0.0.0 5179`
 ## Kiểm thử nhanh
 
 1. Bắt đầu → nhập tên gọi + ngày sinh (bé ~18–36 tháng).
-2. Hôm nay: 2–3 thẻ → Chi tiết → Hoàn thành (😊/😐/😕).
-3. Đổi gợi ý; Thư viện lọc lĩnh vực; Phát triển xem tuần này; Thêm → cỡ chữ / xóa dữ liệu.
+2. Hôm nay: 2–3 thẻ → Chi tiết → Hoàn thành (😊/😐/😕) → nhận **Gấu Xu**.
+3. Tab **Cửa hàng**: lưới quà, đổi GX (đồ ăn ẩn mặc định).
+4. **Tài liệu**: chạm tranh → xem **toàn màn hình** cho bé.
+5. Đổi gợi ý; Thêm → cỡ chữ / xóa dữ liệu.
 
 ## Kiểm thử
 
 ```bat
 node tests/core.test.mjs
 node tests/content.test.mjs
+node tests/gx.test.mjs
 ```
 
 Báo cáo gần nhất: `qa/CONTENT_QA_20260924.md`.

@@ -4,6 +4,9 @@ import com.gaucon.core.database.entity.ActivityEntity
 import com.gaucon.core.database.entity.ActivityLogEntity
 import com.gaucon.core.database.entity.ChildEntity
 import com.gaucon.core.database.entity.DailyPickEntity
+import com.gaucon.core.database.entity.GxLedgerEntity
+import com.gaucon.core.database.entity.JournalEntryEntity
+import com.gaucon.core.database.entity.MilestoneStatusEntity
 import com.gaucon.core.database.entity.ReminderEntity
 import com.gaucon.core.database.entity.ReminderLogEntity
 import com.gaucon.domain.model.Activity
@@ -13,6 +16,10 @@ import com.gaucon.domain.model.ContentStatus
 import com.gaucon.domain.model.DailyPick
 import com.gaucon.domain.model.Domain
 import com.gaucon.domain.model.Feedback
+import com.gaucon.domain.model.GxLedgerEntry
+import com.gaucon.domain.model.JournalEntry
+import com.gaucon.domain.model.MilestoneObsStatus
+import com.gaucon.domain.model.MilestoneObservation
 import com.gaucon.domain.model.Reminder
 import com.gaucon.domain.model.ReminderAction
 import com.gaucon.domain.model.ReminderLog
@@ -149,4 +156,50 @@ fun ReminderLog.toEntity(): ReminderLogEntity = ReminderLogEntity(
     reminderId = reminderId,
     firedAt = firedAt.toEpochMilli(),
     action = action.name,
+)
+
+fun MilestoneStatusEntity.toStatus(): MilestoneObsStatus =
+    runCatching { MilestoneObsStatus.valueOf(status) }.getOrDefault(MilestoneObsStatus.NOT_YET)
+
+fun MilestoneObservation.toEntity(): MilestoneStatusEntity = MilestoneStatusEntity(
+    childId = childId,
+    milestoneId = milestoneId,
+    status = status.name,
+    updatedAt = updatedAt.toEpochMilli(),
+)
+
+fun JournalEntryEntity.toModel(): JournalEntry = JournalEntry(
+    id = id,
+    childId = childId,
+    createdAt = Instant.ofEpochMilli(createdAt),
+    text = text,
+    linkedActivityId = linkedActivityId,
+)
+
+fun JournalEntry.toEntity(): JournalEntryEntity = JournalEntryEntity(
+    id = id,
+    childId = childId,
+    createdAt = createdAt.toEpochMilli(),
+    text = text,
+    linkedActivityId = linkedActivityId,
+)
+
+fun GxLedgerEntity.toModel(): GxLedgerEntry = GxLedgerEntry(
+    id = id,
+    childId = childId,
+    createdAt = Instant.ofEpochMilli(createdAt),
+    amount = amount,
+    kind = kind,
+    refId = refId,
+    note = note,
+)
+
+fun GxLedgerEntry.toEntity(): GxLedgerEntity = GxLedgerEntity(
+    id = id,
+    childId = childId,
+    createdAt = createdAt.toEpochMilli(),
+    amount = amount,
+    kind = kind,
+    refId = refId,
+    note = note,
 )
